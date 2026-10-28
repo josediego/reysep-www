@@ -33,6 +33,16 @@ export type CatalogItem = {
   specs: Record<string, string>
   summary: string | null
   validation: Validation | null
+  /** Imágenes publicadas por el CMS (opcional). */
+  images?: CatalogImage[]
+}
+
+export type CatalogImage = {
+  variant: "thumb" | "card" | "detail"
+  url: string
+  width: number
+  height: number
+  alt: string
 }
 
 export type Appliance =

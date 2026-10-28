@@ -1,0 +1,95 @@
+name: Catalog sync
+
+# Entrada desde el CMS (josediego/reysep-cms):
+#   POST /repos/josediego/reysep-www/dispatches
+#   { "event_type": "catalog-updated", "client_payload": { "url": "https://cdn.reysep.com/...", "sha256": "<hex>" } }
+on:
+  repository_dispatch:
+    types: [catalog-updated]
+  workflow_dispatch:
+    inputs:
+      url:
+        description: URL del snapshot (solo https://cdn.reysep.com/...)
+        required: true
+        type: string
+      sha256:
+        description: SHA-256 esperado del archivo (hex)
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      SNAPSHOT_URL: ${{ github.event.client_payload.url || inputs.url }}
+      SNAPSHOT_SHA256: ${{ github.event.client_payload.sha256 || inputs.sha256 }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Download snapshot (cdn.reysep.com only)
+        run: |
+          set -euo pipefail
+          if ! [[ "$SNAPSHOT_URL" =~ ^https://cdn\.reysep\.com(:443)?/[^[:space:]@\\]*$ ]]; then
+            echo "::error::URL no permitida (solo https://cdn.reysep.com/...)"; exit 1
+          fi
+          if ! [[ "$SNAPSHOT_SHA256" =~ ^[0-9a-fA-F]{64}$ ]]; then
+            echo "::error::sha256 inválido"; exit 1
+          fi
+          # Sin -L: no se siguen redirecciones a otros hosts.
+          curl --fail --silent --show-error --proto '=https' --tlsv1.2 --max-filesize 20971520 --max-time 60 \
+            -o "$RUNNER_TEMP/snapshot.json" "$SNAPSHOT_URL"
+
+      - name: Verify sha256
+        run: |
+          set -euo pipefail
+          actual=$(sha256sum "$RUNNER_TEMP/snapshot.json" | cut -d' ' -f1)
+          expected=$(echo "$SNAPSHOT_SHA256" | tr 'A-F' 'a-f')
+          if [ "$actual" != "$expected" ]; then
+            echo "::error::sha256 no coincide (esperado $expected, obtenido $actual)"; exit 1
+          fi
+          echo "SHORT=${actual:0:8}" >> "$GITHUB_ENV"
+
+      - name: Validate against catalog.schema.json
+        run: node scripts/validate-catalog.mjs "$RUNNER_TEMP/snapshot.json"
+
+      - name: Write items.json and snapshot
+        run: |
+          set -euo pipefail
+          mkdir -p data/catalog/snapshots
+          cp "$RUNNER_TEMP/snapshot.json" "data/catalog/snapshots/${SHORT}.json"
+          node -e '
+            const fs = require("fs");
+            const snap = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+            fs.writeFileSync("data/catalog/items.json", JSON.stringify(snap.items, null, 2) + "\n");
+          ' "$RUNNER_TEMP/snapshot.json"
+
+      - run: pnpm catalog:build
+      - run: pnpm catalog:check
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Sin cambios."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog lib/catalog-data.ts
+          git commit -m "chore(catalog): sync ${SHORT} from CMS"
+          git pull --rebase origin main
+          git push origin HEAD:main
