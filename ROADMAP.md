@@ -1,0 +1,41 @@
+# Reysep Web Roadmap
+
+Living document. One item per line, ordered by impact on the business goal:
+**more WhatsApp/phone inquiries for parts and repairs, from Lima mobile users.**
+
+Status legend: `[ ]` todo · `[~]` in progress · `[x]` done · `[?]` needs decision
+
+Last updated: 2026-10-28
+
+## Now (cheap, moves sales)
+
+- [ ] **Real product photos** for the top ~30 items (phone + white background is enough). Store under `public/catalog/<id>.jpg`; the item page and store rows already reserve the slot. *Done when:* at least 30 items show a photo, placeholder silhouette falls back for the rest.
+- [ ] **Address and opening hours** in `lib/site.ts` (`address`, `hours`). *Done when:* Contact section shows them and `LocalBusiness` JSON-LD carries them.
+- [ ] **Conversion events** in Vercel Analytics: `inquiry_whatsapp`, `inquiry_call`, with `item_id` and `surface` (hero, store row, item page, empty state). *Done when:* a weekly count of inquiries per item is readable in the dashboard.
+- [ ] **Google Business Profile** linked to the site, same phone, address and hours. *Done when:* the profile links to `https://www.reysep.com` and the site's JSON-LD matches it.
+
+## Next (data quality and content)
+
+- [ ] **Review enriched catalog data** in `data/catalog/enriched/`: 156 items with brand `Sin marca` whose name carries LG/Samsung/etc.; "Valvula 3bobinas LG" tagged Samsung; belt (#20–22) and shock absorber (#55–72) numbering is internal, needs a legend. *Done when:* a shop technician has signed off the `brand`, `fitsBrands` and `appliance` columns.
+- [ ] **Editable item titles**: add an optional `title` field so store/SEO titles read like a buyer searches ("Faja lavadora LG 20,5") instead of raw inventory names. *Done when:* top 50 items have a human title and `generateMetadata` prefers it.
+- [ ] **Own facts in copy** for Nosotros and Servicios: years in the trade, coverage area in Lima, real warranty in days. Today the copy is generic. *Done when:* each section states at least one verifiable fact supplied by the owner.
+- [ ] **"Can't find my part" form**: brand, model, part, photo (optional) → WhatsApp or `ventas@reysep.com`. Replaces the WhatsApp-only empty state. *Done when:* a submission reaches the shop with all fields.
+- [ ] **Inventory update flow**: shared sheet → `pnpm catalog:build` → PR. Document it in README and add a CI check that `lib/catalog-data.ts` matches `data/catalog/`. *Done when:* someone other than the original author can update stock in under 15 minutes.
+
+## Later (discovery and structure)
+
+- [ ] **Per-appliance routes** (`/catalogo/lavadora`, `/catalogo/refrigeradora`) as real static pages with their own title/description, instead of `?equipo=`. *Done when:* each appliance page is in the sitemap and indexed.
+- [ ] **`LocalBusiness` JSON-LD** (with `openingHoursSpecification`, `areaServed`, `geo`) replacing the plain `Organization` block.
+- [ ] **Server-rendered store list**: read search params on the server so the first list paints with the HTML (today `useSearchParams` forces client rendering under Suspense). *Done when:* `/catalogo?equipo=Lavadora` HTML contains the rows.
+- [ ] **Accessibility check in CI** (axe on `/`, `/catalogo`, one item page) so fixed issues don't regress.
+- [ ] **Product photos pipeline**: naming convention, max size, WebP conversion in `scripts/`.
+
+## Decisions pending
+
+- [?] **Italic serif accent** repeated in six headings and the "Reysep Homecenter" hero chip. Impeccable's guide flags both as AI tells; the brand's existing hero uses them. Owner's call.
+- [?] **Ambient gradient on store pages**: keep (current) or hero only.
+- [?] **Catalog API**: `data/catalog/items.json` is already the source of truth; decide if/when it moves behind an endpoint (for a POS, WhatsApp bot, or inventory sync).
+
+## Done
+
+- [x] 2026-10-28 — Landing with services, catalog teaser, about, contact; `/catalogo` store with search, filters in URL, grouping by part type; 339 static item pages with `Product` JSON-LD; WhatsApp/phone CTAs with prefilled message; structured catalog data with web-validated enrichment; mobile filter cleanup; direct CTAs; landing motion (hero entrance, compact header, list reveals); Impeccable detector clean on all routes; single Vercel project.
