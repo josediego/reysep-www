@@ -1,21 +1,42 @@
 import type { Metadata } from "next"
-import { Suspense } from "react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Store from "@/components/store"
 import AmbientGradient from "@/components/ambient-gradient"
 import { counts, appliances } from "@/lib/catalog"
+import { STORE_PAGE, appliancePath, filterCatalog, parseAppliance, parseKind } from "@/lib/slugs"
 
-export const metadata: Metadata = {
-  title: "Catálogo de repuestos y productos",
-  description: `${counts.repuesto} repuestos y ${counts.producto} productos para ${appliances
-    .slice(0, 5)
-    .map((a) => a.name.toLowerCase())
-    .join(", ")} y más. Precio y disponibilidad al instante.`,
-  alternates: { canonical: "/catalogo" },
+type SearchParams = Promise<Record<string, string | string[] | undefined>>
+
+function first(value: string | string[] | undefined): string | undefined {
+  return Array.isArray(value) ? value[0] : value
 }
 
-export default function CatalogoPage() {
+const description = `${counts.repuesto} repuestos y ${counts.producto} productos para ${appliances
+  .slice(0, 5)
+  .map((a) => a.name.toLowerCase())
+  .join(", ")} y más. Precio y disponibilidad al instante.`
+
+export async function generateMetadata({ searchParams }: { searchParams: SearchParams }): Promise<Metadata> {
+  const params = await searchParams
+  const appliance = parseAppliance(first(params.equipo))
+  // `?equipo=X` sin búsqueda ni tipo es el mismo listado que la página estática del equipo.
+  const onlyAppliance = appliance && !first(params.q) && !first(params.tipo)
+  const canonical = (onlyAppliance && appliancePath(appliance)) || "/catalogo"
+  return {
+    title: "Catálogo de repuestos y productos",
+    description,
+    alternates: { canonical },
+  }
+}
+
+export default async function CatalogoPage({ searchParams }: { searchParams: SearchParams }) {
+  const params = await searchParams
+  const initialQuery = first(params.q)?.trim() ?? ""
+  const initialKind = parseKind(first(params.tipo))
+  const initialAppliance = parseAppliance(first(params.equipo))
+  const results = filterCatalog({ query: initialQuery, kind: initialKind, appliance: initialAppliance })
+
   return (
     <div className="relative isolate min-h-svh bg-black">
       <AmbientGradient edge="top" className="h-[34rem] md:h-[40rem]" />
@@ -26,9 +47,15 @@ export default function CatalogoPage() {
             <span className="instrument font-medium italic">Catálogo</span> de repuestos
           </h1>
         </div>
-        <Suspense fallback={<div className="mx-auto max-w-6xl text-sm text-blue-100/70">Cargando catálogo…</div>}>
-          <Store />
-        </Suspense>
+        {/* key: una navegación real a /catalogo con otros parámetros reinicia el estado de la tienda */}
+        <Store
+          key={`${initialQuery}|${initialKind}|${initialAppliance ?? ""}`}
+          initialQuery={initialQuery}
+          initialKind={initialKind}
+          initialAppliance={initialAppliance}
+          initialItems={results.slice(0, STORE_PAGE)}
+          initialTotal={results.length}
+        />
       </main>
       <Footer />
     </div>

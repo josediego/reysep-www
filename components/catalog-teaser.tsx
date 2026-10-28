@@ -5,6 +5,7 @@ import AmbientGradient from "@/components/ambient-gradient"
 import { ApplianceGlyph } from "@/components/part-glyph"
 import { ArrowIcon } from "@/components/icons"
 import { appliances, counts, partTypes } from "@/lib/catalog"
+import { appliancePath } from "@/lib/slugs"
 
 export default function CatalogTeaser() {
   const topAppliances = appliances.filter((a) => a.name !== "Otro").slice(0, 6)
@@ -26,7 +27,7 @@ export default function CatalogTeaser() {
           return (
             <li key={a.name} data-reveal-item style={{ "--i": i } as React.CSSProperties} className="bg-black">
               <Link
-                href={`/catalogo?equipo=${encodeURIComponent(a.name)}`}
+                href={appliancePath(a.name) ?? `/catalogo?equipo=${encodeURIComponent(a.name)}`}
                 className="group flex h-full items-center gap-4 p-5 transition-colors duration-200 hover:bg-white/[0.04] md:p-6"
               >
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg border border-white/10 text-blue-200/80 transition-colors group-hover:border-blue-300/50 group-hover:text-white">

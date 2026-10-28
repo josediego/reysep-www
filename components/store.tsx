@@ -1,28 +1,13 @@
 "use client"
 
 import Link from "next/link"
-import { useRouter, useSearchParams, usePathname } from "next/navigation"
-import { useCallback, useDeferredValue, useEffect, useId, useMemo, useState, type ReactNode } from "react"
+import { useRouter } from "next/navigation"
+import { useDeferredValue, useEffect, useId, useMemo, useState, type ReactNode } from "react"
 import { SearchIcon, ArrowIcon, WhatsAppIcon } from "@/components/icons"
 import PartGlyph from "@/components/part-glyph"
-import {
-  appliances,
-  catalog,
-  counts,
-  formatPrice,
-  kindPlural,
-  normalize,
-  searchText,
-  displayName,
-  type Appliance,
-  type CatalogItem,
-  type CatalogKind,
-} from "@/lib/catalog"
+import { counts, formatPrice, kindPlural, normalize, displayName, type Appliance, type CatalogItem } from "@/lib/catalog"
+import { STORE_PAGE as PAGE, appliancePath, applianceRoutes, filterCatalog, parseKind, type KindFilter } from "@/lib/slugs"
 import { whatsappWith, inquiryMessage } from "@/lib/site"
-
-const PAGE = 30
-
-type KindFilter = "todos" | CatalogKind
 
 const kindFilters: { value: KindFilter; label: string }[] = [
   { value: "todos", label: "Todo" },
@@ -30,70 +15,100 @@ const kindFilters: { value: KindFilter; label: string }[] = [
   { value: "producto", label: kindPlural.producto },
 ]
 
-const index = catalog.map((item) => ({ item, text: searchText(item) }))
+export type StoreProps = {
+  initialQuery?: string
+  initialKind?: KindFilter
+  initialAppliance?: Appliance | null
+  /** Primera página de resultados del estado inicial, calculada en el servidor. */
+  initialItems: CatalogItem[]
+  /** Total de resultados del estado inicial. */
+  initialTotal: number
+  /**
+   * `catalogo`: el chip de equipo filtra en el sitio (`?equipo=`).
+   * `equipo`: página estática de un equipo; los chips enlazan a las otras páginas de equipo.
+   */
+  mode?: "catalogo" | "equipo"
+}
 
-export default function Store() {
+function queryString(q: string, kind: KindFilter, appliance: Appliance | null) {
+  const next = new URLSearchParams()
+  if (q) next.set("q", q)
+  if (kind !== "todos") next.set("tipo", kind)
+  if (appliance) next.set("equipo", appliance)
+  const qs = next.toString()
+  return qs ? `?${qs}` : ""
+}
+
+export default function Store({
+  initialQuery = "",
+  initialKind = "todos",
+  initialAppliance = null,
+  initialItems,
+  initialTotal,
+  mode = "catalogo",
+}: StoreProps) {
   const router = useRouter()
-  const pathname = usePathname()
-  const params = useSearchParams()
-
-  const [query, setQuery] = useState(params.get("q") ?? "")
-  const kind = (params.get("tipo") as KindFilter | null) ?? "todos"
-  const appliance = params.get("equipo") as Appliance | null
+  const [query, setQuery] = useState(initialQuery)
+  const [kind, setKind] = useState<KindFilter>(initialKind)
+  const [catalogAppliance, setAppliance] = useState<Appliance | null>(initialAppliance)
+  const appliance = mode === "equipo" ? initialAppliance : catalogAppliance
   const [limit, setLimit] = useState(PAGE)
   const deferredQuery = useDeferredValue(query)
   const searchId = useId()
   const resultsId = useId()
 
-  const setParam = useCallback(
-    (key: string, value: string | null) => {
-      const next = new URLSearchParams(params.toString())
-      if (value) next.set(key, value)
-      else next.delete(key)
-      const qs = next.toString()
-      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false })
-      setLimit(PAGE)
-    },
-    [params, pathname, router],
-  )
-
-  // Sincroniza ?q= con un pequeño retraso para no reescribir la URL en cada tecla.
+  // La página de equipo es estática: si llega con ?q= o ?tipo=, se aplican al montar.
   useEffect(() => {
-    const current = params.get("q") ?? ""
-    if (deferredQuery === current) return
-    const t = setTimeout(() => setParam("q", deferredQuery || null), 250)
+    if (mode !== "equipo") return
+    const params = new URLSearchParams(window.location.search)
+    const q = params.get("q")
+    const t = params.get("tipo")
+    if (q) setQuery(q)
+    if (t) setKind(parseKind(t))
+  }, [mode])
+
+  // Refleja el estado en la URL. history.replaceState (integrado con el router de
+  // Next 15) evita que cada cambio vuelva a pedir la página dinámica al servidor.
+  useEffect(() => {
+    const qs = queryString(deferredQuery.trim(), kind, mode === "equipo" ? null : appliance)
+    if (qs === window.location.search) return
+    const t = setTimeout(() => window.history.replaceState(window.history.state, "", `${window.location.pathname}${qs}`), 250)
     return () => clearTimeout(t)
-  }, [deferredQuery, params, setParam])
+  }, [deferredQuery, kind, appliance, mode])
 
-  const results = useMemo(() => {
-    const terms = normalize(deferredQuery).split(/\s+/).filter(Boolean)
-    const matched = index
-      .filter(({ item, text }) => {
-        if (kind !== "todos" && item.kind !== kind) return false
-        if (appliance && item.appliance !== appliance) return false
-        return terms.every((t) => text.includes(t))
-      })
-      .map(({ item }) => item)
-    // Agrupa por tipo de pieza: los tipos con más ítems primero, luego por nombre.
-    const freq = new Map<string, number>()
-    for (const item of matched) {
-      const k = item.partType ?? "Otros"
-      freq.set(k, (freq.get(k) ?? 0) + 1)
-    }
-    return matched.sort((a, b) => {
-      const ka = a.partType ?? "Otros"
-      const kb = b.partType ?? "Otros"
-      return (freq.get(kb) ?? 0) - (freq.get(ka) ?? 0) || ka.localeCompare(kb, "es") || a.name.localeCompare(b.name, "es")
-    })
-  }, [deferredQuery, kind, appliance])
-
-  const visible = results.slice(0, limit)
-  const hasMore = results.length > limit
+  const isInitial = deferredQuery === initialQuery && kind === initialKind && appliance === initialAppliance
+  // En el estado inicial se pintan las filas del servidor; se filtra en el cliente solo al cambiar algo.
+  const full = useMemo(
+    () => (isInitial && limit <= initialItems.length ? null : filterCatalog({ query: deferredQuery, kind, appliance })),
+    [isInitial, limit, initialItems.length, deferredQuery, kind, appliance],
+  )
+  const total = full ? full.length : initialTotal
+  const visible = useMemo(() => (full ?? initialItems).slice(0, limit), [full, initialItems, limit])
+  const hasMore = total > limit
   const grouped = useMemo(() => groupByPartType(visible), [visible])
+
+  function changeKind(next: KindFilter) {
+    setKind(next)
+    setLimit(PAGE)
+  }
+
+  function changeAppliance(next: Appliance | null) {
+    if (mode === "equipo") {
+      // Página estática por equipo: otro equipo es otra página; "todos" vuelve a /catalogo.
+      // Se conservan la búsqueda y el tipo.
+      const carry = queryString(query.trim(), kind, null)
+      const path = next ? appliancePath(next) : null
+      router.push(path ? `${path}${carry}` : `/catalogo${queryString(query.trim(), kind, next)}`)
+      return
+    }
+    setAppliance(next)
+    setLimit(PAGE)
+  }
 
   function reset() {
     setQuery("")
-    router.replace(pathname, { scroll: false })
+    setKind("todos")
+    if (mode === "catalogo") setAppliance(null)
     setLimit(PAGE)
   }
 
@@ -130,12 +145,16 @@ export default function Store() {
                   key={f.value}
                   type="button"
                   aria-pressed={active}
-                  onClick={() => setParam("tipo", f.value === "todos" ? null : f.value)}
+                  onClick={() => changeKind(f.value)}
                   className={`rounded-full px-4 py-2 text-sm transition-colors duration-200 ${
                     active ? "bg-white font-medium text-blue-700" : "font-light text-white hover:bg-white/10"
                   }`}
                 >
-                  {f.label} <span className={`tabular-nums ${active ? "text-blue-800" : "text-blue-100/75"}`}>{n}</span>
+                  {f.label}
+                  {/* Los totales globales confunden dentro de un equipo: solo se muestran en /catalogo */}
+                  {mode === "catalogo" && (
+                    <span className={`ml-1 tabular-nums ${active ? "text-blue-800" : "text-blue-100/75"}`}>{n}</span>
+                  )}
                 </button>
               )
             })}
@@ -152,18 +171,18 @@ export default function Store() {
               <Chip
                 key={f.value}
                 active={kind === f.value}
-                onClick={() => setParam("tipo", kind === f.value ? null : f.value)}
+                onClick={() => changeKind(kind === f.value ? "todos" : f.value)}
                 className="md:hidden"
               >
                 {f.label}
               </Chip>
             ))}
           <span aria-hidden="true" className="mx-1 w-px self-stretch bg-white/15 md:hidden" />
-          <Chip active={!appliance} onClick={() => setParam("equipo", null)}>
+          <Chip active={!appliance} onClick={() => changeAppliance(null)}>
             Todos los equipos
           </Chip>
-          {appliances.map((a) => (
-            <Chip key={a.name} active={appliance === a.name} onClick={() => setParam("equipo", appliance === a.name ? null : a.name)}>
+          {applianceRoutes.map((a) => (
+            <Chip key={a.slug} active={appliance === a.name} onClick={() => changeAppliance(appliance === a.name ? null : a.name)}>
               {a.name} <span className="hidden tabular-nums opacity-70 md:inline">{a.count}</span>
             </Chip>
           ))}
@@ -171,14 +190,14 @@ export default function Store() {
       </div>
 
       <p className="mt-3 text-sm text-blue-100/75 tabular-nums" aria-live="polite">
-        {results.length === 0
+        {total === 0
           ? ""
-          : `${results.length} ${results.length === 1 ? "ítem" : "ítems"}${
-              results.length > visible.length ? `, mostrando ${visible.length}` : ""
-            }${appliance ? ` · ${appliance}` : ""}`}
+          : `${total} ${total === 1 ? "ítem" : "ítems"}${total > visible.length ? `, mostrando ${visible.length}` : ""}${
+              appliance && mode === "catalogo" ? ` · ${appliance}` : ""
+            }`}
       </p>
 
-      {results.length === 0 ? (
+      {total === 0 ? (
         <EmptyState query={query} onReset={reset} />
       ) : (
         <div id={resultsId} className="mt-2">
@@ -204,12 +223,18 @@ export default function Store() {
             onClick={() => setLimit((l) => l + PAGE)}
             className="rounded-full border border-white/50 px-8 py-3.5 text-sm font-medium text-white transition-all duration-200 hover:border-white/70 hover:bg-white/10"
           >
-            Mostrar {Math.min(PAGE, results.length - visible.length)} más
+            Mostrar {Math.min(PAGE, total - visible.length)} más
           </button>
         </div>
       )}
     </div>
   )
+}
+
+function chipTone(active: boolean) {
+  return active
+    ? "border-white bg-white font-medium text-blue-700"
+    : "border-white/15 font-light text-white hover:border-white/40 hover:bg-white/10"
 }
 
 function groupByPartType(items: CatalogItem[]): [string, CatalogItem[]][] {
@@ -243,11 +268,7 @@ function Chip({
       type="button"
       aria-pressed={active}
       onClick={onClick}
-      className={`rounded-full border px-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ${className} ${
-        active
-          ? "border-white bg-white font-medium text-blue-700"
-          : "border-white/15 font-light text-white hover:border-white/40 hover:bg-white/10"
-      }`}
+      className={`rounded-full border px-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ${className} ${chipTone(active)}`}
     >
       {children}
     </button>

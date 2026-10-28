@@ -25,9 +25,9 @@ Last updated: 2026-10-28
 
 ## Later (discovery and structure)
 
-- [ ] **Per-appliance routes** (`/catalogo/lavadora`, `/catalogo/refrigeradora`) as real static pages with their own title/description, instead of `?equipo=`. *Done when:* each appliance page is in the sitemap and indexed.
-- [ ] **`LocalBusiness` JSON-LD** (with `openingHoursSpecification`, `areaServed`, `geo`) replacing the plain `Organization` block.
-- [ ] **Server-rendered store list**: read search params on the server so the first list paints with the HTML (today `useSearchParams` forces client rendering under Suspense). *Done when:* `/catalogo?equipo=Lavadora` HTML contains the rows.
+- [~] **Per-appliance routes**: `/catalogo/equipo/<slug>` (12 static pages, e.g. `/catalogo/equipo/lavadora`) with their own title/description, intro, canonical and breadcrumb JSON-LD; in the sitemap; home tiles link to them. Remaining: confirm indexing in Search Console. *Done when:* each appliance page is in the sitemap and indexed.
+- [~] **`LocalBusiness` JSON-LD**: `["LocalBusiness","Organization"]` with telephone, email, `areaServed` Lima, `priceRange`; `address`, `geo` and `openingHoursSpecification` are emitted automatically once `site.address`, `site.geo` and `site.hours` are filled in. Remaining: the owner's data (see "Address and opening hours").
+- [x] **Server-rendered store list**: `/catalogo` reads search params on the server and the first 30 rows paint with the HTML (no Suspense fallback); verified on `/catalogo?equipo=Lavadora`.
 - [ ] **Accessibility check in CI** (axe on `/`, `/catalogo`, one item page) so fixed issues don't regress.
 - [ ] **Product photos pipeline**: naming convention, max size, WebP conversion in `scripts/`.
 

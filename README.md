@@ -39,15 +39,28 @@ components/
 lib/site.ts           # datos públicos del sitio (teléfono, WhatsApp, correo, dirección, horario)
 lib/nav.ts            # ítems de navegación (header y footer)
 lib/catalog.ts        # tipo CatalogItem, categorías, marcas, formato de precio
+lib/slugs.ts          # equipo ↔ slug, filtro puro del catálogo (servidor y cliente)
 lib/catalog-data.ts   # inventario (generado desde el xlsx de la tienda)
 public/               # favicon y logos
 ```
 
 ## Catálogo
 
-Rutas: `/catalogo` (buscador, filtros por equipo y tipo, estado en la URL) y
-`/catalogo/[id]` (ficha por ítem, estática, con JSON-LD `Product`, compatibilidad y
-CTA de WhatsApp/llamada con mensaje precargado).
+Rutas:
+
+- `/catalogo`: buscador, filtros por equipo y tipo, estado en la URL (`?q=`, `?tipo=`,
+  `?equipo=`). Renderizada en el servidor por petición: la primera página de filas ya
+  viene en el HTML. `?equipo=X` sin otros filtros declara como canónica la página del equipo.
+- `/catalogo/equipo/<slug>` (ej. `lavadora`, `campana-extractora`): una página estática
+  por equipo con ítems, con título "Repuestos para … en Lima", intro y la misma tienda
+  prefiltrada. Los slugs (sin tildes) salen de `lib/slugs.ts`, que también tiene el
+  filtro puro que comparten servidor y cliente.
+- `/catalogo/[id]`: ficha por ítem, estática, con JSON-LD `Product`, compatibilidad y
+  CTA de WhatsApp/llamada con mensaje precargado.
+
+El JSON-LD global (`app/layout.tsx`) es `LocalBusiness` + `Organization`; `address`,
+`geo` y `hours` (formato "Lun–Sáb 9:00–18:00") de `lib/site.ts` solo se publican
+cuando dejan de ser `null`.
 
 Pipeline de datos (`data/catalog/`):
 
