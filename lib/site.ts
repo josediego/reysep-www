@@ -41,8 +41,9 @@ export function whatsappWith(message: string): string | null {
  * Mensaje de consulta por un ítem del catálogo: el cliente solo pulsa Enviar.
  * Incluye nombre, referencia y URL de la ficha para que el técnico identifique la pieza.
  */
-export function inquiryMessage(item: { id: string; name: string; kind: "repuesto" | "producto"; brand?: string }): string {
+export function inquiryMessage(item: { id: string; name: string; title?: string | null; kind: "repuesto" | "producto"; brand?: string }): string {
   const what = item.kind === "producto" ? "producto" : "repuesto"
   const brand = item.brand && item.brand !== "Sin marca" ? ` (${item.brand})` : ""
-  return `Hola Reysep, quiero hacer una consulta sobre el siguiente ${what}:\n${item.name}${brand}\nRef. ${item.id}\n${site.url}/catalogo/${item.id}`
+  const shown = item.title?.trim() || item.name
+  return `Hola Reysep, quiero hacer una consulta sobre el siguiente ${what}:\n${shown}${brand}\nRef. ${item.id}\n${site.url}/catalogo/${item.id}`
 }

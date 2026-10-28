@@ -56,6 +56,8 @@
         "kind": { "enum": ["producto", "repuesto"] },
         "category": { "type": "string", "minLength": 1 },
         "name": { "type": "string", "minLength": 1 },
+        "title": { "type": ["string", "null"], "maxLength": 120 },
+        "description": { "type": ["string", "null"], "maxLength": 2000 },
         "brand": { "type": "string" },
         "unit": { "type": "string" },
         "measures": { "type": "string" },

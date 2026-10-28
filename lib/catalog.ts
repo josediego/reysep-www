@@ -25,6 +25,10 @@ export type CatalogItem = {
   // --- Enriquecimiento (ver data/catalog/SCHEMA.md). `null`/vacío si aún no se procesó. ---
   /** Tipo de pieza normalizado, ej. "Motocompresor". */
   partType: string | null
+  /** Título de cara al comprador; `null` = se muestra `name`. */
+  title?: string | null
+  /** Descripción larga (opcional). */
+  description?: string | null
   /** Equipo al que corresponde, ej. "Refrigeradora". */
   appliance: Appliance | null
   fitsBrands: string[]
@@ -137,6 +141,7 @@ export function searchText(item: CatalogItem): string {
   return normalize(
     [
       item.name,
+      item.title ?? "",
       item.brand,
       item.category,
       item.partType ?? "",
@@ -147,6 +152,11 @@ export function searchText(item: CatalogItem): string {
       item.measures ?? "",
     ].join(" "),
   )
+}
+
+/** Nombre visible: el título del comprador si existe, si no el nombre de inventario. */
+export function displayName(item: Pick<CatalogItem, "name" | "title">): string {
+  return item.title?.trim() || item.name
 }
 
 export const kindLabel: Record<CatalogKind, string> = {

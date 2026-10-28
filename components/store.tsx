@@ -13,6 +13,7 @@ import {
   kindPlural,
   normalize,
   searchText,
+  displayName,
   type Appliance,
   type CatalogItem,
   type CatalogKind,
@@ -267,7 +268,7 @@ function Row({ item }: { item: CatalogItem }) {
           <PartGlyph item={item} size={28} />
         </span>
         <span className="min-w-0">
-          <span className="line-clamp-2 text-base leading-snug text-white md:truncate md:text-lg md:font-light">{item.name}</span>
+          <span className="line-clamp-2 text-base leading-snug text-white md:truncate md:text-lg md:font-light">{displayName(item)}</span>
           <span className="mt-0.5 block truncate text-xs text-blue-100/70">
             {brandLine}
             {fits.length > 0 && <span className="text-blue-100/55"> · compatible {fits.join(", ")}</span>}
@@ -290,7 +291,7 @@ function Row({ item }: { item: CatalogItem }) {
           href={wa}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Pedir por WhatsApp: ${item.name}`}
+          aria-label={`Pedir por WhatsApp: ${displayName(item)}`}
           title="Pedir por WhatsApp"
           className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white transition-colors duration-200 hover:border-white hover:bg-white hover:text-blue-700"
         >
