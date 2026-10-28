@@ -6,7 +6,7 @@ import Footer from "@/components/footer"
 import PartGlyph from "@/components/part-glyph"
 import AmbientGradient from "@/components/ambient-gradient"
 import { ArrowIcon, WhatsAppIcon, PhoneIcon } from "@/components/icons"
-import { catalog, formatPrice, itemById, kindLabel, relatedItems, validationLabel } from "@/lib/catalog"
+import { catalog, displayName, formatPrice, itemById, kindLabel, relatedItems, validationLabel } from "@/lib/catalog"
 import { site, links, whatsappWith, inquiryMessage } from "@/lib/site"
 
 export const dynamicParams = false
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params
   const item = itemById.get(id)
   if (!item) return {}
-  const title = `${item.name}${item.brand !== "Sin marca" ? ` ${item.brand}` : ""}`
+  const title = item.title ? item.title : `${item.name}${item.brand !== "Sin marca" ? ` ${item.brand}` : ""}`
   const description =
     item.summary ??
     `${item.partType ?? kindLabel[item.kind]} para ${item.appliance ?? item.category}. ${formatPrice(item.price)}. ${
@@ -48,7 +48,8 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: item.name,
+    name: displayName(item),
+    ...(item.title ? { alternateName: item.name } : {}),
     sku: item.id,
     category: item.category,
     ...(item.brand !== "Sin marca" ? { brand: { "@type": "Brand", name: item.brand } } : {}),
@@ -115,8 +116,9 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
               {item.appliance && <span className="normal-case tracking-normal text-blue-100/60"> · {item.appliance}</span>}
             </p>
             <h1 className="mt-2 text-3xl font-light tracking-tight text-balance text-white md:text-5xl md:leading-[1.05]">
-              {item.name}
+              {displayName(item)}
             </h1>
+            {item.title && <p className="mt-2 text-sm text-blue-100/70">Nombre de inventario: {item.name}</p>}
             {item.brand !== "Sin marca" && <p className="mt-2 text-sm text-blue-100/80">Marca: {item.brand}</p>}
 
             <div className="mt-6 flex flex-wrap items-end gap-x-6 gap-y-2">
@@ -212,7 +214,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
                       <PartGlyph item={r} size={24} />
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block truncate text-sm text-white">{r.name}</span>
+                      <span className="block truncate text-sm text-white">{displayName(r)}</span>
                       <span className="block text-sm text-blue-100/75 tabular-nums">{formatPrice(r.price)}</span>
                     </span>
                     <ArrowIcon size={14} className="text-blue-100/75 transition-transform group-hover:translate-x-0.5" />

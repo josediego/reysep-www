@@ -51,6 +51,8 @@ export function loadMerged() {
         console.warn(`[warn] ${src.id}: campo de origen "${k}" alterado en enriquecido; se conserva el original`)
       }
     }
+    out.title = typeof e.title === "string" && e.title.trim() ? e.title.trim() : (src.title ?? null)
+    out.description = typeof e.description === "string" && e.description.trim() ? e.description.trim() : (src.description ?? null)
     out.partType = e.partType ? titleCase(e.partType) : null
     if (e.appliance && !APPLIANCES.has(e.appliance)) throw new Error(`${src.id}: appliance inválido "${e.appliance}"`)
     out.appliance = e.appliance ?? null
@@ -69,6 +71,8 @@ export function loadMerged() {
         }
       : null
   } else {
+    out.title = src.title ?? null
+    out.description = src.description ?? null
     out.partType = null
     out.appliance = null
     out.fitsBrands = []
