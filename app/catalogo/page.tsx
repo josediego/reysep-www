@@ -21,14 +21,10 @@ export default function CatalogoPage() {
       <AmbientGradient edge="top" className="h-[34rem] md:h-[40rem]" />
       <Header />
       <main id="contenido" tabIndex={-1} className="px-6 pb-24 outline-none md:px-8">
-        <div className="mx-auto w-full max-w-6xl pt-4 pb-6 md:pt-8 md:pb-10">
+        <div className="mx-auto w-full max-w-6xl pt-2 pb-4 md:pt-8 md:pb-8">
           <h1 className="text-4xl font-light tracking-tight text-white md:text-5xl">
             <span className="instrument font-medium italic">Catálogo</span> de repuestos
           </h1>
-          <p className="mt-3 max-w-prose text-base leading-relaxed text-blue-100/80">
-            {counts.repuesto} repuestos y {counts.producto} productos en tienda. Elija su equipo o busque por marca y
-            modelo. Cada ficha indica compatibilidad conocida y si la pieza está en stock.
-          </p>
         </div>
         <Suspense fallback={<div className="mx-auto max-w-6xl text-sm text-blue-100/70">Cargando catálogo…</div>}>
           <Store />

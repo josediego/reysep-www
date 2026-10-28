@@ -51,7 +51,7 @@ export default function MobileNav({ callHref }: { callHref: string | null }) {
               onClick={() => setOpen(false)}
               className="mt-3 rounded-full bg-white px-6 py-3.5 text-center text-sm font-medium text-blue-700"
             >
-              Llámanos
+              Llamar
             </a>
           )}
         </nav>

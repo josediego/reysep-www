@@ -138,7 +138,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
                 className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
               >
                 <WhatsAppIcon size={16} />
-                Consultar por WhatsApp
+                Pedir por WhatsApp
               </a>
               {links.call && (
                 <a
@@ -146,12 +146,12 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
                   className="inline-flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-sm font-medium text-white transition-all duration-200 hover:bg-white/10"
                 >
                   <PhoneIcon size={16} />
-                  Llamar {site.phone}
+                  Llamar
                 </a>
               )}
             </div>
             <p className="mt-3 text-sm text-blue-100/70">
-              El mensaje sale con el nombre y la referencia de esta pieza. Solo pulse enviar.
+              El mensaje ya lleva el nombre y la referencia. Solo pulse enviar.
             </p>
 
             {item.summary && <p className="mt-8 max-w-prose text-base leading-relaxed text-blue-100/85">{item.summary}</p>}
@@ -235,7 +235,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
             className="inline-flex h-11 items-center gap-2 rounded-full bg-white px-6 text-sm font-medium text-blue-700"
           >
             <WhatsAppIcon size={16} />
-            Consultar
+            Pedir
           </a>
         </div>
       </div>

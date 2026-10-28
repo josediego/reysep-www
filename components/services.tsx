@@ -50,7 +50,7 @@ export default function Services() {
           {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
           className="rounded-full bg-white px-8 py-3.5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
         >
-          Solicitar Servicio
+          Pedir servicio
         </a>
         <p className="text-sm text-blue-100/75">Atención a domicilio y en taller. Presupuesto previo sin compromiso.</p>
       </div>

@@ -40,7 +40,7 @@ export default function Header() {
             href={links.call}
             className="hidden h-10 items-center rounded-full bg-white px-6 text-sm font-medium text-blue-700 transition-all duration-300 hover:bg-white/90 sm:flex"
           >
-            Llámanos
+            Llamar
           </a>
         )}
         <MobileNav callHref={links.call} />
