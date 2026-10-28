@@ -1,4 +1,5 @@
 import type { ReactNode } from "react"
+import Reveal from "@/components/reveal"
 
 type SectionProps = {
   id: string
@@ -17,10 +18,14 @@ export default function Section({ id, title, lead, children, className = "", bac
       {background}
       <div className="mx-auto w-full max-w-6xl">
         <div className="mb-12 max-w-2xl md:mb-16">
-          <h2 className="text-4xl font-light tracking-tight text-balance text-white md:text-5xl md:leading-[1.05]">
+          <Reveal as="h2" variant="wipe" className="text-4xl font-light tracking-tight text-balance text-white md:text-5xl md:leading-[1.05]">
             {title}
-          </h2>
-          {lead && <p className="mt-5 max-w-prose text-base leading-relaxed text-blue-100/80">{lead}</p>}
+          </Reveal>
+          {lead && (
+            <Reveal as="p" delay={120} className="mt-5 max-w-prose text-base leading-relaxed text-blue-100/80">
+              {lead}
+            </Reveal>
+          )}
         </div>
         {children}
       </div>

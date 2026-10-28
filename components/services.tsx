@@ -1,4 +1,5 @@
 import Section from "@/components/section"
+import Reveal from "@/components/reveal"
 import { services } from "@/lib/catalog"
 import { WrenchIcon, ShieldIcon, PlugIcon, BoxIcon } from "@/components/icons"
 import { links, whatsappWith } from "@/lib/site"
@@ -24,12 +25,14 @@ export default function Services() {
       }
       lead="Atendemos equipos del hogar de principio a fin: diagnosticamos, reparamos con el repuesto correcto y dejamos todo funcionando y probado."
     >
-      <ol className="divide-y divide-white/10 border-y border-white/10">
-        {services.map((service) => {
+      <Reveal as="ol" variant="line" stagger className="border-b border-white/10">
+        {services.map((service, i) => {
           const Icon = icons[service.id]
           return (
             <li
               key={service.id}
+              data-reveal-item
+              style={{ "--i": i } as React.CSSProperties}
               className="group grid gap-4 py-7 md:grid-cols-[3rem_1fr_2fr] md:gap-8 md:py-8"
             >
               <span className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-blue-200 transition-colors duration-200 group-hover:border-blue-300/60 group-hover:text-white">
@@ -42,9 +45,9 @@ export default function Services() {
             </li>
           )
         })}
-      </ol>
+      </Reveal>
 
-      <div className="mt-10 flex flex-wrap items-center gap-4">
+      <Reveal delay={200} className="mt-10 flex flex-wrap items-center gap-4">
         <a
           href={cta}
           {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
@@ -53,7 +56,7 @@ export default function Services() {
           Pedir servicio
         </a>
         <p className="text-sm text-blue-100/75">Atención a domicilio y en taller. Presupuesto previo sin compromiso.</p>
-      </div>
+      </Reveal>
     </Section>
   )
 }

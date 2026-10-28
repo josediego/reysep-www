@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Section from "@/components/section"
+import Reveal from "@/components/reveal"
 import { PhoneIcon, WhatsAppIcon, MailIcon, PinIcon, ClockIcon } from "@/components/icons"
 import { site, links, whatsappWith } from "@/lib/site"
 
@@ -23,7 +24,7 @@ export default function Contact() {
       }
       lead="Indíquenos marca, modelo y qué está pasando. Con eso le decimos si tenemos el repuesto y cuánto cuesta el servicio."
     >
-      <div className="grid gap-10 md:grid-cols-2 md:gap-16">
+      <Reveal className="grid gap-10 md:grid-cols-2 md:gap-16">
         {rows.length > 0 ? (
           <dl className="divide-y divide-white/10 border-y border-white/10">
             {rows.map(({ icon: Icon, label, value, href, external }) => (
@@ -81,7 +82,7 @@ export default function Contact() {
             </Link>
           </div>
         </div>
-      </div>
+      </Reveal>
     </Section>
   )
 }
