@@ -94,8 +94,10 @@ Sin variante, se muestra la silueta `PartGlyph` (`components/product-image.tsx`)
 en la ficha, sin `detail` aparece la silueta con "Foto pendiente". El JSON-LD
 `Product.image` lista las URL `detail`. La imagen OG por ítem
 (`app/catalogo/[id]/opengraph-image.tsx`, 1200×630, generada en el build)
-descarga la `card` desde el CDN; si no existe, no es PNG/JPEG o el CDN no
-responde (8 s), usa la silueta sobre el degradado de marca sin romper el build.
+descarga la `card` desde el CDN y, si no es PNG/JPEG (el CMS publica WebP), la
+convierte a PNG con `sharp` en el build; si no existe, falla la conversión o el
+CDN no responde (8 s), usa la silueta sobre el degradado de marca sin romper el
+build.
 
 ### Sincronización desde el CMS
 

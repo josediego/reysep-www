@@ -7,6 +7,9 @@ import { imageOf } from "@/components/product-image"
 import { catalog, displayName, formatPrice, itemById, kindLabel } from "@/lib/catalog"
 import { site } from "@/lib/site"
 
+// `alt` es estático: un alt por producto exige `generateImageMetadata`, que
+// cambia la URL a `/opengraph-image/<id>` y saca la ruta de la generación
+// estática con `generateStaticParams`. Se prefiere el build estático.
 export const alt = `${site.name}: producto o repuesto del catálogo`
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
@@ -27,10 +30,11 @@ function logo(): Promise<string> {
 }
 
 /**
- * Descarga la variante `card` y la devuelve como data URI. Solo PNG/JPEG (lo
- * que decodifica el renderizador de next/og) y solo desde el CDN del CMS.
- * Cualquier fallo devuelve `null` y la imagen usa la silueta: el build no
- * depende de que el CDN responda.
+ * Descarga la variante `card` (el CMS publica WebP) y la devuelve como data URI
+ * PNG/JPEG, lo único que decodifica el renderizador de next/og. Lo demás se
+ * convierte a PNG con sharp (cargado solo en el build). Solo desde el CDN del
+ * CMS, sin redirecciones, 8 s de límite. Cualquier fallo devuelve `null` y la
+ * imagen usa la silueta: el build no depende de que el CDN responda.
  */
 async function cardDataUri(url: string): Promise<string | null> {
   try {
@@ -40,8 +44,10 @@ async function cardDataUri(url: string): Promise<string | null> {
     const buf = Buffer.from(await res.arrayBuffer())
     const png = buf.subarray(0, 4).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47]))
     const jpeg = buf[0] === 0xff && buf[1] === 0xd8 && buf[2] === 0xff
-    if (!png && !jpeg) return null
-    return `data:image/${png ? "png" : "jpeg"};base64,${buf.toString("base64")}`
+    if (png || jpeg) return `data:image/${png ? "png" : "jpeg"};base64,${buf.toString("base64")}`
+    const { default: sharp } = await import("sharp")
+    const out = await sharp(buf, { limitInputPixels: 40_000_000 }).png().toBuffer()
+    return `data:image/png;base64,${out.toString("base64")}`
   } catch {
     return null
   }
