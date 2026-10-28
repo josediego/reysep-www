@@ -6,10 +6,12 @@ import CatalogTeaser from "@/components/catalog-teaser"
 import About from "@/components/about"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
+import StickyHeader from "@/components/sticky-header"
 
 export default function Home() {
   return (
     <>
+      <StickyHeader watch="#inicio" />
       <ShaderBackground>
         <Header />
         <HeroContent />

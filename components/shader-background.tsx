@@ -44,6 +44,7 @@ export default function ShaderBackground({ children }: ShaderBackgroundProps) {
       </svg>
 
       {/* Background shaders (decorative) */}
+      <div className="hero-light absolute inset-0" aria-hidden="true">
       <MeshGradient
         className="absolute inset-0 h-full w-full"
         colors={["#1e3a8a", "#3b82f6", "#ffffff", "#1e40af", "#2563eb"]}
@@ -58,6 +59,7 @@ export default function ShaderBackground({ children }: ShaderBackgroundProps) {
         style={{ backgroundColor: "transparent" }}
         aria-hidden="true"
       />
+      </div>
       {/* Scrim for text contrast over the light blobs */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/30" />
 

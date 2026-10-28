@@ -66,7 +66,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
       <body className={`${figtree.variable} ${instrumentSerif.variable} font-sans antialiased`}>
         <a
           href="#contenido"
@@ -74,6 +74,7 @@ export default function RootLayout({
         >
           Saltar al contenido
         </a>
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}

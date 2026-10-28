@@ -64,3 +64,168 @@
 .instrument {
   font-family: var(--font-serif-display);
 }
+
+/* ---------------------------------------------------------------------------
+   Movimiento. Un momento autoral (entrada del hero), continuidad (cabecera
+   compacta) y reveals de apoyo solo en listas. Easing: salida exponencial.
+   Con prefers-reduced-motion queda solo opacidad (ver bloque base).
+   --------------------------------------------------------------------------- */
+:root {
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Hero: la luz enciende, el titular se descubre por barrido, luego texto y acciones. */
+@keyframes light-on {
+  from {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes wipe-up {
+  from {
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(0.35em);
+  }
+  to {
+    clip-path: inset(0 0 -0.2em 0);
+    transform: none;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hero-light {
+  animation: light-on 1600ms var(--ease-out-expo) both;
+}
+
+.hero-line {
+  display: inline-block;
+  animation: wipe-up 900ms var(--ease-out-expo) both;
+  animation-delay: var(--d, 0ms);
+}
+
+.hero-rise {
+  animation: rise 700ms var(--ease-out-expo) both;
+  animation-delay: var(--d, 0ms);
+}
+
+/* Cabecera compacta: entra deslizando cuando el hero sale de pantalla. */
+.sticky-header {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition:
+    transform 400ms var(--ease-out-expo),
+    opacity 300ms ease-out;
+  pointer-events: none;
+}
+
+.sticky-header[data-shown] {
+  transform: none;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Reveals de apoyo. Solo con JS activo (html.js); sin JS todo es visible. */
+.js [data-reveal]:not([data-inview]) {
+  opacity: 0;
+}
+
+.js [data-reveal="rise"]:not([data-inview]) {
+  transform: translateY(14px);
+}
+
+/* El recorte va en un hijo: Chrome no reporta intersección de un elemento recortado a cero. */
+.js [data-reveal="wipe"]:not([data-inview]) > .reveal-clip {
+  clip-path: inset(0 0 100% 0);
+  transform: translateY(0.3em);
+}
+
+[data-reveal] {
+  transition:
+    opacity 600ms var(--ease-out-expo),
+    transform 700ms var(--ease-out-expo),
+    clip-path 800ms var(--ease-out-expo);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+[data-reveal="wipe"] > .reveal-clip {
+  display: block;
+  clip-path: inset(0 0 -0.2em 0);
+  transition:
+    transform 700ms var(--ease-out-expo),
+    clip-path 800ms var(--ease-out-expo);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+/* Listas: los hijos directos entran escalonados; el padre solo coordina. */
+.js [data-reveal="line"]:not([data-inview]) {
+  opacity: 1;
+}
+
+.js [data-reveal][data-stagger]:not([data-inview]) > [data-reveal-item] {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+[data-reveal][data-stagger] > [data-reveal-item] {
+  transition:
+    opacity 550ms var(--ease-out-expo),
+    transform 650ms var(--ease-out-expo);
+  transition-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* Filas de servicios: la línea divisoria se dibuja antes que el texto. */
+.js [data-reveal="line"]:not([data-inview]) > [data-reveal-item]::before {
+  transform: scaleX(0);
+}
+
+[data-reveal="line"] > [data-reveal-item] {
+  position: relative;
+}
+
+[data-reveal="line"] > [data-reveal-item]::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  transform-origin: left;
+  transition: transform 900ms var(--ease-out-expo);
+  transition-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* Feedback táctil en acciones principales. */
+a[class*="rounded-full"]:active,
+button[class*="rounded-full"]:active {
+  transform: scale(0.98);
+  transition-duration: 100ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-light,
+  .hero-line,
+  .hero-rise {
+    animation: none;
+  }
+
+  .js [data-reveal]:not([data-inview]),
+  .js [data-reveal="wipe"]:not([data-inview]) > .reveal-clip,
+  .js [data-reveal][data-stagger]:not([data-inview]) > [data-reveal-item] {
+    transform: none;
+    clip-path: none;
+  }
+}

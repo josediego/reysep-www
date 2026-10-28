@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Section from "@/components/section"
+import Reveal from "@/components/reveal"
 import AmbientGradient from "@/components/ambient-gradient"
 import { ApplianceGlyph } from "@/components/part-glyph"
 import { ArrowIcon } from "@/components/icons"
@@ -20,10 +21,10 @@ export default function CatalogTeaser() {
       }
       lead={`${counts.repuesto} repuestos y ${counts.producto} productos en tienda, con precio y disponibilidad. Elija su equipo y encuentre la pieza.`}
     >
-      <ul className="grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
-        {topAppliances.map((a) => {
+      <Reveal as="ul" stagger className="grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
+        {topAppliances.map((a, i) => {
           return (
-            <li key={a.name} className="bg-black">
+            <li key={a.name} data-reveal-item style={{ "--i": i } as React.CSSProperties} className="bg-black">
               <Link
                 href={`/catalogo?equipo=${encodeURIComponent(a.name)}`}
                 className="group flex h-full items-center gap-4 p-5 transition-colors duration-200 hover:bg-white/[0.04] md:p-6"
@@ -40,9 +41,9 @@ export default function CatalogTeaser() {
             </li>
           )
         })}
-      </ul>
+      </Reveal>
 
-      <div className="mt-8 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+      <Reveal delay={250} className="mt-8 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
         <p className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-sm text-blue-100/75">
           <span className="mr-1">Más buscados:</span>
           {topParts.map((p, i) => (
@@ -58,7 +59,7 @@ export default function CatalogTeaser() {
         >
           Ver catálogo <ArrowIcon size={14} />
         </Link>
-      </div>
+      </Reveal>
     </Section>
   )
 }
