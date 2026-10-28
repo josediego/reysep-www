@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "r-desviadora-t-espanola-acerado",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Desviadora t/española acerado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Desviador",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "t/española"
+    ],
+    "specs": {
+      "acabado": "acerado"
+    },
+    "summary": "Desviador de agua tipo ducha española con acabado acerado, usado en instalaciones de ducha eléctrica.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-cabezal-de-ducha-t-espanola-8-c-b",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Cabezal de ducha t/española 8\" c/b",
+    "brand": "Griarsa",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true,
+    "partType": "Cabezal De Ducha",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "t/española",
+      "8\""
+    ],
+    "specs": {
+      "diámetro": "8 pulgadas"
+    },
+    "summary": "Cabezal de ducha tipo española de 8 pulgadas, marca Griarsa, con brazo o base según el nombre del inventario.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Abreviatura 'c/b' no confirmada; deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-tubo-de-abasto-60-cm-trensado",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo de abasto 60 cm trensado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Tubo De Abasto",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "60 cm",
+      "tipo": "trenzado"
+    },
+    "summary": "Tubo de abasto flexible trenzado de 60 cm para conectar griferías, termas o duchas a la red de agua.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-tubo-de-abasto-50-cm-trensado",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo de abasto 50 cm trensado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Tubo De Abasto",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "50 cm",
+      "tipo": "trenzado"
+    },
+    "summary": "Tubo de abasto flexible trenzado de 50 cm para conectar griferías, termas o duchas a la red de agua.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-rap-4-pin-p-start",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rap 4 pin p/start",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "4 pin",
+      "Start"
+    ],
+    "specs": {
+      "terminales": "4 pines"
+    },
+    "summary": "Resistencia de repuesto de 4 pines para rapiducha (ducha eléctrica) Sole, para el modelo identificado como Start.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/",
+        "https://www.falabella.com.pe/falabella-pe/shop/rapiducha-sole-4000w"
+      ],
+      "notes": "La línea Rapiducha Sole existe (Falabella, Sodimac); no se halló ficha de repuesto del modelo 'Start'.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-rapiducha-4-pin",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rapiducha 4 pin",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "4 pin"
+    ],
+    "specs": {
+      "terminales": "4 pines"
+    },
+    "summary": "Resistencia de repuesto de 4 pines para rapiducha (ducha eléctrica) Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/",
+        "https://www.falabella.com.pe/falabella-pe/shop/rapiducha-sole-4000w"
+      ],
+      "notes": "Línea Rapiducha Sole confirmada; compatibilidad por modelo no hallada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-rapiducha-2-pin-p-premium",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rapiducha 2 pin p/premium",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "2 pin",
+      "Premium"
+    ],
+    "specs": {
+      "terminales": "2 pines"
+    },
+    "summary": "Resistencia de repuesto de 2 pines para rapiducha (ducha eléctrica) Sole, para el modelo identificado como Premium.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/",
+        "https://www.falabella.com.pe/falabella-pe/shop/rapiducha-sole-4000w"
+      ],
+      "notes": "Línea Rapiducha Sole confirmada; modelo 'Premium' no hallado en búsqueda.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-juego-ducha-espanola-3-piezas-desviador-tubos-abasto-y-brazo",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Juego ducha española (3 piezas: desviador, tubos abasto y brazo)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true,
+    "partType": "Juego De Ducha Española",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "piezas": "3 (desviador, tubos de abasto y brazo)"
+    },
+    "summary": "Juego de instalación para ducha eléctrica tipo española que incluye desviador, tubos de abasto y brazo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Contenido tomado del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-rapiducha-t-espanola-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Rapiducha t/española Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Rapiducha",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "t/española"
+    ],
+    "specs": {},
+    "summary": "Ducha eléctrica instantánea Sole tipo española que calienta el agua con una resistencia interna.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.7,
+      "sources": [
+        "https://www.falabella.com.pe/falabella-pe/shop/rapiducha-sole-4000w",
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Sole comercializa rapiduchas en Perú (Falabella, Sodimac, Ripley); el modelo 'española' aparece como Españolita 5500W en Sodimac.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-encapulada-sole-4000-4500-5500w",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia encapulada sole 4000, 4500 / 5500w",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true,
+    "partType": "Resistencia Encapsulada",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "4000",
+      "4500",
+      "5500W"
+    ],
+    "specs": {
+      "potencia": "4000 / 4500 / 5500 W"
+    },
+    "summary": "Resistencia encapsulada de repuesto para rapiduchas Sole de 4000, 4500 o 5500 W.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/",
+        "https://www.falabella.com.pe/falabella-pe/shop/rapiducha-sole-4000w"
+      ],
+      "notes": "Rapiduchas Sole de 4000, 4500 y 5500 W existen según retailers; la pieza exacta no se halló.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-tubo-abasto-trensado-plastico-1-50-m",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo abasto trensado/ plastico 1.50 m",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true,
+    "partType": "Tubo De Abasto",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "1.50 m",
+      "tipo": "trenzado, plástico"
+    },
+    "summary": "Tubo de abasto flexible trenzado de 1.50 m para conexión de agua a termas, duchas o lavatorios.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-tubo-abasto-trensado-0-40-m",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo abasto trensado 0.40 m",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true,
+    "partType": "Tubo De Abasto",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "0.40 m",
+      "tipo": "trenzado"
+    },
+    "summary": "Tubo de abasto flexible trenzado de 0.40 m para conexión de agua a termas, duchas o lavatorios.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-interruptor-bipolar-c-cables-terminal-armado",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Interruptor bipolar c/cables terminal armado",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Interruptor Bipolar",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "polos": "2",
+      "incluye": "cables con terminal"
+    },
+    "summary": "Interruptor bipolar con cables y terminales armados, de repuesto para equipos de agua caliente eléctricos Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Equipo exacto no especificado; se asume ducha eléctrica por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termostato-varilla-270-mm-corta",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termostato varilla 270 mm corta",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Termostato De Varilla",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud de varilla": "270 mm"
+    },
+    "summary": "Termostato de varilla de 270 mm para termas eléctricas de acumulación Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-1200w-estanada-360-mm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1200w estañada 360 mm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 72.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "potencia": "1200 W",
+      "longitud": "360 mm",
+      "acabado": "estañado"
+    },
+    "summary": "Resistencia eléctrica estañada de 1200 W y 360 mm para termas eléctricas de acumulación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-1500w-estanada-doblada-360-mm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w estañada doblada 360 mm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 132.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "potencia": "1500 W",
+      "longitud": "360 mm",
+      "acabado": "estañado",
+      "forma": "doblada"
+    },
+    "summary": "Resistencia eléctrica estañada doblada de 1500 W y 360 mm para termas eléctricas de acumulación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-1500w-dorada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w dorada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Terma",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "potencia": "1500 W",
+      "acabado": "dorado"
+    },
+    "summary": "Resistencia eléctrica dorada de 1500 W para termas eléctricas de acumulación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-2000w-dorada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 2000w dorada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 95.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Terma",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "potencia": "2000 W",
+      "acabado": "dorado"
+    },
+    "summary": "Resistencia eléctrica dorada de 2000 W para termas eléctricas de acumulación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-1500w-d-incoloy-t30-50-lt-evo-solteero88",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w d.incoloy t30-50 lt evo / solteero88",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 115.0,
+    "inStock": true,
+    "partType": "Resistencia Incoloy",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "T30-50 LT",
+      "EVO",
+      "SOLTEERO88"
+    ],
+    "specs": {
+      "potencia": "1500 W",
+      "material": "Incoloy",
+      "capacidad": "30 a 50 L"
+    },
+    "summary": "Resistencia de Incoloy de 1500 W para termas Sole de 30 a 50 litros línea Evo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [
+        "https://www.plazavea.com.pe/terma-electrica-evolucion-vertical-pared-50-litros-sole/p",
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Línea Evolución 50 L de Sole existe; código 'solteero88' no se pudo resolver.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-corte-termico-d-seguridad-terma-evol-elite",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Corte termico d/seguridad terma evol - elite",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Corte Térmico De Seguridad",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Evol",
+      "Elite"
+    ],
+    "specs": {},
+    "summary": "Dispositivo de corte térmico de seguridad para termas Sole de las líneas Evolución y Elite.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/terma-electrica-evolucion-vertical-pared-50-litros-sole/p",
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Líneas Evolución y Elite de Sole confirmadas; no se halló ficha del repuesto.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termistor-d-temperatura-p-terma-elite-evol",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termistor d/temperatura p/terma elite - evol",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 62.0,
+    "inStock": true,
+    "partType": "Termistor De Temperatura",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Elite",
+      "Evol"
+    ],
+    "specs": {},
+    "summary": "Termistor sensor de temperatura para termas Sole de las líneas Elite y Evolución.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/terma-electrica-evolucion-vertical-pared-50-litros-sole/p",
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Líneas confirmadas; repuesto no hallado en catálogos.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-control-de-temp-p-evol-elite",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Control de temp p/evol / elite",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true,
+    "partType": "Control De Temperatura",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Evol",
+      "Elite"
+    ],
+    "specs": {},
+    "summary": "Control de temperatura para termas Sole de las líneas Evolución y Elite.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/terma-electrica-evolucion-vertical-pared-50-litros-sole/p",
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Evolución tiene termostato regulable 30-70 °C según Plaza Vea; compatibilidad exacta no verificada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-de-seguridad-integral-esferica",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula de seguridad integral / esferica",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true,
+    "partType": "Válvula De Seguridad",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tipo": "integral / esférica"
+    },
+    "summary": "Válvula de seguridad para termas eléctricas de acumulación, tipo integral o esférica.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-anodo-d-sacrificio-magnesio-20-cm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo d/sacrificio magnesio 20 cm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Ánodo De Magnesio",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "20 cm",
+      "material": "magnesio"
+    },
+    "summary": "Ánodo de sacrificio de magnesio de 20 cm que protege el tanque de la terma contra la corrosión.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.consumer.es/?p=10940"
+      ],
+      "notes": "Función del ánodo de sacrificio confirmada; compatibilidad por modelo no.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-anodo-de-magnesio-75-cm-termotanque",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo de magnesio 75 cm termotanque",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 240.0,
+    "inStock": true,
+    "partType": "Ánodo De Magnesio",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "75 cm",
+      "material": "magnesio"
+    },
+    "summary": "Ánodo de sacrificio de magnesio de 75 cm para termotanques; protege el tanque contra la corrosión.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.consumer.es/?p=10940"
+      ],
+      "notes": "Función confirmada; compatibilidad por modelo no.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-kit-terma-solucion-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Kit terma solución sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 145.0,
+    "inStock": true,
+    "partType": "Kit Para Terma",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Kit de reparación o instalación para termas Sole; el contenido no está detallado en el inventario.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.2,
+      "sources": [],
+      "notes": "Contenido del kit no hallado en búsqueda.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-mezcladora-sole",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula mezcladora sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true,
+    "partType": "Válvula Mezcladora",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Válvula mezcladora de agua fría y caliente marca Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-anodo-de-magnesio-1m-termotanque",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo de magnesio /1m /termotanque",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true,
+    "partType": "Ánodo De Magnesio",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "1 m",
+      "material": "magnesio"
+    },
+    "summary": "Ánodo de sacrificio de magnesio de 1 m para termotanques; protege el tanque contra la corrosión.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.consumer.es/?p=10940"
+      ],
+      "notes": "Función confirmada; compatibilidad por modelo no.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-2000w-nacional-p-rotoplast",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 2000w nacional p/rotoplast",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Rotoplas"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "2000W"
+    ],
+    "specs": {
+      "potencia": "2000 W"
+    },
+    "summary": "Resistencia nacional de 2000 W para termas Rotoplas.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [
+        "https://www.sodimac.com.pe/static/pdf/2755602-1-FichaTecnica.pdf"
+      ],
+      "notes": "Rotoplas lista termas de 1500 W; no se halló terma de 2000 W. Nombre escrito 'rotoplast'.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-1500w-nacional-p-rotoplast",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w nacional p/rotoplast",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Rotoplas"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "1500W"
+    ],
+    "specs": {
+      "potencia": "1500 W"
+    },
+    "summary": "Resistencia nacional de 1500 W para termas eléctricas Rotoplas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.sodimac.com.pe/static/pdf/2755602-1-FichaTecnica.pdf"
+      ],
+      "notes": "Ficha Duraterma Rotoplas: 1500 W, 220 V, 50 a 80 L; repuesto exacto no confirmado.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-ducha-fija-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Ducha fija sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Ducha Fija",
+    "appliance": "Ducha eléctrica",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Ducha fija marca Sole para instalación de baño.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-timer-digital-p-nueva-terma-millenium",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Timer digital p/nueva terma millenium",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 135.0,
+    "inStock": true,
+    "partType": "Timer Digital",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Millenium"
+    ],
+    "specs": {
+      "tipo": "digital"
+    },
+    "summary": "Temporizador digital para la terma Sole Millenium.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Búsqueda no halló el modelo Millenium ni el timer.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termostato-varilla-doble-seguridad-350mm-larga-inso24v2",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termostato varilla doble seguridad 350mm larga /inso24v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true,
+    "partType": "Termostato De Varilla",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "INSO24V2"
+    ],
+    "specs": {
+      "longitud de varilla": "350 mm",
+      "seguridad": "doble"
+    },
+    "summary": "Termostato de varilla larga de 350 mm con doble seguridad para termas Sole; código INSO24V2 según el nombre.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Código INSO24V2 no hallado en fuentes.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-rojo-para-terma",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco rojo para terma",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Foco Piloto",
+    "appliance": "Terma",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "color": "rojo"
+    },
+    "summary": "Foco piloto rojo que indica el funcionamiento de la terma.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/category/cat619007/sole/"
+      ],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-elastomero-1m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 1m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 40.0,
+    "inStock": true,
+    "partType": "Manguera De Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "elastómero"
+    ],
+    "specs": {
+      "longitud": "1 m",
+      "gas": "natural"
+    },
+    "summary": "Manguera de elastómero de 1 m para conexión de gas natural a cocinas y artefactos.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-elastomero-0-6-m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 0.6 m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true,
+    "partType": "Manguera De Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "elastómero"
+    ],
+    "specs": {
+      "longitud": "0.6 m",
+      "gas": "natural"
+    },
+    "summary": "Manguera de elastómero de 0.6 m para conexión de gas natural a cocinas y artefactos.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-elastomero-0-5-m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 0.5 m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true,
+    "partType": "Manguera De Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "elastómero"
+    ],
+    "specs": {
+      "longitud": "0.5 m",
+      "gas": "natural"
+    },
+    "summary": "Manguera de elastómero de 0.5 m para conexión de gas natural a cocinas y artefactos.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-de-seguridad-3-4-bronce-importada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula de seguridad 3/4 bronce importada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 95.0,
+    "inStock": true,
+    "partType": "Válvula De Seguridad",
+    "appliance": "Terma",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3/4"
+    ],
+    "specs": {
+      "diámetro": "3/4 pulgada",
+      "material": "bronce"
+    },
+    "summary": "Válvula de seguridad de bronce de 3/4 de pulgada para termas o termotanques.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

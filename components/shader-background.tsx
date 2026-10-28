@@ -24,7 +24,7 @@ export default function ShaderBackground({ children }: ShaderBackgroundProps) {
   const reduce = useReducedMotion()
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-black">
+    <div id="inicio" className="relative flex min-h-svh flex-col overflow-hidden bg-black">
       {/* SVG filter used by the hero badge */}
       <svg className="absolute h-0 w-0" aria-hidden="true">
         <defs>

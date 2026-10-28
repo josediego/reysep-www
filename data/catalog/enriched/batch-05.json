@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "r-sincronico-moderno-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico moderno samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true,
+    "partType": "Motor Sincrónico",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "moderno"
+    ],
+    "specs": {
+      "aplicación": "desagüe"
+    },
+    "summary": "Motor sincrónico de desagüe para lavadora Samsung, versión moderna; acciona la bomba o la válvula de drenaje.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://snap.parts/products/dc31-00054a"
+      ],
+      "notes": "Se identificó la bomba de drenaje Samsung DC31-00054A como pieza similar, pero ninguna fuente confirma que sea el 'sincrónico' del inventario.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sincronico-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true,
+    "partType": "Motor Sincrónico",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "aplicación": "desagüe"
+    },
+    "summary": "Motor sincrónico de desagüe para lavadora Samsung; acciona la bomba o la válvula de drenaje.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://snap.parts/products/dc31-00054a"
+      ],
+      "notes": "Se identificó la bomba de drenaje Samsung DC31-00054A como pieza similar, pero ninguna fuente confirma que sea el 'sincrónico' del inventario.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bomba-completa-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Bomba de Desagüe",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Bomba de desagüe completa para lavadora LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.pccomponentes.com/bomba-desague-lavadora-lg-oem-859en1004b"
+      ],
+      "notes": "Existen bombas de desagüe LG (p. ej. OEM 859EN1004B), sin modelo específico que confirme esta pieza.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bomba-completa-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true,
+    "partType": "Bomba de Desagüe",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Bomba de desagüe completa para lavadora Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://snap.parts/products/dc31-00054a"
+      ],
+      "notes": "Samsung DC31-00054A es una bomba de drenaje para lavadoras Samsung; no se confirma que sea esta pieza.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bomba-completa-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Bomba de Desagüe",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Bomba de desagüe completa para lavadora Daewoo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bomba-askoll",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba Askoll",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true,
+    "partType": "Bomba de Desagüe",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Indesit",
+      "Ariston",
+      "Whirlpool"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "fabricante de bomba": "Askoll"
+    },
+    "summary": "Bomba de desagüe de lavadora fabricada por Askoll; se usa en varias marcas de lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.beekman.es/a/ariston-bomba-c00085617-w103-w104-wga1236txo-lavadora-00264062/w/7"
+      ],
+      "notes": "Askoll fabrica bombas de lavadora (ej. C00085617 para Indesit/Ariston); modelo del inventario no determinado, por eso fitsModels vacío.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sincronico-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico Daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true,
+    "partType": "Motor Sincrónico",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "aplicación": "desagüe"
+    },
+    "summary": "Motor sincrónico de desagüe para lavadora Daewoo; acciona la bomba o la válvula de drenaje.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sincronico-lg-220",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG 220",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true,
+    "partType": "Motor Sincrónico",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "220"
+    ],
+    "specs": {
+      "voltaje": "220 V",
+      "aplicación": "desagüe"
+    },
+    "summary": "Motor sincrónico de desagüe para lavadora LG, de 220 V; acciona la bomba o la válvula de drenaje.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sincronico-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true,
+    "partType": "Motor Sincrónico",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "aplicación": "desagüe"
+    },
+    "summary": "Motor sincrónico de desagüe para lavadora LG; acciona la bomba o la válvula de drenaje.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sincronico-lg-13-v",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG 13 v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true,
+    "partType": "Motor Sincrónico",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "13 v"
+    ],
+    "specs": {
+      "voltaje": "13 V"
+    },
+    "summary": "Motor sincrónico de desagüe para lavadora LG, de 13 V (posible motor de bomba inverter); acciona la bomba o la válvula de drenaje.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Voltaje 13 V inusual; deducido del nombre, sin fuente.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-manguera-ingreso",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera Ingreso",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Manguera de Ingreso",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Manguera de entrada de agua para lavadora.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-faja-de-lavadora-20",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 20",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true,
+    "partType": "Faja",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "20"
+    ],
+    "specs": {
+      "numeración": "#20"
+    },
+    "summary": "Faja (correa) para lavadora, medida referencial #20.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "La numeración de fajas varía por fabricante; no se halló tabla en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-faja-de-lavadora-20-5",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 20,5",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true,
+    "partType": "Faja",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "20,5"
+    ],
+    "specs": {
+      "numeración": "#20,5"
+    },
+    "summary": "Faja (correa) para lavadora, medida referencial #20,5.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "La numeración de fajas varía por fabricante; no se halló tabla en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-faja-de-lavadora-21",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 21",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true,
+    "partType": "Faja",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "21"
+    ],
+    "specs": {
+      "numeración": "#21"
+    },
+    "summary": "Faja (correa) para lavadora, medida referencial #21.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "La numeración de fajas varía por fabricante; no se halló tabla en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-faja-de-lavadora-21-5",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 21.5",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true,
+    "partType": "Faja",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "21.5"
+    ],
+    "specs": {
+      "numeración": "#21.5"
+    },
+    "summary": "Faja (correa) para lavadora, medida referencial #21.5.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "La numeración de fajas varía por fabricante; no se halló tabla en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-faja-de-lavadora-22",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 22",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true,
+    "partType": "Faja",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "22"
+    ],
+    "specs": {
+      "numeración": "#22"
+    },
+    "summary": "Faja (correa) para lavadora, medida referencial #22.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "La numeración de fajas varía por fabricante; no se halló tabla en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-de-malla-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro de malla LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Filtro de Malla",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Filtro de malla (atrapapelusas) para lavadora LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-malla-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro malla Daewoo",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Filtro de Malla",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Filtro de malla (atrapapelusas) para lavadora Daewoo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-paleta-samsung-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Samsung Grande",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true,
+    "partType": "Paleta",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Paleta (agitador) para lavadora Samsung, tamaño grande.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-paleta-samsung-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Samsung Mediana",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true,
+    "partType": "Paleta",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "mediana"
+    },
+    "summary": "Paleta (agitador) para lavadora Samsung, tamaño mediana.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-paleta-daewoo-grande-acrilica",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Daewoo Grande Acrilica",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Paleta",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande",
+      "material": "acrílico"
+    },
+    "summary": "Paleta (agitador) para lavadora Daewoo, tamaño grande, acrílica.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-paleta-daewoo-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Daewoo Mediana",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Paleta",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "mediana"
+    },
+    "summary": "Paleta (agitador) para lavadora Daewoo, tamaño mediana.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-paleta-lg-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta LG Mediana",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Paleta",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "mediana"
+    },
+    "summary": "Paleta (agitador) para lavadora LG, tamaño mediana.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-paleta-lg-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta LG Grande",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Paleta",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Paleta (agitador) para lavadora LG, tamaño grande.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motor-blanco-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Motor Blanco LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 210.0,
+    "inStock": true,
+    "partType": "Motor",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "color": "blanco"
+    },
+    "summary": "Motor eléctrico de color blanco para lavadora LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bomba-robertshaw-d-desague",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba Robertshaw d/Desague",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 42.0,
+    "inStock": true,
+    "partType": "Bomba de Desagüe",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "fabricante": "Robertshaw"
+    },
+    "summary": "Bomba de desagüe de marca Robertshaw para lavadora.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bomba-22-kg-lg-mid-ma",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba 22 Kg LG/Mid/Ma",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true,
+    "partType": "Bomba",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "22 kg"
+    ],
+    "specs": {
+      "capacidad": "22 kg"
+    },
+    "summary": "Bomba para lavadora LG de 22 kg; el nombre abreviado 'Mid/Ma' no se pudo interpretar.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [
+        "https://www.lg.com/cac/lavadoras-y-secadoras/lg-wt22wt6hk"
+      ],
+      "notes": "LG comercializa modelos de 22 kg (ej. WT22WT6HK) pero no se halló la pieza ni su compatibilidad; sufijo 'Mid/Ma' ambiguo.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-6h-plancha-grande-cuello-bajo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja 6H Plancha Grande Cuello Bajo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "6H"
+    ],
+    "specs": {
+      "variante": "plancha grande, cuello bajo"
+    },
+    "summary": "Caja de transmisión (reductor) para lavadora, variante 6H, plancha grande y cuello bajo.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-d-transmision-1-dedo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/transmision 1 dedo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "variante": "1 dedo"
+    },
+    "summary": "Caja de transmisión (reductor) para lavadora, variante de 1 dedo.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-d-transmision-bosch",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision Bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Caja de transmisión (reductor) para lavadora Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-d-transmision-trall-med-ala-electrolux-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision Trall Med Ala Electrolux/Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Electrolux",
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Trall",
+      "Med Ala"
+    ],
+    "specs": {
+      "variante": "Trall, mediana, aleta"
+    },
+    "summary": "Caja de transmisión (reductor) para lavadoras Electrolux y Mabe; la abreviatura 'Trall Med Ala' no pudo confirmarse.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-8h-c-pequeno",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja 8H c. Pequeño",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "8H"
+    ],
+    "specs": {
+      "variante": "cuello pequeño"
+    },
+    "summary": "Caja de transmisión (reductor) para lavadora, variante 8H, cuello pequeño.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-d-transmision-lg-invt-pole-lisa",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision LG Invt Pole Lisa",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 200.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Invt",
+      "Pole Lisa"
+    ],
+    "specs": {
+      "tecnología": "Inverter",
+      "variante": "polea lisa"
+    },
+    "summary": "Caja de transmisión (reductor) para lavadora LG con motor inverter y polea lisa.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; búsqueda web sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-64",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #64",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#64"
+    ],
+    "specs": {
+      "numeración": "#64"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #64.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-65-lg-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #65 LG / Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG",
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "#65"
+    ],
+    "specs": {
+      "numeración": "#65"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #65. Indicada para lavadoras LG y Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Marcas tomadas del nombre; no se halló equivalencia de la numeración en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-66",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #66",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#66"
+    ],
+    "specs": {
+      "numeración": "#66"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #66.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-70",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #70",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#70"
+    ],
+    "specs": {
+      "numeración": "#70"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #70.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-72",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #72",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#72"
+    ],
+    "specs": {
+      "numeración": "#72"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #72.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-55",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#55"
+    ],
+    "specs": {
+      "numeración": "#55"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #55.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-58",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #58",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#58"
+    ],
+    "specs": {
+      "numeración": "#58"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #58.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-61",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #61",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#61"
+    ],
+    "specs": {
+      "numeración": "#61"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #61.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-62",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #62",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#62"
+    ],
+    "specs": {
+      "numeración": "#62"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #62.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-amortiguador-63",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #63",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Amortiguador",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "#63"
+    ],
+    "specs": {
+      "numeración": "#63"
+    },
+    "summary": "Amortiguador de suspensión para lavadora, referencia interna #63.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Numeración propia del inventario; sin equivalencia en la web.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

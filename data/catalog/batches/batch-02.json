@@ -1,0 +1,432 @@
+[
+  {
+    "id": "r-abrazaderas-5-8-galvanizados-taurus",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Abrazaderas 5/8 galvanizados taurus",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.0,
+    "inStock": true
+  },
+  {
+    "id": "r-generador-de-chispa-8-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 8 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-t-de-bronce-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "T de bronce 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-adaptador-pipa-bronce-1-2-hexagonal-c-asiento",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa bronce 1/2\" hexagonal c/asiento",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-cromada-cocina",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla cromada cocina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-pesada-cromo-y-negro",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla pesada cromo y negro",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-bosch-empotrable",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla bosch empotrable",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-negro-y-plomo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla negro y plomo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-indurama-arim",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula indurama Arim",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-bosch-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula bosch antigua",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-mabe-con-tornillo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula Mabe con tornillo",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvulas-cocina-bosch-c-termocupla",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvulas cocina bosch c/termocupla",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-jgo-parilla-base-enloz-2-ud-peq-med-grd",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo Parilla/Base Enloz (2 ud) Peq/Med/Grd)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-jgo-parilla-base-enloz-2-ud-triple-llama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo Parilla/Base Enloz (2 ud) Triple Llama)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 62.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-cocina-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-codo-bronce-pesado-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Codo bronce pesado 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-codo-bronce-pesado-1-2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Codo bronce pesado 1/2\"",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-adaptador-pipa-aluminio-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa aluminio 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true
+  },
+  {
+    "id": "r-adaptador-pipa-bronce-3-8-th-x-3-8-ng-bos",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa bronce 3/8 th x 3/8 ng bos",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-alto-cocina-triple-llama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero alto cocina triple llama",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-boleado-bosch-mabe-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama boleado bosch mabe (3 pieza)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-plano-mate-brillante-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama plano mate/brillante (3 pieza)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-sabaf-orig-t-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama sabaf orig. t/falda",
+    "brand": "Sabaf",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-3llama-sabaf-t-falda-alt",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador 3llama sabaf t/falda alt.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-cubiertas-4-piezas-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubiertas (4 piezas) mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-mediano-2-piezas-liso-y-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador mediano (2 piezas) liso y c/relieve",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-mediano-2-piezas-con-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador mediano (2 piezas) con falda",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-s-tierra-37-cm-cocina-solco038-solcor340",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla s/tierra 37 cm cocina solco038 / solcor340",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-generador-de-chispa-6-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 6 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 17.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-sabaf-alternativo-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama sabaf alternativo (3 pieza)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-cubierta-4-piezas-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubierta (4 piezas) bosch",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-triple-llama-sabaf-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador triple llama sabaf alternativo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-mate-sabaf-alternativo-mediano",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mate sabaf alternativo mediano",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-sabaf-alternativo-pequeno",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador sabaf alternativo pequeño",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-exterior-2llama-mate-y-brillante-solcor350",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta exterior 2llama mate y brillante / solcor350",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true
+  },
+  {
+    "id": "r-aro-wok-triplellama-solco033",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Aro Wok Triplellama /solco033",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-mediana-brillante-mate",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mediana brillante mate",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-interior-triple-llama-plano-brillante-mate",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta interior triple llama plano brillante mate",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-mediano-sabaf-original",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador mediano sabaf original",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-mediano-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador mediano alternativo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-defendi-2-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador defendi (2 piezas)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-pequeno-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador pequeño alternativo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-pequeno-sabaf-plano-relieve-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador pequeño sabaf plano/relieve / falda",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true
+  }
+]

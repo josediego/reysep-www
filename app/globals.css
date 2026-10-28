@@ -12,18 +12,45 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    scrollbar-color: rgba(147, 197, 253, 0.35) #000000;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
 
+  ::selection {
+    background: #3b82f6;
+    color: #ffffff;
+  }
+
   a:focus-visible,
-  button:focus-visible {
+  button:focus-visible,
+  input:focus-visible {
     outline: 2px solid #fff;
     outline-offset: 3px;
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.5);
   }
 
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+    background-color: rgba(191, 219, 254, 0.7);
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M6 6l12 12M18 6 6 18'/%3E%3C/svg%3E")
+      center / contain no-repeat;
+  }
+
   @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
     *,
     *::before,
     *::after {

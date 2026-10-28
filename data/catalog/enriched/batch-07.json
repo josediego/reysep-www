@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "r-motocompresor-1-6-r600-jia-xipera",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/6 R600 Jia Xipera",
+    "brand": "Jia Xipera",
+    "unit": "unidad",
+    "price": 221.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/6",
+      "R600"
+    ],
+    "specs": {
+      "potencia": "1/6 HP",
+      "refrigerante": "R600a"
+    },
+    "summary": "Compresor hermético Jiaxipera de 1/6 HP para refrigeradoras domésticas con gas R600a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.ggmgastro.com/en-gb-gbp/jiaxipera-refrigeration-compressor-r600a-mg1080y-270001500",
+        "https://www.gev-online.com/en/webshop/product/605242"
+      ],
+      "notes": "Jiaxipera fabrica compresores R600a para refrigeración doméstica (listados MG1080Y, TT1117GY); no se halló la referencia exacta de 1/6 HP. Se asume R600 = R600a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-27",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 27",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "27"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 27. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-28",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 28",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "28"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 28. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-30",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 30",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "30"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 30. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-33",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 33",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "33"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 33. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-34",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 34",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "34"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 34. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-37",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 37",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "37"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 37. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-38",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 38",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "38"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 38. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-40",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 40",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "40"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 40. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-41",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 41",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "41"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 41. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-50",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 50",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "50"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 50. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-53",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 53",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "53"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 53. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-55",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "55"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 55. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-gris",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Gris",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Gris"
+    ],
+    "specs": {
+      "color": "gris"
+    },
+    "summary": "Motoventilador del evaporador para refrigeradoras no frost, color gris. No se identifica marca ni modelo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-tarjeta-mabe-005-impar",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Tarjeta Mabe 005 Impar",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 57.0,
+    "inStock": true,
+    "partType": "Tarjeta Electrónica",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "005",
+      "Impar"
+    ],
+    "specs": {},
+    "summary": "Tarjeta electrónica de control Mabe para refrigeradora, variante 005 (denominada impar en el inventario).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.bodegaaurrera.com.mx/ip/lavadoras-y-secadoras/tarjeta-de-refrigerador-mabe-original-225d7291g001-225d7291g001/00750229123178"
+      ],
+      "notes": "Los códigos 005/008 parecen sufijos de número de parte Mabe (p. ej. 225D7338G005), pero ninguna fuente confirma el significado de impar/par ni los modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-tarjeta-mabe-008-par",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Tarjeta Mabe 008 Par",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 57.0,
+    "inStock": true,
+    "partType": "Tarjeta Electrónica",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "008",
+      "Par"
+    ],
+    "specs": {},
+    "summary": "Tarjeta electrónica de control Mabe para refrigeradora, variante 008 (denominada par en el inventario).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.bodegaaurrera.com.mx/ip/lavadoras-y-secadoras/tarjeta-de-refrigerador-mabe-original-225d7291g001-225d7291g001/00750229123178"
+      ],
+      "notes": "Igual que la variante 005: sufijo probable de número de parte Mabe, sin fuente que confirme par/impar ni modelos.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-molecular-20-gr",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Molecular 20 gr",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.6,
+    "inStock": true,
+    "partType": "Filtro Deshidratador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "20 gr"
+    ],
+    "specs": {
+      "peso": "20 g"
+    },
+    "summary": "Filtro secador de tamiz molecular de 20 gramos que se instala en el circuito de refrigeración para retener humedad.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre; el tamiz molecular de 20 g es el formato habitual de filtro secador para refrigeración doméstica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-externo",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Externo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true,
+    "partType": "Filtro Deshidratador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Filtro externo para el circuito de refrigeración de refrigeradoras. El inventario no indica medidas ni modelo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-poro-n60",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Poro N60",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 84.0,
+    "inStock": true,
+    "partType": "Filtro Deshidratador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "N60"
+    ],
+    "specs": {},
+    "summary": "Filtro con malla de poro N60 para el circuito de refrigeración. El inventario no indica medidas ni aplicación exacta.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Código N60 sin fuente; podría referirse a la densidad de poro del filtro.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-negro-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Negro Lg",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Negro"
+    ],
+    "specs": {
+      "color": "negro"
+    },
+    "summary": "Motoventilador del evaporador color negro para refrigeradoras LG no frost.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-blanco-3c",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Blanco 3C",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 71.0,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3C"
+    ],
+    "specs": {
+      "color": "blanco"
+    },
+    "summary": "Motoventilador del evaporador color blanco, referencia 3C. No se identifica marca ni modelo de equipo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-negro-samsung-inverter",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Negro Samsung inverter",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 71.0,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Inverter"
+    ],
+    "specs": {
+      "color": "negro"
+    },
+    "summary": "Motoventilador del evaporador color negro para refrigeradoras Samsung con compresor inverter.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Marca Samsung tomada del nombre; el campo brand del inventario figura como Sin marca.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-d-evaporador-gris-his-mid-ron",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Evaporador Gris His/Mid/Ron",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "His",
+      "Mid",
+      "Ron"
+    ],
+    "specs": {
+      "color": "gris"
+    },
+    "summary": "Motoventilador de evaporador color gris; His/Mid/Ron parecen abreviaturas de marcas o modelos, sin identificar.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.25,
+      "sources": [],
+      "notes": "Abreviaturas His/Mid/Ron no resueltas (posiblemente Hisense, Midea, Ronda u otras); no se asigna compatibilidad.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-conctor-azul",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Conctor Azul",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Azul"
+    ],
+    "specs": {
+      "conector": "azul"
+    },
+    "summary": "Motoventilador de evaporador con conector azul. El nombre contiene un error tipográfico (conctor = conector).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-descongelamiento-lg-original",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia Descongelamiento LG Original",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 71.5,
+    "inStock": true,
+    "partType": "Resistencia de Descongelamiento",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Original"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento original LG para refrigeradoras no frost.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-evaporador-39x15-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador 39x15 coldex",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true,
+    "partType": "Evaporador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Coldex"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "39x15"
+    ],
+    "specs": {
+      "medidas": "39 x 15 (unidad presumida cm)"
+    },
+    "summary": "Evaporador de 39 x 15 cm para refrigeradoras Coldex.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-evaporador-4-vueltas",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador 4 vueltas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true,
+    "partType": "Evaporador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "4 vueltas"
+    ],
+    "specs": {
+      "vueltas": "4"
+    },
+    "summary": "Evaporador de tubo con 4 vueltas para refrigeradoras. No se indica marca ni medidas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-condensador-97x56",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 97X56",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true,
+    "partType": "Condensador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "97x56"
+    ],
+    "specs": {
+      "medidas": "97 x 56 (unidad presumida cm)"
+    },
+    "summary": "Condensador de 97 x 56 para refrigeradora. Medidas presumiblemente en centímetros.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-propileno-r1270-rtmap-pro-p-soldar-400-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Propileno R1270 /rtmap/pro p/soldar 400 gr",
+    "brand": "Yongan Gas Co.",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true,
+    "partType": "Gas Propileno",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "R1270",
+      "MAP/PRO"
+    ],
+    "specs": {
+      "contenido": "400 g",
+      "gas": "propileno R1270"
+    },
+    "summary": "Cilindro descartable de 400 g de gas propileno (R1270, tipo MAP/PRO) para soldadura fuerte y brazing de tuberías de cobre.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://hudsontech.com/refrigerants/our-products/r-1270",
+        "https://www.truper.com/ficha_tecnica_pdf/views/ficha-print.php?id=5224"
+      ],
+      "notes": "R1270 es propileno (confirmado por fichas de refrigerantes); cilindros de 400 g de propileno para soldar existen (p. ej. Truper). No se halló ficha de Yongan Gas Co.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-timer-d-descongelamiento-bosch-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer d/descongelamiento bosch / coldex",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true,
+    "partType": "Timer de Descongelamiento",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Bosch",
+      "Coldex"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Temporizador de descongelamiento para refrigeradoras Bosch y Coldex.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-interruptor-traba-central-pta-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Interruptor traba central pta. bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true,
+    "partType": "Interruptor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "pta."
+    ],
+    "specs": {},
+    "summary": "Interruptor de traba central, versión pta., para refrigeradoras Bosch. La abreviatura pta. no está identificada.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Búsqueda sin resultados para 'traba central' en Bosch; solo se hallaron interruptores de puerta/luz no equivalentes. Se infiere por el nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-interruptor-traba-central-tripolar-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Interruptor traba central tripolar bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 36.0,
+    "inStock": true,
+    "partType": "Interruptor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Tripolar"
+    ],
+    "specs": {
+      "terminales": "3"
+    },
+    "summary": "Interruptor tripolar (tres terminales) de traba central para refrigeradoras Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "Búsqueda sin resultados específicos; se infiere por el nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-timer-d-descongelamiento-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer d/descongelamiento LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true,
+    "partType": "Timer de Descongelamiento",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Temporizador de descongelamiento para refrigeradoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bimetalico-fermost7-coldex-mabe-indurama",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetalico fermost7 / coldex / mabe / indurama",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true,
+    "partType": "Bimetálico de Descongelamiento",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Coldex",
+      "Mabe",
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Fermost7"
+    ],
+    "specs": {},
+    "summary": "Termostato bimetálico de descongelamiento Fermost 7 para refrigeradoras Coldex, Mabe e Indurama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Marcas compatibles tomadas del nombre; la búsqueda de 'Fermost 7' no arrojó ficha técnica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-d-exhibidor-7w-c-hel-sop",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Exhibidor 7w c/hel-sop",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "7W"
+    ],
+    "specs": {
+      "potencia": "7 W"
+    },
+    "summary": "Ventilador de 7 W con hélice y soporte para evaporador de exhibidores refrigerados (vitrinas comerciales).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre (c/hel-sop = con hélice y soporte).",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-evap-conserv-indurama-nofrost-ri-929fdh",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evap. conserv Indurama nofrost RI-929FDH",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Evaporador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [
+      "RI-929FDH"
+    ],
+    "modelCodes": [
+      "RI-929FDH"
+    ],
+    "specs": {},
+    "summary": "Evaporador del compartimento conservador (refrigerador) para la refrigeradora Indurama no frost RI-929FDH.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.falabella.com.pe/falabella-pe/product/16571319/Refrigeradora-No-Frost-535-Lts-RI-799DH-Black"
+      ],
+      "notes": "El modelo RI-929FDH no aparece en las fuentes consultadas (sí otros Indurama no frost); la compatibilidad proviene solo del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-evaporador-samsung-original",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador Samsung original",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Evaporador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Original"
+    ],
+    "specs": {},
+    "summary": "Evaporador original Samsung para refrigeradoras. El inventario no indica modelo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-condensador-106x76",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 106X76",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true,
+    "partType": "Condensador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "106x76"
+    ],
+    "specs": {
+      "medidas": "106 x 76 (unidad presumida cm)"
+    },
+    "summary": "Condensador de 106 x 76 para refrigeradora. Medidas presumiblemente en centímetros.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-condensador-130x55",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 130X55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true,
+    "partType": "Condensador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "130x55"
+    ],
+    "specs": {
+      "medidas": "130 x 55 (unidad presumida cm)"
+    },
+    "summary": "Condensador de 130 x 55 para refrigeradora. Medidas presumiblemente en centímetros.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre del inventario; sin ficha web que lo confirme.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-51",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 51",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "51"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 51. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-resistencia-48",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 48",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Resistencia",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "48"
+    ],
+    "specs": {},
+    "summary": "Resistencia calefactora de descongelamiento para refrigeradora, referencia interna 48. El código numérico no está identificado con una medida o modelo específico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [],
+      "notes": "Solo código numérico interno; no hay fuente que lo relacione con medida ni modelo. Se asume resistencia de descongelamiento por la categoría.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-p-refrigeradora-25w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco p/refrigeradora 25w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true,
+    "partType": "Foco",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "25W"
+    ],
+    "specs": {
+      "potencia": "25 W"
+    },
+    "summary": "Foco incandescente de 25 W para la iluminación interior de refrigeradoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-refrigerador-led-bulbo-especial-5w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco refrigerador LED bulbo especial 5w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true,
+    "partType": "Foco LED",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "5W"
+    ],
+    "specs": {
+      "potencia": "5 W"
+    },
+    "summary": "Foco LED de 5 W con bulbo especial para la iluminación interior de refrigeradoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

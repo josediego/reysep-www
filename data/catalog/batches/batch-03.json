@@ -1,0 +1,432 @@
+[
+  {
+    "id": "r-cubierta-mediana-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mediana c/relieve",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-interior-triple-llama-boleado",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta interior triple llama boleado",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-pequena-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta pequeña c/relieve",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-grande-alternativo-liso-c-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador grande alternativo liso / c/falda",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 38.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-2-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 2\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-3-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 3\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-4-solco041",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 4\" solco041",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-5-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 5\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 64.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-4-solco033-v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 4\" solco033 v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-5-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 5\" p/034/033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-marron-coc-pie-foco-y-chispa",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Interruptor marron coc. pie foco y chispa",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-solco033-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" solco033 antigua",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-3-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 3\" p/034/033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-solcor273-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" solcor273 p/034 / 033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-5-solco033-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 5\" solco033 antigua",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-klimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" klimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-3-kimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 3\"kimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-4-klimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 4\" klimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-mate-quemador-3-ce46v2-58v2-45v2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base mate quemador 3\"ce46v2 / 58v2 / 45v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-4-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada 4\" Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-5-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada 5\" mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-cocina-emp-sole",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina emp sole",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-cocina-emp-sol-c-termocupla",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina emp sol c/termocupla",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-60-cm-p-cocina",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla 60 cm p/cocina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-switch-de-cocina-p-valvula",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Switch de cocina p/valvula",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-parrilla-rectangular-23x21-cm",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla rectangular 23x21 cm",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 56.0,
+    "inStock": true
+  },
+  {
+    "id": "r-parrilla-circular-22-cm",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla circular 22 cm",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 56.0,
+    "inStock": true
+  },
+  {
+    "id": "r-jgo-parrilla-p-cocina-5-h-3-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo parrilla p/cocina 5 H (3 piezas)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 195.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-bronce-1-2-x-3-8-gas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Conector bronce 1/2 x 3/8 gas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-cubiertas-alternativo-4-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubiertas alternativo (4 piezas)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubiertas-p-cocina-alternativa-grande",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubiertas p/cocina alternativa grande",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-p-cocina-alternativa-mediana",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta P/cocina alternativa mediana",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 14.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-p-cocina-alternativa-chica",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta p/cocina alternativa chica",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "p-cartucho-purificador-agua-sole",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Cartucho purificador agua Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cuchilla-picahielo-anillo-goma",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Cuchilla picahielo + anillo goma",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-p-jarra-licuadora",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Base p/jarra licuadora",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tapa-p-licuadora",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Tapa p/licuadora",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tomacorriente-doble-p-tierra-s-tierra-triple",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Tomacorriente doble p/tierra s/tierra /triple",
+    "brand": "Tcino",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tomacorriente-simple-t-sapito",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Tomacorriente simple t/sapito",
+    "brand": "Tcino",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "r-empaquetadura-p-licuadora-grande-y-mediana",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Empaquetadura p/licuadora grande y mediana",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-c-rosca-base-p-horno",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco c/rosca (base) p/ horno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-c-conector-base-p-horno",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco c/conector (base) p/ horno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-de-horno-sho009v2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla de horno sho009v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  }
+]

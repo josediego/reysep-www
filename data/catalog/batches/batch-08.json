@@ -1,0 +1,382 @@
+[
+  {
+    "id": "r-desviadora-t-espanola-acerado",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Desviadora t/española acerado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "p-cabezal-de-ducha-t-espanola-8-c-b",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Cabezal de ducha t/española 8\" c/b",
+    "brand": "Griarsa",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-de-abasto-60-cm-trensado",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo de abasto 60 cm trensado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-de-abasto-50-cm-trensado",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo de abasto 50 cm trensado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-rap-4-pin-p-start",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rap 4 pin p/start",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-rapiducha-4-pin",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rapiducha 4 pin",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-rapiducha-2-pin-p-premium",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rapiducha 2 pin p/premium",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "p-juego-ducha-espanola-3-piezas-desviador-tubos-abasto-y-brazo",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Juego ducha española (3 piezas: desviador, tubos abasto y brazo)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rapiducha-t-espanola-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Rapiducha t/española Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-encapulada-sole-4000-4500-5500w",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia encapulada sole 4000, 4500 / 5500w",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-abasto-trensado-plastico-1-50-m",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo abasto trensado/ plastico 1.50 m",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-abasto-trensado-0-40-m",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo abasto trensado 0.40 m",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-bipolar-c-cables-terminal-armado",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Interruptor bipolar c/cables terminal armado",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termostato-varilla-270-mm-corta",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termostato varilla 270 mm corta",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1200w-estanada-360-mm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1200w estañada 360 mm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 72.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-estanada-doblada-360-mm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w estañada doblada 360 mm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 132.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-dorada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w dorada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-2000w-dorada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 2000w dorada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 95.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-d-incoloy-t30-50-lt-evo-solteero88",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w d.incoloy t30-50 lt evo / solteero88",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 115.0,
+    "inStock": true
+  },
+  {
+    "id": "r-corte-termico-d-seguridad-terma-evol-elite",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Corte termico d/seguridad terma evol - elite",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termistor-d-temperatura-p-terma-elite-evol",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termistor d/temperatura p/terma elite - evol",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 62.0,
+    "inStock": true
+  },
+  {
+    "id": "r-control-de-temp-p-evol-elite",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Control de temp p/evol / elite",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-de-seguridad-integral-esferica",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula de seguridad integral / esferica",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-anodo-d-sacrificio-magnesio-20-cm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo d/sacrificio magnesio 20 cm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-anodo-de-magnesio-75-cm-termotanque",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo de magnesio 75 cm termotanque",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 240.0,
+    "inStock": true
+  },
+  {
+    "id": "p-kit-terma-solucion-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Kit terma solución sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 145.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-mezcladora-sole",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula mezcladora sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-anodo-de-magnesio-1m-termotanque",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo de magnesio /1m /termotanque",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-2000w-nacional-p-rotoplast",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 2000w nacional p/rotoplast",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-nacional-p-rotoplast",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w nacional p/rotoplast",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "p-ducha-fija-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Ducha fija sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-digital-p-nueva-terma-millenium",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Timer digital p/nueva terma millenium",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 135.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termostato-varilla-doble-seguridad-350mm-larga-inso24v2",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termostato varilla doble seguridad 350mm larga /inso24v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-rojo-para-terma",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco rojo para terma",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "p-elastomero-1m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 1m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 40.0,
+    "inStock": true
+  },
+  {
+    "id": "p-elastomero-0-6-m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 0.6 m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "p-elastomero-0-5-m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 0.5 m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-de-seguridad-3-4-bronce-importada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula de seguridad 3/4 bronce importada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 95.0,
+    "inStock": true
+  }
+]
