@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next"
 import { Figtree, Instrument_Serif } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { site } from "@/lib/site"
+import AnalyticsListener from "@/components/analytics-listener"
 import "./globals.css"
 
 const figtree = Figtree({
@@ -139,6 +140,7 @@ export default function RootLayout({
         />
         {children}
         <Analytics />
+        <AnalyticsListener />
       </body>
     </html>
   )

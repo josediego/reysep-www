@@ -12,6 +12,7 @@
     "lint": "eslint .",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "test": "vitest run --config tests/vitest.config.mts",
     "catalog:build": "node scripts/build-catalog.mjs",
     "catalog:validate": "node scripts/validate-catalog.mjs",
     "catalog:check": "node scripts/check-catalog.mjs"
@@ -36,7 +37,8 @@
     "eslint-config-next": "15.5.28",
     "postcss": "8.5.32",
     "tailwindcss": "4.3.3",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

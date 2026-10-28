@@ -18,6 +18,7 @@ pnpm install
 pnpm dev        # http://localhost:3000
 pnpm lint
 pnpm typecheck
+pnpm test       # vitest (helpers de analítica y formulario)
 pnpm build
 ```
 
@@ -36,6 +37,9 @@ components/
   section.tsx         # cabecera de sección compartida
   services.tsx, catalog.tsx, about.tsx, contact.tsx, footer.tsx
   icons.tsx           # iconos SVG propios (un solo trazo/peso)
+  analytics-listener.tsx  # mide clics en wa.me/tel: y búsquedas (delegado en document)
+  parts-request-form.tsx  # "¿No encuentra su repuesto?" → WhatsApp o correo
+lib/analytics.ts      # track() seguro + helpers de surface/item_id
 lib/site.ts           # datos públicos del sitio (teléfono, WhatsApp, correo, dirección, horario)
 lib/nav.ts            # ítems de navegación (header y footer)
 lib/catalog.ts        # tipo CatalogItem, categorías, marcas, formato de precio
@@ -43,6 +47,22 @@ lib/slugs.ts          # equipo ↔ slug, filtro puro del catálogo (servidor y c
 lib/catalog-data.ts   # inventario (generado desde el xlsx de la tienda)
 public/               # favicon y logos
 ```
+
+## Analítica
+
+Eventos personalizados de Vercel Analytics (requieren plan con custom events):
+
+| Evento | Propiedades |
+| --- | --- |
+| `inquiry_whatsapp` | `surface`, `item_id?` |
+| `inquiry_call` | `surface`, `item_id?` |
+| `catalog_search` | `query_length`, `has_results` (nunca el texto buscado) |
+| `parts_request_submit` | `channel` (`whatsapp`/`email`), `has_model`, `has_name`, `length` |
+
+`surface` sale del `[data-surface]` más cercano al enlace o, si no hay, de la ruta
+(`home`, `catalogo`, `item`). `item_id` sale de `/catalogo/<id>` o de `Ref. <id>`
+en el mensaje de WhatsApp. Para medir un CTA nuevo basta con que sea un enlace
+`https://wa.me/…` o `tel:`; añada `data-surface` a un contenedor para distinguirlo.
 
 ## Catálogo
 
