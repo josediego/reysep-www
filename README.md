@@ -1,81 +1,57 @@
-# Reysep - Servicio Técnico Especializado
+# Reysep — Servicio Técnico Especializado
 
-Sitio web moderno para Reysep, empresa de servicios técnicos especializados.
+Sitio web de Reysep. Landing de una sola página, estática, desplegada en Vercel
+(`https://www.reysep.com`, DNS en Cloudflare).
 
-## 🚀 Características
+## Stack
 
-- **Diseño moderno y responsivo** con gradientes y efectos visuales
-- **Logo oficial de Reysep** en versiones azul y blanca
-- **Navegación clara** con menús apropiados para servicios técnicos
-- **Interfaz profesional** con paleta de colores azul oscuro y blanco
-- **Componentes reutilizables** construidos con React y TypeScript
+- Next.js 15 (App Router), React 19, TypeScript
+- Tailwind CSS v4
+- `@paper-design/shaders-react` (fondo WebGL, respeta `prefers-reduced-motion`)
+- Vercel Analytics
 
-## 🛠️ Tecnologías
+## Desarrollo
 
-- **Next.js 14** - Framework de React
-- **TypeScript** - Tipado estático
-- **Tailwind CSS** - Framework de CSS utilitario
-- **Framer Motion** - Animaciones
-- **Paper Design Shaders** - Efectos visuales avanzados
-
-## 📁 Estructura del Proyecto
-
-```
-www/
-├── app/                 # Páginas y layout principal
-├── components/          # Componentes reutilizables
-│   ├── ui/             # Componentes de interfaz
-│   └── header.tsx      # Cabecera con logo y navegación
-├── public/             # Archivos estáticos
-│   ├── reysep-logo.svg        # Logo azul
-│   ├── reysep-logo-white.svg  # Logo blanco
-│   └── favicon.ico            # Favicon oficial
-└── styles/             # Estilos globales
+```sh
+pnpm install
+pnpm dev        # http://localhost:3000
+pnpm lint
+pnpm typecheck
+pnpm build
 ```
 
-## 🎨 Componentes Principales
+Node 22 (ver `engines`), pnpm 10 (ver `packageManager`).
 
-- **Header** - Navegación con logo de Reysep
-- **ShaderBackground** - Fondo con efectos visuales
-- **HeroContent** - Contenido principal de la página
-- **ThemeProvider** - Gestión de temas
+## Estructura
 
-## 🚀 Instalación y Uso
+```
+app/
+  layout.tsx          # metadata, fuentes, JSON-LD, Analytics
+  page.tsx            # home
+  globals.css         # Tailwind v4 + tokens
+  robots.ts, sitemap.ts, opengraph-image.tsx
+components/
+  header.tsx, hero-content.tsx, shader-background.tsx
+lib/site.ts           # datos públicos del sitio (teléfono, WhatsApp, tienda)
+public/               # favicon y logos
+```
 
-1. **Instalar dependencias:**
-   ```bash
-   pnpm install
-   ```
+## Datos de contacto
 
-2. **Ejecutar en desarrollo:**
-   ```bash
-   pnpm dev
-   ```
+`lib/site.ts` tiene `phone`, `whatsapp` y `shopUrl` en `null`. Al completarlos
+aparecen los botones "Llámanos", "Solicitar Servicio" y "Comprar Productos".
 
-3. **Construir para producción:**
-   ```bash
-   pnpm build
-   ```
+## Despliegue
 
-## 🌐 Acceso
+Vercel (team `wearebricks`, proyecto `reysep-www`) conectado al repo
+`josediego/reysep-www`. `main` → producción. Cabeceras de seguridad y CSP en
+`next.config.mjs`.
 
-- **Desarrollo:** http://localhost:3000
-- **Producción:** [URL de producción]
+DNS (Cloudflare, modo "DNS only"):
 
-## 📱 Responsive Design
+| Tipo  | Nombre | Valor                 |
+|-------|--------|-----------------------|
+| A     | `@`    | `76.76.21.21`         |
+| CNAME | `www`  | `cname.vercel-dns.com` (o el valor que muestre Vercel) |
 
-El sitio está optimizado para:
-- 📱 Móviles
-- 💻 Tablets
-- 🖥️ Escritorio
-
-## 🎯 Próximos Pasos
-
-- [ ] Implementar páginas de servicios
-- [ ] Agregar formulario de contacto
-- [ ] Integrar con sistema de gestión
-- [ ] Optimizar SEO
-
----
-
-**Desarrollado para Reysep E.I.R.L.** - Servicios técnicos especializados con la más alta calidad y profesionalismo.
+Los registros MX de Google se mantienen.
