@@ -3,7 +3,8 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import PartGlyph from "@/components/part-glyph"
+import ProductImage, { gallerySlides, imagesOf } from "@/components/product-image"
+import ProductGallery from "@/components/product-gallery"
 import AmbientGradient from "@/components/ambient-gradient"
 import { ArrowIcon, WhatsAppIcon, PhoneIcon } from "@/components/icons"
 import { catalog, displayName, formatPrice, itemById, kindLabel, relatedItems, validationLabel } from "@/lib/catalog"
@@ -44,6 +45,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
   const specs = Object.entries(item.specs)
   const fits = item.fitsBrands.filter((b) => b !== item.brand)
   const verified = item.validation?.status === "verified"
+  const photos = imagesOf(item, "detail")
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -54,6 +56,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
     category: item.category,
     ...(item.brand !== "Sin marca" ? { brand: { "@type": "Brand", name: item.brand } } : {}),
     ...(item.summary ? { description: item.summary } : {}),
+    ...(photos.length > 0 ? { image: photos.map((img) => img.url) } : {}),
     url: `${site.url}/catalogo/${item.id}`,
     ...(item.price !== null
       ? {
@@ -103,12 +106,23 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
 
         <article className="grid gap-8 md:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] md:gap-14">
           {/* Imagen / silueta */}
-          <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] text-blue-200/80 md:aspect-square md:self-start">
-            <PartGlyph item={item} size={120} className="md:h-56 md:w-56" />
-            <span className="absolute bottom-3 left-3 rounded-full border border-white/10 px-2.5 py-1 text-xs text-blue-100/75">
-              Foto pendiente
-            </span>
-          </div>
+          <ProductGallery
+            slides={gallerySlides(item)}
+            fallback={
+              <div className="relative md:self-start">
+                <ProductImage
+                  item={item}
+                  variant="detail"
+                  className="aspect-[4/3] w-full rounded-2xl md:aspect-square"
+                  glyphSize={120}
+                  glyphClassName="md:h-56 md:w-56"
+                />
+                <span className="absolute bottom-3 left-3 rounded-full border border-white/10 px-2.5 py-1 text-xs text-blue-100/75">
+                  Foto pendiente
+                </span>
+              </div>
+            }
+          />
 
           <div className="min-w-0">
             <p className="text-xs font-medium tracking-wide text-blue-200/80 uppercase">
@@ -210,9 +224,13 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
               {related.map((r) => (
                 <li key={r.id} className="border-t border-white/[0.08]">
                   <Link href={`/catalogo/${r.id}`} className="group flex items-center gap-3 py-3">
-                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-white/10 text-blue-200/80 group-hover:text-white">
-                      <PartGlyph item={r} size={24} />
-                    </span>
+                    <ProductImage
+                      item={r}
+                      variant="thumb"
+                      className="h-10 w-10 rounded-lg group-hover:text-white"
+                      glyphSize={24}
+                      decorative
+                    />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-sm text-white">{displayName(r)}</span>
                       <span className="block text-sm text-blue-100/75 tabular-nums">{formatPrice(r.price)}</span>

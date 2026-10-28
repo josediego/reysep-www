@@ -87,6 +87,31 @@ extra (precio de compra, cantidades de stock) se rechaza.
 - `pnpm catalog:check`: falla si `lib/catalog-data.ts` no coincide con lo que
   generaría `data/catalog/`. Ambos corren en CI.
 
+### Imágenes de producto
+
+Las fotos llegan en el mismo snapshot del CMS: cada ítem puede traer
+`images[]` con `{ variant, url, width, height, alt }` (ver `$defs/image` en el
+esquema). El CMS ya publica las variantes al tamaño final, así que el sitio no
+optimiza nada (`images.unoptimized`, sin `next/image`):
+
+- `thumb`: miniatura cuadrada (filas, relacionados, miniaturas de la galería).
+- `card`: imagen media; se usa en la imagen Open Graph de la ficha.
+- `detail`: foto grande de la ficha. Varias `detail` = galería, en el orden del
+  arreglo; la miniatura *i* usa la `thumb` *i* si existe, si no la propia `detail`.
+
+Las URL son absolutas en `https://cdn.reysep.com/...` (único host permitido en
+`img-src` de la CSP y en `images.remotePatterns`). Una URL de otro host no se
+muestra (la CSP la bloquea). `alt` vacío usa el título visible del ítem.
+
+Sin variante, se muestra la silueta `PartGlyph` (`components/product-image.tsx`);
+en la ficha, sin `detail` aparece la silueta con "Foto pendiente". El JSON-LD
+`Product.image` lista las URL `detail`. La imagen OG por ítem
+(`app/catalogo/[id]/opengraph-image.tsx`, 1200×630, generada en el build)
+descarga la `card` desde el CDN y, si no es PNG/JPEG (el CMS publica WebP), la
+convierte a PNG con `sharp` en el build; si no existe, falla la conversión o el
+CDN no responde (8 s), usa la silueta sobre el degradado de marca sin romper el
+build.
+
 ### Sincronización desde el CMS
 
 El CMS (`josediego/reysep-cms`) publica el snapshot en `https://cdn.reysep.com/...`
