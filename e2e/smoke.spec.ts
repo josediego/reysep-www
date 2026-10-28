@@ -16,8 +16,9 @@ test.describe("home", () => {
     // Mosaicos por equipo: enlazan a /catalogo?equipo=... o /catalogo/equipo/<slug>.
     const tiles = page.locator('a[href*="/catalogo?equipo="], a[href*="/catalogo/equipo/"]')
     expect(await tiles.count()).toBeGreaterThan(0)
+    // click() ya desplaza el mosaico al viewport; con movimiento reducido el reveal es solo opacidad.
     const first = tiles.first()
-    await first.scrollIntoViewIfNeeded()
+    await expect(first).toBeVisible()
     await first.click()
     await expect(page).toHaveURL(/\/catalogo(\?.*equipo=|\/equipo\/)/)
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible()
