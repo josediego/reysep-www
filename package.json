@@ -12,19 +12,25 @@
     "lint": "eslint .",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "test": "vitest run --config tests/vitest.config.mts",
     "catalog:build": "node scripts/build-catalog.mjs",
     "catalog:validate": "node scripts/validate-catalog.mjs",
-    "catalog:check": "node scripts/check-catalog.mjs"
+    "catalog:check": "node scripts/check-catalog.mjs",
+    "e2e": "playwright test",
+    "e2e:install": "playwright install --with-deps chromium"
   },
   "dependencies": {
     "@paper-design/shaders-react": "0.0.82",
     "@vercel/analytics": "2.0.1",
     "next": "15.5.28",
     "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "react-dom": "19.3.1",
+    "sharp": "0.35.5"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "@eslint/eslintrc": "3.3.7",
+    "@playwright/test": "1.64.1",
     "@tailwindcss/postcss": "4.3.3",
     "@types/node": "22.20.5",
     "@types/react": "19.3.0",
@@ -35,7 +41,8 @@
     "eslint-config-next": "15.5.28",
     "postcss": "8.5.32",
     "tailwindcss": "4.3.3",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

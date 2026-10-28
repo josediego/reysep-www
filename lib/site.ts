@@ -19,6 +19,9 @@ export const site = {
   address: null as string | null,
   // TODO(Reysep): horario de atención, ej. "Lun–Sáb 9:00–18:00".
   hours: null as string | null,
+  // TODO(Reysep): coordenadas del local (Google Maps → clic derecho → copiar coordenadas).
+  // `address`, `hours` y `geo` solo se publican en el JSON-LD `LocalBusiness` si no son null.
+  geo: null as { latitude: number; longitude: number } | null,
   // TODO(Reysep): URL de la tienda externa, si existe. Si es null, el catálogo
   // de esta página es la tienda y "Comprar Productos" lleva a #catalogo.
   shopUrl: null as string | null,

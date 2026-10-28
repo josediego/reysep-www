@@ -29,6 +29,7 @@ export default function StickyHeader({ watch = "#inicio" }: { watch?: string }) 
     <div
       aria-hidden={!shown}
       data-shown={shown ? "" : undefined}
+      data-surface="sticky_header"
       className="sticky-header fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-black/70 backdrop-blur-md"
     >
       <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between px-6 md:px-8">

@@ -10,7 +10,7 @@ const navLinkClass =
 
 export default function Header() {
   return (
-    <header className="hero-rise relative z-20 flex items-center justify-between p-6" style={{ "--d": "1300ms" } as React.CSSProperties}>
+    <header data-surface="header" className="hero-rise relative z-20 flex items-center justify-between p-6" style={{ "--d": "1300ms" } as React.CSSProperties}>
       <Link href="/" className="flex items-center" aria-label="Reysep, ir al inicio">
         <Image src="/reysep-logo-white.svg" alt="" width={116} height={38} priority className="h-12 w-auto" />
       </Link>

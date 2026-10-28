@@ -10,7 +10,7 @@ const csp = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://va.vercel-scripts.com`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob:",
+  "img-src 'self' data: blob: https://cdn.reysep.com",
   "font-src 'self' data:",
   "connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com",
   "worker-src 'self' blob:",
@@ -33,8 +33,13 @@ const securityHeaders = [
 
 const nextConfig = {
   poweredByHeader: false,
-  // Only SVG/PNG logos are served; the optimizer adds nothing for them.
-  images: { unoptimized: true },
+  // Logos SVG/PNG y fotos de producto con variantes ya generadas por el CMS
+  // (cdn.reysep.com): el optimizador no aporta nada. remotePatterns limita
+  // next/image a ese host si algún día se usa.
+  images: {
+    unoptimized: true,
+    remotePatterns: [{ protocol: "https", hostname: "cdn.reysep.com", pathname: "/**" }],
+  },
   async headers() {
     return [{ source: "/(.*)", headers: securityHeaders }]
   },

@@ -27,3 +27,10 @@ next-env.d.ts
 
 # os
 .DS_Store
+
+# playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.claude/

@@ -8,7 +8,7 @@ export default function HeroContent() {
   const external = service.startsWith("http")
 
   return (
-    <main id="contenido" tabIndex={-1} className="relative z-20 flex flex-1 items-end outline-none">
+    <section aria-label="Inicio" data-surface="hero" className="relative z-20 flex flex-1 items-end">
       <div className="max-w-lg p-6 pb-10 text-left md:p-8 md:pb-12">
         <div
           className="hero-rise relative mb-4 inline-flex items-center rounded-full bg-white/5 px-3 py-1 backdrop-blur-sm"
@@ -54,6 +54,6 @@ export default function HeroContent() {
           </Link>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
