@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "r-caja-d-transmicion-kraken-16a-22kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmicion Kraken 16a 22Kg",
+    "brand": "Kraken",
+    "unit": "unidad",
+    "price": 200.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "16a",
+      "22Kg"
+    ],
+    "specs": {
+      "capacidad": "22 kg"
+    },
+    "summary": "Caja de transmisión (reductor) para lavadoras de carga superior de la línea Kraken, con capacidades de hasta 22 kg.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.mercadolibre.com.pe/shorts/clips/CeSPB0/switch-puerta-lavadora-mabe-kraken-16kg-hasta-22kg"
+      ],
+      "notes": "Mercado Libre Perú confirma que Kraken es una línea de lavadoras Mabe de 16 a 22 kg; no se halló ficha de la caja de transmisión ni modelos compatibles. '16a' no pudo interpretarse (posible 16 kg).",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-balon-r134a-13-60-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R134A 13.60 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 58.0,
+    "inStock": true,
+    "partType": "Balón de Refrigerante",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "R134a"
+    ],
+    "specs": {
+      "refrigerante": "R134a",
+      "contenido": "13.60 kg"
+    },
+    "summary": "Refrigerante R134a presentado en balón de 13.60 kg, usado en la carga de sistemas de refrigeración.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.8,
+      "sources": [
+        "https://impact.ornl.gov/en/projects/next-generation-domestic-refrigerator-with-unprecedented-performa-5/"
+      ],
+      "notes": "Fuente confirma que R134a y R600a son refrigerantes usados en refrigeradoras domésticas.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-balon-r410-11-30-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R410 11.30 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Balón de Refrigerante",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "R410A"
+    ],
+    "specs": {
+      "refrigerante": "R410A",
+      "contenido": "11.30 kg"
+    },
+    "summary": "Refrigerante R410A presentado en balón de 11.30 kg, usado en la carga de sistemas de refrigeración.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "R410A es refrigerante de equipos de aire acondicionado; deducido del nombre, sin fuente web consultada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-balon-r600a-6-50-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R600A 6.50 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 26.0,
+    "inStock": true,
+    "partType": "Balón de Refrigerante",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "R600a"
+    ],
+    "specs": {
+      "refrigerante": "R600a",
+      "contenido": "6.50 kg"
+    },
+    "summary": "Refrigerante R600a presentado en balón de 6.50 kg, usado en la carga de sistemas de refrigeración.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.8,
+      "sources": [
+        "https://impact.ornl.gov/en/projects/next-generation-domestic-refrigerator-with-unprecedented-performa-5/"
+      ],
+      "notes": "Fuente confirma que R134a y R600a son refrigerantes usados en refrigeradoras domésticas.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-gas-refrigerante-r410a-850-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R410a 850 gr",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Gas Refrigerante",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "R410A"
+    ],
+    "specs": {
+      "refrigerante": "R410A",
+      "contenido": "850 g"
+    },
+    "summary": "Refrigerante R410A presentado en envase de 850 g, usado en la carga de sistemas de refrigeración.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "R410A es refrigerante de equipos de aire acondicionado; deducido del nombre, sin fuente web consultada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-gas-refrigerante-r134a-1-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R134a 1 kg",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true,
+    "partType": "Gas Refrigerante",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "R134a"
+    ],
+    "specs": {
+      "refrigerante": "R134a",
+      "contenido": "1 kg"
+    },
+    "summary": "Refrigerante R134a presentado en envase de 1 kg, usado en la carga de sistemas de refrigeración.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.8,
+      "sources": [
+        "https://impact.ornl.gov/en/projects/next-generation-domestic-refrigerator-with-unprecedented-performa-5/"
+      ],
+      "notes": "Fuente confirma que R134a y R600a son refrigerantes usados en refrigeradoras domésticas.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-gas-refrigerante-r600a-420-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R600a 420 gr",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true,
+    "partType": "Gas Refrigerante",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "R600a"
+    ],
+    "specs": {
+      "refrigerante": "R600a",
+      "contenido": "420 g"
+    },
+    "summary": "Refrigerante R600a presentado en envase de 420 g, usado en la carga de sistemas de refrigeración.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.8,
+      "sources": [
+        "https://impact.ornl.gov/en/projects/next-generation-domestic-refrigerator-with-unprecedented-performa-5/"
+      ],
+      "notes": "Fuente confirma que R134a y R600a son refrigerantes usados en refrigeradoras domésticas.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-timer-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer Coldex",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true,
+    "partType": "Timer de Deshielo",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Coldex"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Timer de deshielo para refrigeradoras no frost; alterna entre el ciclo de enfriamiento y la resistencia de descongelación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.fix.com/parts/fix12585793/defrost-timer-5304518034/"
+      ],
+      "notes": "Fuente describe la función del timer de deshielo; no se halló compatibilidad por marca ni modelo.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-timer-indurama-mabe-inresa-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer - Indurama/Mabe/inresa / electrolux",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true,
+    "partType": "Timer de Deshielo",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Indurama",
+      "Mabe",
+      "Inresa",
+      "Electrolux"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Timer de deshielo para refrigeradoras no frost; alterna entre el ciclo de enfriamiento y la resistencia de descongelación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.fix.com/parts/fix12585793/defrost-timer-5304518034/"
+      ],
+      "notes": "Fuente describe la función del timer de deshielo; no se halló compatibilidad por marca ni modelo.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-timer-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true,
+    "partType": "Timer de Deshielo",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Timer de deshielo para refrigeradoras no frost; alterna entre el ciclo de enfriamiento y la resistencia de descongelación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.fix.com/parts/fix12585793/defrost-timer-5304518034/"
+      ],
+      "notes": "Fuente describe la función del timer de deshielo; no se halló compatibilidad por marca ni modelo.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-timer-samsung-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer Samsung / electrolux",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true,
+    "partType": "Timer de Deshielo",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Samsung",
+      "Electrolux"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Timer de deshielo para refrigeradoras no frost; alterna entre el ciclo de enfriamiento y la resistencia de descongelación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.fix.com/parts/fix12585793/defrost-timer-5304518034/"
+      ],
+      "notes": "Fuente describe la función del timer de deshielo; no se halló compatibilidad por marca ni modelo.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-nrml",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Nrml",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true,
+    "partType": "Ventilador (Motoventilador)",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Motoventilador para evaporador de refrigeradora no frost; el nombre no precisa marca ni dimensiones ('Nrml' sin interpretar).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-d-exhibidor-10w-c-hel-sop",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Exhibidor 10w c/hel-sop",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 85.0,
+    "inStock": true,
+    "partType": "Ventilador de Exhibidor",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "10w"
+    ],
+    "specs": {
+      "potencia": "10 W"
+    },
+    "summary": "Ventilador de 10 W con soporte y hélice, para exhibidores refrigerados.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bimetal-coldex-ngr",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Coldex Ngr",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Bimetálico",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Coldex"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Ngr"
+    ],
+    "specs": {},
+    "summary": "Termostato bimetálico de deshielo que corta la resistencia de descongelación al subir la temperatura del evaporador.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.hunker.com/12154684/how-do-defrost-bi-metal-thermostats-work/"
+      ],
+      "notes": "Fuente confirma la función del termostato bimetálico de deshielo; compatibilidad por marca/modelo no verificada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvulas-d-servicio",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Valvulas d/Servicio",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.6,
+    "inStock": true,
+    "partType": "Válvula de Servicio",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Válvula de servicio (tipo pinchador o acceso) para conectar manómetros y cargar o recuperar refrigerante en sistemas de refrigeración.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; tipo exacto no especificado.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-soldadura-d-plata",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Soldadura d/Plata",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.6,
+    "inStock": true,
+    "partType": "Soldadura de Plata",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "material": "aleación de plata"
+    },
+    "summary": "Varilla de soldadura con aporte de plata para unir tuberías de cobre en circuitos de refrigeración.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente consultada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bimetal-coldex-chp",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Coldex Chp",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Bimetálico",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Coldex"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Chp"
+    ],
+    "specs": {},
+    "summary": "Termostato bimetálico de deshielo que corta la resistencia de descongelación al subir la temperatura del evaporador.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.hunker.com/12154684/how-do-defrost-bi-metal-thermostats-work/"
+      ],
+      "notes": "Fuente confirma la función del termostato bimetálico de deshielo; compatibilidad por marca/modelo no verificada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bimetal-mabe",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Bimetálico",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Termostato bimetálico de deshielo que corta la resistencia de descongelación al subir la temperatura del evaporador.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.hunker.com/12154684/how-do-defrost-bi-metal-thermostats-work/"
+      ],
+      "notes": "Fuente confirma la función del termostato bimetálico de deshielo; compatibilidad por marca/modelo no verificada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-sms",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Sensor de Temperatura",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Sensor de temperatura (termistor) para refrigeradoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bimetal-champu-mod-varios",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal (champu) Mod Varios",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.0,
+    "inStock": true,
+    "partType": "Bimetálico",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "champu"
+    ],
+    "specs": {},
+    "summary": "Termostato bimetálico de deshielo de tipo 'champú' (cápsula), de uso en modelos varios de refrigeradoras; el nombre no precisa marca.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.hunker.com/12154684/how-do-defrost-bi-metal-thermostats-work/"
+      ],
+      "notes": "Fuente confirma la función del termostato bimetálico de deshielo; compatibilidad por marca/modelo no verificada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-fusible-sms",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Fusible SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Fusible Térmico",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Fusible térmico de protección del circuito de deshielo para refrigeradoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 13.0,
+    "inStock": true,
+    "partType": "Sensor de Temperatura",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Sensor de temperatura (termistor) para refrigeradoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-indurama",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 13.0,
+    "inStock": true,
+    "partType": "Sensor de Temperatura",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Sensor de temperatura (termistor) para refrigeradoras Indurama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 29.0,
+    "inStock": true,
+    "partType": "Sensor de Temperatura",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Sensor de temperatura (termistor) para refrigeradoras Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-bosch-chico",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Bosch Chico",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 23.0,
+    "inStock": true,
+    "partType": "Sensor de Temperatura",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Sensor de temperatura de formato pequeño para refrigeradoras Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-indurama-ngr-redondo",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Indurama Ngr Redondo",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true,
+    "partType": "Ventilador",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "color": "negro",
+      "forma": "redondo"
+    },
+    "summary": "Motoventilador redondo de color negro para refrigeradoras Indurama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web que confirme modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-rollo-tubo-capilar-0-36-x-100-mtr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tubo Capilar 0.36 x 100 mtr.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 286.0,
+    "inStock": true,
+    "partType": "Rollo de Tubo Capilar",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "0.36"
+    ],
+    "specs": {
+      "diámetro": "0.36",
+      "longitud": "100 m"
+    },
+    "summary": "Rollo de 100 m de tubo capilar de diámetro interior 0.36 (unidad no especificada en el nombre, probablemente pulgadas), para restricción de flujo en circuitos de refrigeración.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web consultada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-rollo-tubo-capilar-0-31-x-100-mtr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tubo Capilar 0.31 x 100 mtr.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 286.0,
+    "inStock": true,
+    "partType": "Rollo de Tubo Capilar",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "0.31"
+    ],
+    "specs": {
+      "diámetro": "0.31",
+      "longitud": "100 m"
+    },
+    "summary": "Rollo de 100 m de tubo capilar de diámetro interior 0.31 (unidad no especificada en el nombre, probablemente pulgadas), para restricción de flujo en circuitos de refrigeración.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web consultada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-led-12v",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco Led 12v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Foco LED",
+    "appliance": "Iluminación",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "12v"
+    ],
+    "specs": {
+      "voltaje": "12 V"
+    },
+    "summary": "Foco LED de 12 V; el nombre no indica potencia ni casquillo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-1-4-x-15mt",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 1/4 x 15mt",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 123.5,
+    "inStock": true,
+    "partType": "Rollo de Tubería de Cobre",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/4"
+    ],
+    "specs": {
+      "diámetro": "1/4 in",
+      "longitud": "15 m"
+    },
+    "summary": "Rollo de tubería de cobre de 1/4 de pulgada y 15 m de longitud, para instalaciones de refrigeración y aire acondicionado.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-5-16",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 5/16",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 149.5,
+    "inStock": true,
+    "partType": "Rollo de Tubería de Cobre",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "5/16"
+    ],
+    "specs": {
+      "diámetro": "5/16 in"
+    },
+    "summary": "Rollo de tubería de cobre de 5/16 de pulgada, para instalaciones de refrigeración y aire acondicionado.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre; longitud no indicada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-3-16",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 3/16",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 117.0,
+    "inStock": true,
+    "partType": "Rollo de Tubería de Cobre",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3/16"
+    ],
+    "specs": {
+      "diámetro": "3/16 in"
+    },
+    "summary": "Rollo de tubería de cobre de 3/16 de pulgada, para instalaciones de refrigeración y aire acondicionado.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre; longitud no indicada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-3-8",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 208.0,
+    "inStock": true,
+    "partType": "Rollo de Tubería de Cobre",
+    "appliance": "Otro",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3/8"
+    ],
+    "specs": {
+      "diámetro": "3/8 in"
+    },
+    "summary": "Rollo de tubería de cobre de 3/8 de pulgada, para instalaciones de refrigeración y aire acondicionado.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre; longitud no indicada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-embraco-1-4-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/4 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/4",
+      "R134a"
+    ],
+    "specs": {
+      "potencia": "1/4 HP",
+      "refrigerante": "R134a"
+    },
+    "summary": "Motocompresor hermético de 1/4 HP para refrigeradoras domésticas con refrigerante R134a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ff75hbk1.1.html",
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ne2121z1.1.html"
+      ],
+      "notes": "Embraco comercializa compresores domésticos de 1/4, 1/5 y 1/3 HP (series EM/FF); no se halló ficha que confirme el código exacto ni modelos de equipo. El código '134a' se interpreta como gas R134a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-embraco-1-4-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/4 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/4",
+      "R600"
+    ],
+    "specs": {
+      "potencia": "1/4 HP",
+      "refrigerante": "R600a"
+    },
+    "summary": "Motocompresor hermético de 1/4 HP para refrigeradoras domésticas con refrigerante R600a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ff75hbk1.1.html",
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ne2121z1.1.html"
+      ],
+      "notes": "Embraco comercializa compresores domésticos de 1/4, 1/5 y 1/3 HP (series EM/FF); no se halló ficha que confirme el código exacto ni modelos de equipo. El código 'R600' se interpreta como gas R600a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-embraco-1-5-134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/5 134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 315.0,
+    "inStock": false,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/5",
+      "134a"
+    ],
+    "specs": {
+      "potencia": "1/5 HP",
+      "refrigerante": "R134a"
+    },
+    "summary": "Motocompresor hermético de 1/5 HP para refrigeradoras domésticas con refrigerante R134a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ff75hbk1.1.html",
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ne2121z1.1.html"
+      ],
+      "notes": "Embraco comercializa compresores domésticos de 1/4, 1/5 y 1/3 HP (series EM/FF); no se halló ficha que confirme el código exacto ni modelos de equipo. El código '134a' se interpreta como gas R134a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-embraco-1-5-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/5 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 315.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/5",
+      "R600"
+    ],
+    "specs": {
+      "potencia": "1/5 HP",
+      "refrigerante": "R600a"
+    },
+    "summary": "Motocompresor hermético de 1/5 HP para refrigeradoras domésticas con refrigerante R600a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ff75hbk1.1.html",
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ne2121z1.1.html"
+      ],
+      "notes": "Embraco comercializa compresores domésticos de 1/4, 1/5 y 1/3 HP (series EM/FF); no se halló ficha que confirme el código exacto ni modelos de equipo. El código 'R600' se interpreta como gas R600a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-embraco-1-6-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/6 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/6",
+      "R134a"
+    ],
+    "specs": {
+      "potencia": "1/6 HP",
+      "refrigerante": "R134a"
+    },
+    "summary": "Motocompresor hermético de 1/6 HP para refrigeradoras domésticas con refrigerante R134a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ff75hbk1.1.html",
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ne2121z1.1.html"
+      ],
+      "notes": "Embraco comercializa compresores domésticos de 1/4, 1/5 y 1/3 HP (series EM/FF); no se halló ficha que confirme el código exacto ni modelos de equipo. El código '134a' se interpreta como gas R134a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-embraco-1-6-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/6 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/6",
+      "R600"
+    ],
+    "specs": {
+      "potencia": "1/6 HP",
+      "refrigerante": "R600a"
+    },
+    "summary": "Motocompresor hermético de 1/6 HP para refrigeradoras domésticas con refrigerante R600a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ff75hbk1.1.html",
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ne2121z1.1.html"
+      ],
+      "notes": "Embraco comercializa compresores domésticos de 1/4, 1/5 y 1/3 HP (series EM/FF); no se halló ficha que confirme el código exacto ni modelos de equipo. El código 'R600' se interpreta como gas R600a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-embraco-1-3-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/3 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/3",
+      "R134a"
+    ],
+    "specs": {
+      "potencia": "1/3 HP",
+      "refrigerante": "R134a"
+    },
+    "summary": "Motocompresor hermético de 1/3 HP para refrigeradoras domésticas con refrigerante R134a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ff75hbk1.1.html",
+        "https://www.homelectrical.com/refrigeration-compressors/emb-ne2121z1.1.html"
+      ],
+      "notes": "Embraco comercializa compresores domésticos de 1/4, 1/5 y 1/3 HP (series EM/FF); no se halló ficha que confirme el código exacto ni modelos de equipo. El código '134a' se interpreta como gas R134a.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-1-4-r134a-masterlux-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/4 R134a Masterlux/Electrolux",
+    "brand": "Electrolux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Electrolux",
+      "Masterlux"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/4",
+      "R134a"
+    ],
+    "specs": {
+      "potencia": "1/4 HP",
+      "refrigerante": "R134a"
+    },
+    "summary": "Motocompresor hermético de 1/4 HP para refrigeradoras domésticas con refrigerante R134a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://loja.electrolux.com.br/compressor-electrolux-60hz-el80h-1-4-r134a/p"
+      ],
+      "notes": "Electrolux Brasil vende compresor EL80H de 1/4 HP R134a 60 Hz; no se confirmó equivalencia con este ítem ni modelos de equipo.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-1-4-r600-masterlux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/4 R600 Masterlux",
+    "brand": "Masterlux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Masterlux"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/4",
+      "R600"
+    ],
+    "specs": {
+      "potencia": "1/4 HP",
+      "refrigerante": "R600a"
+    },
+    "summary": "Motocompresor hermético de 1/4 HP para refrigeradoras domésticas con refrigerante R600a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://loja.electrolux.com.br/compressor-electrolux-el80c-1-4-r600a-60hz/p"
+      ],
+      "notes": "Electrolux Brasil vende compresor EL80C de 1/4 HP R600a 60 Hz como referencia de tipo; no se halló información sobre Masterlux ni modelos compatibles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-motocompresor-1-5-r600-masterlux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/5 R600 Masterlux",
+    "brand": "Masterlux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true,
+    "partType": "Motocompresor",
+    "appliance": "Refrigeradora",
+    "fitsBrands": [
+      "Masterlux"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/5",
+      "R600"
+    ],
+    "specs": {
+      "potencia": "1/5 HP",
+      "refrigerante": "R600a"
+    },
+    "summary": "Motocompresor hermético de 1/5 HP para refrigeradoras domésticas con refrigerante R600a.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; no se halló información sobre Masterlux.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

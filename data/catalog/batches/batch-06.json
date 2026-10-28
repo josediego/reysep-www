@@ -1,0 +1,432 @@
+[
+  {
+    "id": "r-caja-d-transmicion-kraken-16a-22kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmicion Kraken 16a 22Kg",
+    "brand": "Kraken",
+    "unit": "unidad",
+    "price": 200.0,
+    "inStock": true
+  },
+  {
+    "id": "p-balon-r134a-13-60-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R134A 13.60 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "p-balon-r410-11-30-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R410 11.30 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "p-balon-r600a-6-50-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R600A 6.50 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "p-gas-refrigerante-r410a-850-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R410a 850 gr",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "p-gas-refrigerante-r134a-1-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R134a 1 kg",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "p-gas-refrigerante-r600a-420-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R600a 420 gr",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer Coldex",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-indurama-mabe-inresa-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer - Indurama/Mabe/inresa / electrolux",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-samsung-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer Samsung / electrolux",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-nrml",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Nrml",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-d-exhibidor-10w-c-hel-sop",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Exhibidor 10w c/hel-sop",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 85.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-coldex-ngr",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Coldex Ngr",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvulas-d-servicio",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Valvulas d/Servicio",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.6,
+    "inStock": true
+  },
+  {
+    "id": "p-soldadura-d-plata",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Soldadura d/Plata",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.6,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-coldex-chp",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Coldex Chp",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-mabe",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-sms",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-champu-mod-varios",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal (champu) Mod Varios",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.0,
+    "inStock": true
+  },
+  {
+    "id": "r-fusible-sms",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Fusible SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 13.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-indurama",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 13.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 29.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-bosch-chico",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Bosch Chico",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 23.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-indurama-ngr-redondo",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Indurama Ngr Redondo",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tubo-capilar-0-36-x-100-mtr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tubo Capilar 0.36 x 100 mtr.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 286.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tubo-capilar-0-31-x-100-mtr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tubo Capilar 0.31 x 100 mtr.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 286.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-led-12v",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco Led 12v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-1-4-x-15mt",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 1/4 x 15mt",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 123.5,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-5-16",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 5/16",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 149.5,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-3-16",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 3/16",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 117.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-3-8",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 208.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-4-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/4 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-4-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/4 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-5-134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/5 134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 315.0,
+    "inStock": false
+  },
+  {
+    "id": "r-motocompresor-embraco-1-5-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/5 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 315.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-6-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/6 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-6-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/6 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-3-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/3 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-1-4-r134a-masterlux-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/4 R134a Masterlux/Electrolux",
+    "brand": "Electrolux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-1-4-r600-masterlux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/4 R600 Masterlux",
+    "brand": "Masterlux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-1-5-r600-masterlux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/5 R600 Masterlux",
+    "brand": "Masterlux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true
+  }
+]

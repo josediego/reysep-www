@@ -1,0 +1,432 @@
+[
+  {
+    "id": "r-sincronico-moderno-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico moderno samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-completa-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-completa-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-completa-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-askoll",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba Askoll",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico Daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-lg-220",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG 220",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-lg-13-v",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG 13 v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-ingreso",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera Ingreso",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-20",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 20",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-20-5",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 20,5",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-21",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 21",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-21-5",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 21.5",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-22",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 22",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-de-malla-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro de malla LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-malla-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro malla Daewoo",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-samsung-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Samsung Grande",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-samsung-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Samsung Mediana",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-daewoo-grande-acrilica",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Daewoo Grande Acrilica",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-daewoo-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Daewoo Mediana",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-lg-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta LG Mediana",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-lg-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta LG Grande",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motor-blanco-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Motor Blanco LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 210.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-robertshaw-d-desague",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba Robertshaw d/Desague",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 42.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-22-kg-lg-mid-ma",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba 22 Kg LG/Mid/Ma",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-6h-plancha-grande-cuello-bajo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja 6H Plancha Grande Cuello Bajo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-1-dedo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/transmision 1 dedo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-bosch",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision Bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-trall-med-ala-electrolux-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision Trall Med Ala Electrolux/Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-8h-c-pequeno",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja 8H c. Pequeño",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-lg-invt-pole-lisa",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision LG Invt Pole Lisa",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 200.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-64",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #64",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-65-lg-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #65 LG / Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-66",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #66",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-70",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #70",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-72",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #72",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-55",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-58",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #58",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-61",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #61",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-62",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #62",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-63",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #63",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  }
+]

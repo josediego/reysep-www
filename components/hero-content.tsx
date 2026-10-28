@@ -1,16 +1,22 @@
-import { links } from "@/lib/site"
+import Link from "next/link"
+import { links, whatsappWith } from "@/lib/site"
+import { HomeIcon } from "@/components/icons"
+import { counts } from "@/lib/catalog"
 
 export default function HeroContent() {
+  const service = whatsappWith("Hola Reysep, quiero solicitar un servicio técnico.") ?? links.call ?? "#contacto"
+  const external = service.startsWith("http")
+
   return (
-    <main id="contenido" tabIndex={-1} className="absolute bottom-8 left-8 z-20 max-w-lg outline-none">
-      <div className="text-left">
+    <main id="contenido" tabIndex={-1} className="relative z-20 flex flex-1 items-end outline-none">
+      <div className="max-w-lg p-6 pb-10 text-left md:p-8 md:pb-12">
         <div
           className="relative mb-4 inline-flex items-center rounded-full bg-white/5 px-3 py-1 backdrop-blur-sm"
           style={{ filter: "url(#glass-effect)" }}
         >
-          <div className="absolute top-0 left-1 right-1 h-px rounded-full bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-          <span className="relative z-10 text-xs font-light text-white/90">
-            <span aria-hidden="true">🏠</span> Reysep Homecenter
+          <div className="absolute top-0 right-1 left-1 h-px rounded-full bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+          <span className="relative z-10 inline-flex items-center gap-1.5 text-xs font-light text-white/90">
+            <HomeIcon size={14} /> Reysep Homecenter
           </span>
         </div>
 
@@ -20,33 +26,26 @@ export default function HeroContent() {
           <span className="font-light tracking-tight text-white">Especializado</span>
         </h1>
 
-        <p className="mb-4 text-sm leading-relaxed font-normal text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
-          Ofrecemos servicios técnicos especializados con la más alta calidad y profesionalismo. Reparaciones,
-          mantenimiento y soluciones técnicas adaptadas a sus necesidades.
+        <p className="mb-6 max-w-prose text-base leading-relaxed font-normal text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
+          Reparación, mantenimiento e instalación de equipos del hogar, con un catálogo de {counts.total} productos y
+          repuestos listos para entregar.
         </p>
 
-        {(links.whatsapp || links.shop) && (
-          <div className="flex flex-wrap items-center gap-4">
-            {links.whatsapp && (
-              <a
-                href={links.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-white px-8 py-3 text-xs font-medium text-blue-600 transition-all duration-200 hover:bg-white/90"
-              >
-                Solicitar Servicio
-              </a>
-            )}
-            {links.shop && (
-              <a
-                href={links.shop}
-                className="rounded-full border border-white/50 bg-transparent px-8 py-3 text-xs font-normal text-white transition-all duration-200 hover:border-white/70 hover:bg-white/10"
-              >
-                Comprar Productos
-              </a>
-            )}
-          </div>
-        )}
+        <div className="flex flex-wrap items-center gap-4">
+          <a
+            href={service}
+            {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+            className="rounded-full bg-white px-8 py-3.5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
+          >
+            Solicitar Servicio
+          </a>
+          <Link
+            href={links.shop}
+            className="rounded-full border border-white/50 bg-transparent px-8 py-3.5 text-sm font-medium text-white transition-all duration-200 hover:border-white/70 hover:bg-white/10"
+          >
+            Ver Catálogo
+          </Link>
+        </div>
       </div>
     </main>
   )

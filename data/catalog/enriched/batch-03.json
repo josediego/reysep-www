@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "r-cubierta-mediana-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mediana c/relieve",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Cubierta de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "mediana",
+      "acabado": "con relieve"
+    },
+    "summary": "Cubierta (tapa) de quemador de tamaño mediano con relieve para cocinas a gas Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha web de la pieza.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-interior-triple-llama-boleado",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta interior triple llama boleado",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true,
+    "partType": "Cubierta de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tipo": "interior triple llama",
+      "acabado": "boleado"
+    },
+    "summary": "Cubierta interior para quemador de triple llama con borde boleado, para cocinas a gas Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha web de la pieza.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-pequena-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta pequeña c/relieve",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Cubierta de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "pequeña",
+      "acabado": "con relieve"
+    },
+    "summary": "Cubierta (tapa) de quemador de tamaño pequeño con relieve para cocinas a gas Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha web de la pieza.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-quemador-grande-alternativo-liso-c-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador grande alternativo liso / c/falda",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 38.0,
+    "inStock": true,
+    "partType": "Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande",
+      "tipo": "alternativo, liso, con falda"
+    },
+    "summary": "Quemador de gas grande de tipo alternativo (no original), liso y con falda, para cocinas domésticas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; la marca figura Sole pero 'alternativo' indica pieza genérica compatible.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-2-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 2\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO040",
+      "2\""
+    ],
+    "specs": {
+      "diámetro": "2\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 2\" y forma cuadrada. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-4-quemadores-solco040-negro/p"
+      ],
+      "notes": "Los códigos SOLCO040 corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-3-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 3\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO040",
+      "3\""
+    ],
+    "specs": {
+      "diámetro": "3\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 3\" y forma cuadrada. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-4-quemadores-solco040-negro/p"
+      ],
+      "notes": "Los códigos SOLCO040 corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-4-solco041",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 4\" solco041",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO041",
+      "4\""
+    ],
+    "specs": {
+      "diámetro": "4\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 4\" y forma cuadrada. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Código deducido del nombre; no hallado en fuentes web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-5-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 5\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 64.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO040",
+      "5\""
+    ],
+    "specs": {
+      "diámetro": "5\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 5\" y forma cuadrada. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-4-quemadores-solco040-negro/p"
+      ],
+      "notes": "Los códigos SOLCO040 corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-4-solco033-v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 4\" solco033 v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO033",
+      "4\""
+    ],
+    "specs": {
+      "diámetro": "4\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 4\", para parrilla. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-5-quemadores-solco033-negro/p"
+      ],
+      "notes": "Los códigos SOLCO033 corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-5-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 5\" p/034/033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO034/033V",
+      "5\""
+    ],
+    "specs": {
+      "diámetro": "5\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 5\", para parrilla. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-5-quemadores-solco033-negro/p"
+      ],
+      "notes": "Los códigos SOLCO034/033V corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-interruptor-marron-coc-pie-foco-y-chispa",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Interruptor marron coc. pie foco y chispa",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true,
+    "partType": "Interruptor",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "color": "marrón",
+      "funciones": "foco y chispa"
+    },
+    "summary": "Interruptor marrón para cocina de pie, con función de encendido de foco del horno y de chispa (encendido eléctrico).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; marca no indicada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-solco033-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" solco033 antigua",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO033",
+      "2\""
+    ],
+    "specs": {
+      "diámetro": "2\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 2\", para parrilla (versión antigua). Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-5-quemadores-solco033-negro/p"
+      ],
+      "notes": "Los códigos SOLCO033 corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-3-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 3\" p/034/033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO034/033V",
+      "3\""
+    ],
+    "specs": {
+      "diámetro": "3\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 3\", para parrilla. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-5-quemadores-solco033-negro/p"
+      ],
+      "notes": "Los códigos SOLCO034/033V corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-solcor273-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" solcor273 p/034 / 033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCOR273",
+      "2\""
+    ],
+    "specs": {
+      "diámetro": "2\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 2\", para parrilla. Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Código deducido del nombre; no hallado en fuentes web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-5-solco033-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 5\" solco033 antigua",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCO033",
+      "5\""
+    ],
+    "specs": {
+      "diámetro": "5\""
+    },
+    "summary": "Base enlozada para parrilla de cocina Sole, de 5\", para parrilla (versión antigua). Soporta el quemador sobre la cubierta de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-5-quemadores-solco033-negro/p"
+      ],
+      "notes": "Los códigos SOLCO033 corresponden a cocinas Sole existentes (ficha de tienda), pero ninguna fuente confirma la pieza ni la compatibilidad exacta; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-klimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" klimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Klimatic"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "2\""
+    ],
+    "specs": {
+      "diámetro": "2\""
+    },
+    "summary": "Base enlozada de 2\" para parrilla de cocinas Klimatic.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/marca/KLIMATIC"
+      ],
+      "notes": "Klimatic es marca de cocinas vendidas en Perú (Falabella, Sodimac), pero no se hallaron fuentes del repuesto; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-3-kimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 3\"kimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Klimatic"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "3\""
+    ],
+    "specs": {
+      "diámetro": "3\""
+    },
+    "summary": "Base enlozada de 3\" para parrilla de cocinas Klimatic.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/marca/KLIMATIC"
+      ],
+      "notes": "Klimatic es marca de cocinas vendidas en Perú (Falabella, Sodimac), pero no se hallaron fuentes del repuesto; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-4-klimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 4\" klimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Klimatic"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "4\""
+    ],
+    "specs": {
+      "diámetro": "4\""
+    },
+    "summary": "Base enlozada de 4\" para parrilla de cocinas Klimatic.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/marca/KLIMATIC"
+      ],
+      "notes": "Klimatic es marca de cocinas vendidas en Perú (Falabella, Sodimac), pero no se hallaron fuentes del repuesto; se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-mate-quemador-3-ce46v2-58v2-45v2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base mate quemador 3\"ce46v2 / 58v2 / 45v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "CE46V2",
+      "CE58V2",
+      "CE45V2"
+    ],
+    "specs": {
+      "diámetro": "3\"",
+      "acabado": "mate"
+    },
+    "summary": "Base mate de 3\" para quemador de cocina Sole; el nombre la asocia a los códigos CE46V2, CE58V2 y CE45V2.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.2,
+      "sources": [],
+      "notes": "Los códigos CE46V2/CE58V2/CE45V2 no aparecen en tiendas ni sitios de Sole consultados.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-4-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada 4\" Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "4\""
+    ],
+    "specs": {
+      "diámetro": "4\""
+    },
+    "summary": "Base enlozada de 4\" para parrilla de cocinas Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre y la marca; sin fuente del repuesto.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-enlozada-5-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada 5\" mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Base Enlozada",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "5\""
+    ],
+    "specs": {
+      "diámetro": "5\""
+    },
+    "summary": "Base enlozada de 5\" para parrilla de cocinas Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre y la marca; sin fuente del repuesto.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-cocina-emp-sole",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina emp sole",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Válvula de Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tipo": "empotrable"
+    },
+    "summary": "Válvula de gas para cocina empotrable Sole, que regula el paso de gas al quemador.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; 'emp' interpretado como empotrable. Marca del ítem es 'Sin marca'.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-cocina-emp-sol-c-termocupla",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina emp sol c/termocupla",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Válvula de Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tipo": "empotrable",
+      "seguridad": "con termocupla"
+    },
+    "summary": "Válvula de gas con termocupla de seguridad para cocina empotrable Sole; corta el gas si la llama se apaga.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; 'sol' interpretado como Sole.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termocupla-60-cm-p-cocina",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla 60 cm p/cocina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true,
+    "partType": "Termocupla",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "longitud": "60 cm"
+    },
+    "summary": "Termocupla de 60 cm de largo, sensor de llama de seguridad para válvulas de gas de cocinas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; función estándar de termocupla.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-switch-de-cocina-p-valvula",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Switch de cocina p/valvula",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Interruptor de Encendido",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Switch (interruptor de chispa) que se acopla a la válvula de gas de la cocina para el encendido eléctrico.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; función exacta (chispa) no confirmada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-parrilla-rectangular-23x21-cm",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla rectangular 23x21 cm",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 56.0,
+    "inStock": true,
+    "partType": "Parrilla",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "forma": "rectangular",
+      "medidas": "23 x 21 cm"
+    },
+    "summary": "Parrilla rectangular de 23 x 21 cm sobre la que se apoyan los recipientes en la cocina a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-parrilla-circular-22-cm",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla circular 22 cm",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 56.0,
+    "inStock": true,
+    "partType": "Parrilla",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "forma": "circular",
+      "diámetro": "22 cm"
+    },
+    "summary": "Parrilla circular de 22 cm de diámetro sobre la que se apoyan los recipientes en la cocina a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-jgo-parrilla-p-cocina-5-h-3-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo parrilla p/cocina 5 H (3 piezas)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 195.0,
+    "inStock": true,
+    "partType": "Juego de Parrillas",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "5 H"
+    ],
+    "specs": {
+      "hornillas": "5",
+      "piezas": "3"
+    },
+    "summary": "Juego de tres piezas de parrilla para cocinas Sole de 5 hornillas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://hiraoka.com.pe/cocina-a-gas-empotrable-sole-solco033-5-hornillas"
+      ],
+      "notes": "Sole comercializa cocinas de 5 hornillas (SOLCO033, parrillas de fierro enlozado); el juego se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-conector-bronce-1-2-x-3-8-gas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Conector bronce 1/2 x 3/8 gas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true,
+    "partType": "Conector de Gas",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/2 x 3/8"
+    ],
+    "specs": {
+      "material": "bronce",
+      "medidas": "1/2\" x 3/8\""
+    },
+    "summary": "Conector de bronce con medidas 1/2\" x 3/8\" para conexiones de gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; unidades asumidas en pulgadas.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-cubiertas-alternativo-4-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubiertas alternativo (4 piezas)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true,
+    "partType": "Juego de Cubiertas de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "piezas": "4",
+      "tipo": "alternativo"
+    },
+    "summary": "Juego de cuatro cubiertas de quemador alternativas (no originales) para cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubiertas-p-cocina-alternativa-grande",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubiertas p/cocina alternativa grande",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true,
+    "partType": "Cubierta de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande",
+      "tipo": "alternativa"
+    },
+    "summary": "Cubierta de quemador alternativa (no original) de tamaño grande para cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-p-cocina-alternativa-mediana",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta P/cocina alternativa mediana",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 14.0,
+    "inStock": true,
+    "partType": "Cubierta de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "mediana",
+      "tipo": "alternativa"
+    },
+    "summary": "Cubierta de quemador alternativa (no original) de tamaño mediana para cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-p-cocina-alternativa-chica",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta p/cocina alternativa chica",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Cubierta de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "chica",
+      "tipo": "alternativa"
+    },
+    "summary": "Cubierta de quemador alternativa (no original) de tamaño chica para cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-cartucho-purificador-agua-sole",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Cartucho purificador agua Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Cartucho Purificador de Agua",
+    "appliance": "Otro",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Cartucho de filtro de repuesto para purificador de agua Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; no se consultó ficha del purificador.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cuchilla-picahielo-anillo-goma",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Cuchilla picahielo + anillo goma",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Cuchilla Picahielo",
+    "appliance": "Licuadora",
+    "fitsBrands": [
+      "Oster"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "incluye": "anillo de goma"
+    },
+    "summary": "Cuchilla picahielo con anillo de goma de sellado para vaso de licuadora Oster.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.7,
+      "sources": [
+        "https://www.alkomprar.com/cuchilla-oster-pica-hielo-4-aspas/p/034264487949",
+        "https://www.paris.cl/cuchilla-picahielo-6-aspas-licuadora-osterr-MKA87Z4MBV.html"
+      ],
+      "notes": "Tiendas describen cuchillas picahielo Oster de 4 o 6 aspas con anillo de goma, compatibles con licuadoras Oster salvo la serie Xpert; no se confirmó el número de aspas del ítem.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-base-p-jarra-licuadora",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Base p/jarra licuadora",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Base de Jarra",
+    "appliance": "Licuadora",
+    "fitsBrands": [
+      "Oster"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Base inferior de la jarra de licuadora Oster, donde se aloja el conjunto de cuchillas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre y la marca.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-tapa-p-licuadora",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Tapa p/licuadora",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Tapa",
+    "appliance": "Licuadora",
+    "fitsBrands": [
+      "Oster"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Tapa de repuesto para la jarra de licuadora Oster.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre y la marca.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-tomacorriente-doble-p-tierra-s-tierra-triple",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Tomacorriente doble p/tierra s/tierra /triple",
+    "brand": "Tcino",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true,
+    "partType": "Tomacorriente",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "variantes": "doble con tierra, doble sin tierra, triple"
+    },
+    "summary": "Tomacorriente eléctrico disponible en variantes doble con tierra, doble sin tierra y triple.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-tomacorriente-simple-t-sapito",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Tomacorriente simple t/sapito",
+    "brand": "Tcino",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true,
+    "partType": "Tomacorriente",
+    "appliance": "Instalación general",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tipo": "simple, tipo sapito"
+    },
+    "summary": "Tomacorriente simple de tipo 'sapito', de uso en instalaciones eléctricas domésticas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; 'sapito' es denominación coloquial local.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-empaquetadura-p-licuadora-grande-y-mediana",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Empaquetadura p/licuadora grande y mediana",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true,
+    "partType": "Empaquetadura",
+    "appliance": "Licuadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaños": "grande y mediana"
+    },
+    "summary": "Empaquetadura (junta de sellado) para jarras de licuadora de tamaño grande y mediano.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; marca de licuadora no indicada (ítem Sole).",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-c-rosca-base-p-horno",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco c/rosca (base) p/ horno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Foco de Horno",
+    "appliance": "Horno",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "base": "rosca"
+    },
+    "summary": "Foco con base roscada para iluminación interior de horno.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-c-conector-base-p-horno",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco c/conector (base) p/ horno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Foco de Horno",
+    "appliance": "Horno",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "base": "conector"
+    },
+    "summary": "Foco con base de conector para iluminación interior de horno.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-perilla-de-horno-sho009v2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla de horno sho009v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true,
+    "partType": "Perilla",
+    "appliance": "Horno",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SHO009V2"
+    ],
+    "specs": {},
+    "summary": "Perilla de control para horno Sole; el nombre la asocia al código SHO009V2.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.35,
+      "sources": [
+        "https://simple.ripley.com.pe/marca/sole"
+      ],
+      "notes": "SHO009V2 no aparece en fuentes; Ripley lista un horno Sole SOLHO009V3 (código similar), sin confirmar equivalencia.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

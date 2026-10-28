@@ -1,0 +1,1245 @@
+[
+  {
+    "id": "r-filtro-carbon-c-helena",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/helena",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 64.9,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Helena"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón activado para campanas extractoras Sole línea Helena; retiene olores en campanas de recirculación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.mercadolibre.com.pe/shorts/clips/xH9yCC/2-filtros-carbon-campana-extractora-sole-helena"
+      ],
+      "notes": "Existen filtros de carbón para campanas Sole Helena; no se confirmó modelo exacto.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-slime-black-17-5-cm",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón slime black 17.5 cm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Slime Black"
+    ],
+    "specs": {
+      "diámetro": "17.5 cm"
+    },
+    "summary": "Filtro de carbón activado de 17.5 cm para campanas Sole Slime Black.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; la búsqueda no halló ficha del filtro.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-slime-black-antiguo",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón slime black antiguo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Slime Black",
+      "antiguo"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para la versión antigua de la campana Sole Slime Black.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-indurama",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Filtro de carbón activado para campanas extractoras Indurama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.mercadolibre.com.pe/shorts/clips/xvWOJt/2-filtros-carbon-activado-campana-indurama-fdv"
+      ],
+      "notes": "Hay filtros de carbón activado para campanas Indurama; modelo exacto no confirmado.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-t-vela",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco t/vela",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true,
+    "partType": "Foco",
+    "appliance": "Iluminación",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "tipo vela"
+    ],
+    "specs": {
+      "forma": "vela"
+    },
+    "summary": "Foco de forma de vela para uso general en iluminación.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; ítem genérico.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-sole-ture96c0",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón sole ture96c0",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [
+      "TURE96CO"
+    ],
+    "modelCodes": [
+      "TURE96C0"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para la campana Sole Nyx de 60 cm, modelo TURE96CO.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://simple.ripley.com.pe/campana-extractora-sole-ture96co-negro-60-cm-pmp20000856131"
+      ],
+      "notes": "TURE96CO es la campana Sole Nyx negra de 60 cm (Ripley). El código del inventario usa un cero; probablemente es la letra O. No se confirmó la referencia del filtro.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-chriskelly-ilumi-klimatec-brasec-alfano",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón Chriskelly ilumi/ klimatec/ brasec / alfano",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Chriskelly",
+      "Ilumi",
+      "Klimatec",
+      "Brasec",
+      "Alfano"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Filtro de carbón para campanas de las marcas Chriskelly, Ilumi, Klimatec, Brasec y Alfano.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Marcas tomadas del nombre; sin fuente web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-c-nva-lazio",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/nva lazio",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Lazio"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para la campana Sole Lazio (versión nueva).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; búsqueda sin resultados.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-ture80v2-81v2-89-90-turer652",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón ture80v2/ 81v2/ 89/ 90 / turer652",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [
+      "TURE80V2",
+      "TURE81V2",
+      "TURE89",
+      "TURE90",
+      "TURER652"
+    ],
+    "modelCodes": [
+      "TURE80V2",
+      "TURE81V2",
+      "89",
+      "90",
+      "TURER652"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para campanas Sole de los códigos TURE80V2, TURE81V2, 89, 90 y TURER652.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Códigos del nombre; la búsqueda no halló fichas de TURE80V2/TURE81V2, solo otros modelos Sole TURE.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-circular-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón circular bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "circular"
+    ],
+    "specs": {
+      "forma": "circular"
+    },
+    "summary": "Filtro de carbón circular para campanas extractoras Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-ventilador-campana-negro",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Ventilador campana negro",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 156.0,
+    "inStock": true,
+    "partType": "Ventilador de Campana",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "color": "negro"
+    },
+    "summary": "Ventilador (turbina) negro para campanas extractoras Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-rejilla-de-iluminacion-c-helena",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Rejilla de iluminación c/helena",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Rejilla de Iluminación",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Helena"
+    ],
+    "specs": {},
+    "summary": "Rejilla que cubre la iluminación de la campana Sole Helena.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-selector-velocidades-camp-convencional",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Selector velocidades camp convencional",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true,
+    "partType": "Selector de Velocidades",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "convencional"
+    ],
+    "specs": {},
+    "summary": "Selector de velocidades para campanas extractoras Sole de tipo convencional.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-placa-interfaz-premium-value-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Placa interfaz premium / value bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true,
+    "partType": "Placa de Interfaz",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Premium",
+      "Value"
+    ],
+    "specs": {},
+    "summary": "Placa electrónica de interfaz para campanas Bosch líneas Premium y Value.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-varias-marcas",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón varias marcas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Filtro de carbón de uso genérico para campanas extractoras de varias marcas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Genérico, sin marca.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-aluminio-37x29-cm-filtro-carbon-tela",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro aluminio 37x29 cm + filtro carbón tela",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 85.0,
+    "inStock": true,
+    "partType": "Filtro de Aluminio",
+    "appliance": "Campana extractora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "medidas": "37 x 29 cm",
+      "incluye": "filtro de carbón de tela"
+    },
+    "summary": "Filtro metálico de aluminio de 37 x 29 cm para retener grasa, con filtro de carbón de tela.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-p-campana-40-w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco p/campana 40 w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true,
+    "partType": "Foco",
+    "appliance": "Campana extractora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "potencia": "40 W"
+    },
+    "summary": "Foco de 40 W para la iluminación de campanas extractoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-deco-indurama-antigua",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón deco indurama antigua",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "deco",
+      "antigua"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para campanas decorativas Indurama de modelo antiguo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-c-decorativa-orange",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/decorativa orange",
+    "brand": "Orange",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Orange"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "decorativa"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para campana decorativa de marca Orange.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-new-isla-crystal-sole",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón new isla crystal sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "New Isla Crystal"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para la campana Sole New Isla Crystal.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; búsqueda sin resultados.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-rectangular-c-decorat-32x22cm-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón rectangular c/decorat 32x22cm bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "decorativa"
+    ],
+    "specs": {
+      "forma": "rectangular",
+      "medidas": "32 x 22 cm"
+    },
+    "summary": "Filtro de carbón rectangular de 32 x 22 cm para campanas decorativas Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-concorde-90cm-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón concorde 90cm bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Concorde"
+    ],
+    "specs": {
+      "ancho de campana": "90 cm"
+    },
+    "summary": "Filtro de carbón para campana Bosch Concorde de 90 cm.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-carbon-curva-deco-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón curva deco bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true,
+    "partType": "Filtro de Carbón",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "curva",
+      "deco"
+    ],
+    "specs": {},
+    "summary": "Filtro de carbón para campana decorativa Bosch de diseño curvo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-frontal-vidrio-venus-plus",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Frontal vidrio venus plus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Frontal de Vidrio",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [
+      "Venus Plus"
+    ],
+    "modelCodes": [
+      "Venus Plus"
+    ],
+    "specs": {},
+    "summary": "Frontal de vidrio para la campana Sole Venus Plus.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/product/145949X/Campana-90-cm-VENUS-PLUSS",
+        "https://www.falabella.com.pe/falabella-pe/product/113777001/campana-extractora-sole-venus-plus-60-cm"
+      ],
+      "notes": "Venus Plus es una campana Sole (versiones de 60 y 90 cm; el 90 cm figura como TURE63CO). La pieza no figura en catálogo.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bandeja-d-grasa-c-venus",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Bandeja d/grasa c/venus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Bandeja de Grasa",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [
+      "Venus Plus"
+    ],
+    "modelCodes": [
+      "Venus"
+    ],
+    "specs": {},
+    "summary": "Bandeja recolectora de grasa para campanas Sole Venus.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/product/145949X/Campana-90-cm-VENUS-PLUSS"
+      ],
+      "notes": "Campana Sole Venus Plus confirmada; la bandeja se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-camp-venus",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco camp. venus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Foco",
+    "appliance": "Campana extractora",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [
+      "Venus Plus"
+    ],
+    "modelCodes": [
+      "Venus"
+    ],
+    "specs": {},
+    "summary": "Foco de iluminación para campanas Sole Venus.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/product/145949X/Campana-90-cm-VENUS-PLUSS"
+      ],
+      "notes": "Campana Sole Venus Plus confirmada; el foco se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-complementos-de-perilla",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Complementos de perilla",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.9,
+    "inStock": true,
+    "partType": "Complemento de Perilla",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Accesorio complementario para perillas de cocina.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.2,
+      "sources": [],
+      "notes": "Nombre genérico; no se pudo precisar el accesorio.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termocuplas-hornilla-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocuplas hornilla bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true,
+    "partType": "Termocupla",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "hornilla"
+    ],
+    "specs": {},
+    "summary": "Termocupla de seguridad de hornilla para cocinas Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.pccomponentes.com/termopar-cocina-bosch-00617909"
+      ],
+      "notes": "Existen termopares Bosch para placas a gas (ej. 00617909); no se confirmó equivalencia con este ítem.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termocupla-doble-c-pie-horno-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla doble c/pie horno bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true,
+    "partType": "Termocupla",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "doble",
+      "pie de horno"
+    ],
+    "specs": {
+      "tipo": "doble"
+    },
+    "summary": "Termocupla doble de seguridad para el horno de cocinas Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termocupla-sola-cocina-pie-horno-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla sola cocina pie horno bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 39.0,
+    "inStock": true,
+    "partType": "Termocupla",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "simple",
+      "pie de horno"
+    ],
+    "specs": {
+      "tipo": "simple"
+    },
+    "summary": "Termocupla simple de seguridad para el horno de cocinas Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-kit-inyectores-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Kit inyectores gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 7.8,
+    "inStock": true,
+    "partType": "Kit de Inyectores",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "gas natural"
+    ],
+    "specs": {
+      "gas": "gas natural"
+    },
+    "summary": "Juego de inyectores para convertir o ajustar cocinas a gas natural.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-kit-inyectores-glp",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Kit inyectores glp",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 7.8,
+    "inStock": true,
+    "partType": "Kit de Inyectores",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "GLP"
+    ],
+    "specs": {
+      "gas": "GLP"
+    },
+    "summary": "Juego de inyectores para cocinas que usan GLP.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-pin-ignicion-inyectores-gn-de-horno-1-3",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Pin ignición/inyectores GN de horno (1.3)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.0,
+    "inStock": true,
+    "partType": "Pin de Ignición",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "GN",
+      "1.3"
+    ],
+    "specs": {
+      "gas": "gas natural",
+      "diámetro": "1.3 mm"
+    },
+    "summary": "Pin inyector de gas natural para horno, con medida 1.3.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; unidad de 1.3 asumida en mm.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-seguro-de-electrodos-coc-empotrable",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Seguro de electrodos coc. empotrable",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 0.4,
+    "inStock": true,
+    "partType": "Seguro de Electrodo",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Seguro o retén de electrodos para cocinas empotrables.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-seguro-tuberia-cocina-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Seguro tuberia cocina bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true,
+    "partType": "Seguro de Tubería",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Seguro de tubería de gas para cocinas Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-electrodo-sole-triplellama-c-orrin",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo sole triplellama c/orrin",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 4.0,
+    "inStock": true,
+    "partType": "Electrodo",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "triplellama"
+    ],
+    "specs": {},
+    "summary": "Electrodo de encendido con o-ring para quemador triple llama de cocinas Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; 'orrin' interpretado como o-ring.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-electrodo-chispero-cocina-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero cocina indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true,
+    "partType": "Electrodo Chispero",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Electrodo chispero de encendido para cocinas Indurama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-electrodo-chispero-cocina-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero cocina mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true,
+    "partType": "Electrodo Chispero",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Electrodo chispero de encendido para cocinas Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-electrodo-chispero-reducido-bosch-mabe-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo / chispero reducido Bosch/ Mabe/ Indurama",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true,
+    "partType": "Electrodo Chispero",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch",
+      "Mabe",
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "reducido"
+    ],
+    "specs": {
+      "tamaño": "reducido"
+    },
+    "summary": "Electrodo chispero de tamaño reducido para cocinas Bosch, Mabe e Indurama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Marcas tomadas del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-limpia-inyectores-cajita-limas",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Limpia inyectores cajita / limas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Limpiador de Inyectores",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Caja con limas para limpiar inyectores de cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-kit-cable-inyectores-coc-emp-bosch-marron",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Kit cable inyectores coc emp. bosch marron",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true,
+    "partType": "Kit de Cable de Inyectores",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "marrón"
+    ],
+    "specs": {
+      "color": "marrón"
+    },
+    "summary": "Kit de cables de encendido de inyectores para cocinas empotrables Bosch, color marrón.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.falabella.com.pe/falabella-pe/shop/cocina-empotrable-bosch"
+      ],
+      "notes": "Bosch comercializa cocinas empotrables en Perú; el kit se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-kit-cable-inyectores-coc-emp-bosch-plomo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Kit cable inyectores coc emp. bosch plomo",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Kit de Cable de Inyectores",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "plomo"
+    ],
+    "specs": {
+      "color": "plomo"
+    },
+    "summary": "Kit de cables de encendido de inyectores para cocinas empotrables Bosch, color plomo (gris).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://www.falabella.com.pe/falabella-pe/shop/cocina-empotrable-bosch"
+      ],
+      "notes": "Bosch comercializa cocinas empotrables en Perú; el kit se deduce del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-generador-de-chispa-4-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 4 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true,
+    "partType": "Generador de Chispa",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "hornillas": "4"
+    },
+    "summary": "Generador de chispa (encendido) para cocinas de 4 hornillas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

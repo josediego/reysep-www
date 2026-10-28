@@ -1,0 +1,432 @@
+[
+  {
+    "id": "r-parrilla-laterales-horno-sole",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla laterales Horno Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-con-termostato-horno-gas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula con termostato horno Gas",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 300.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-25-w-300-c",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco 25 w 300°C",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-desague",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera Desague",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-sms-inverter",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision SMS Inverter",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 250.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-holt-lg-1-pata",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt LG 1 pata",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-holt-lg-2-pata",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt LG 2 pata",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-holt-daewoo-lavaseca",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt Daewoo Lavaseca",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-de-motor-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor de Motor Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-de-presostato",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector de Presostato",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-pita-roja-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich pita roja LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-acoples-de-caja-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acoples de Caja LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-pita-roja",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector Pita Roja",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich Samsung",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-swich-moderno",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector Swich Moderno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-presostato-nivel-de-agua",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Presostato / nivel de agua",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true
+  },
+  {
+    "id": "r-actuadores-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Actuadores Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-lisa",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja lisa",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 54.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-moderno-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich moderno LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-26v-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba 26v LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-3b-12v",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3B 12v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-3bobinas-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3bobinas LG",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-3b-celeste-sms",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3B Celeste SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-2b-celeste-sms",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 2B Celeste sms",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-1-bobina",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 1 bobina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 38.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-lavadora-samsung-22-kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich Lavadora Samsung 22 Kg",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-gris-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris Samsung",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 24.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-gris-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-gris-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris Daewoo",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 24.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-redondo-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Redondo LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-rodillos-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Rodillos Grande",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true
+  },
+  {
+    "id": "r-rodillos-mediano",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Rodillos Mediano",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tuerca-chica-plana-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca chica plana LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tuerca-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tuerca-grande-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca grande Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-acople-chico-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acople chico LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-acople-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acople grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-lg-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja LG Grande",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 160.0,
+    "inStock": false
+  },
+  {
+    "id": "r-manguera-interna-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-chica-lg-10-kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna chica LG 10 kg",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  }
+]

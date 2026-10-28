@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "r-abrazaderas-5-8-galvanizados-taurus",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Abrazaderas 5/8 galvanizados taurus",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.0,
+    "inStock": true,
+    "partType": "Abrazadera",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "5/8"
+    ],
+    "specs": {
+      "medida": "5/8 in",
+      "acabado": "galvanizado"
+    },
+    "summary": "Abrazadera galvanizada de 5/8 para sujetar la manguera de gas a la cocina; el nombre alude a Taurus.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-generador-de-chispa-8-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 8 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Generador de Chispa",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "8 hornillas"
+    ],
+    "specs": {
+      "salidas": "8"
+    },
+    "summary": "Módulo generador de chispa para encendido eléctrico de cocinas de 8 salidas de chispa.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-t-de-bronce-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "T de bronce 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Conexión en T",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3/8"
+    ],
+    "specs": {
+      "medida": "3/8 in",
+      "material": "bronce"
+    },
+    "summary": "Conexión en T de bronce de 3/8 para derivar la línea de gas en cocinas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-adaptador-pipa-bronce-1-2-hexagonal-c-asiento",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa bronce 1/2\" hexagonal c/asiento",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Adaptador Pipa",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/2\""
+    ],
+    "specs": {
+      "medida": "1/2 in",
+      "material": "bronce"
+    },
+    "summary": "Adaptador de bronce de 1/2\" con cuerpo hexagonal y asiento para conectar la entrada de gas de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-perilla-cromada-cocina",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla cromada cocina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Perilla",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "acabado": "cromado"
+    },
+    "summary": "Perilla cromada para el control de válvulas de cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-perilla-pesada-cromo-y-negro",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla pesada cromo y negro",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Perilla",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "acabado": "cromo y negro"
+    },
+    "summary": "Perilla de tipo pesado en cromo y negro para válvulas de cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Genérico; búsqueda sin resultados útiles.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-perilla-bosch-empotrable",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla bosch empotrable",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Perilla",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Perilla para cocinas empotrables Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-perilla-negro-y-plomo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla negro y plomo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Perilla",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "acabado": "negro y plomo"
+    },
+    "summary": "Perilla en negro y plomo para válvulas de cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-indurama-arim",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula indurama Arim",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Válvula de Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Arim"
+    ],
+    "specs": {},
+    "summary": "Válvula de gas para cocinas Indurama; \"Arim\" aparece en el nombre como referencia del proveedor o modelo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [
+        "https://simple.ripley.com.pe/cocina-indurama-a-gas-de-4-hornillas-florencia-zafiro-croma-pmp20000497915"
+      ],
+      "notes": "Búsqueda no halló 'Arim' como código; solo confirma que cocinas Indurama usan válvula de doble vía en el termocontrol.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-bosch-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula bosch antigua",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Válvula de Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Válvula de gas de modelo antiguo para cocinas Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-mabe-con-tornillo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula Mabe con tornillo",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Válvula de Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Válvula de gas con tornillo de fijación para cocinas Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvulas-cocina-bosch-c-termocupla",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvulas cocina bosch c/termocupla",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true,
+    "partType": "Válvula de Gas con Termocupla",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Válvula de gas para cocinas Bosch que incluye termocupla de seguridad.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-jgo-parilla-base-enloz-2-ud-peq-med-grd",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo Parilla/Base Enloz (2 ud) Peq/Med/Grd)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Juego de Parrilla y Base",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Enloz"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Enloz",
+      "Peq/Med/Grd"
+    ],
+    "specs": {
+      "cantidad": "2 unidades"
+    },
+    "summary": "Juego de 2 unidades de parrilla y base para quemadores Enloz en tamaños pequeño, mediano y grande.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; búsqueda de Enloz sin resultados específicos.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-jgo-parilla-base-enloz-2-ud-triple-llama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo Parilla/Base Enloz (2 ud) Triple Llama)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 62.0,
+    "inStock": true,
+    "partType": "Juego de Parrilla y Base",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Enloz"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Enloz",
+      "Triple llama"
+    ],
+    "specs": {
+      "cantidad": "2 unidades"
+    },
+    "summary": "Juego de 2 unidades de parrilla y base para quemador Enloz de triple llama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; búsqueda de Enloz sin resultados específicos.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-cocina-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true,
+    "partType": "Válvula de Gas",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Indurama"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Válvula de gas para cocinas Indurama.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; Ripley indica válvula de doble vía en termocontrol de cocinas Indurama, sin código de pieza.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-codo-bronce-pesado-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Codo bronce pesado 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Codo",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3/8"
+    ],
+    "specs": {
+      "medida": "3/8 in",
+      "material": "bronce"
+    },
+    "summary": "Codo de bronce tipo pesado de 3/8 para conexiones de gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-codo-bronce-pesado-1-2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Codo bronce pesado 1/2\"",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true,
+    "partType": "Codo",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1/2\""
+    ],
+    "specs": {
+      "medida": "1/2 in",
+      "material": "bronce"
+    },
+    "summary": "Codo de bronce tipo pesado de 1/2\" para conexiones de gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-adaptador-pipa-aluminio-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa aluminio 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true,
+    "partType": "Adaptador Pipa",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3/8"
+    ],
+    "specs": {
+      "medida": "3/8 in",
+      "material": "aluminio"
+    },
+    "summary": "Adaptador de aluminio de 3/8 para conectar la entrada de gas de la cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-adaptador-pipa-bronce-3-8-th-x-3-8-ng-bos",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa bronce 3/8 th x 3/8 ng bos",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Adaptador Pipa",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "3/8 TH",
+      "3/8 NG",
+      "BOS"
+    ],
+    "specs": {
+      "medida": "3/8 in",
+      "material": "bronce"
+    },
+    "summary": "Adaptador de bronce de 3/8 con rosca TH por 3/8 NG, con referencia a Bosch en el nombre.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; 'bos' interpretado como Bosch, sin confirmar.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-electrodo-chispero-alto-cocina-triple-llama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero alto cocina triple llama",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true,
+    "partType": "Electrodo Chispero",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Triple llama"
+    ],
+    "specs": {
+      "tipo": "alto"
+    },
+    "summary": "Electrodo chispero de tipo alto para quemador de triple llama de cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-3llama-boleado-bosch-mabe-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama boleado bosch mabe (3 pieza)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch",
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "3 llama",
+      "boleado"
+    ],
+    "specs": {
+      "piezas": "3",
+      "llamas": "3"
+    },
+    "summary": "Juego de 3 piezas de quemador de triple llama con tapa boleada, para cocinas Bosch y Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-3llama-plano-mate-brillante-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama plano mate/brillante (3 pieza)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "3 llama",
+      "plano"
+    ],
+    "specs": {
+      "piezas": "3",
+      "llamas": "3"
+    },
+    "summary": "Juego de 3 piezas de quemador de triple llama con tapa plana en acabado mate o brillante, de marca Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-3llama-sabaf-orig-t-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama sabaf orig. t/falda",
+    "brand": "Sabaf",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "3 llama",
+      "t/falda"
+    ],
+    "specs": {
+      "piezas": "3",
+      "llamas": "3"
+    },
+    "summary": "Juego de 3 piezas de quemador Sabaf de triple llama tipo con falda, de origen original.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.7,
+      "sources": [
+        "https://www.sabaf.it/en/products/triple-ring/triple-ring-25kw-skirt"
+      ],
+      "notes": "Sabaf fabrica quemadores Triple Ring con falda (2.5 kW y 3.8 kW); no se identifica código exacto ni modelos de cocina.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-quemador-3llama-sabaf-t-falda-alt",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador 3llama sabaf t/falda alt.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "3 llama",
+      "t/falda",
+      "alt."
+    ],
+    "specs": {
+      "llamas": "3"
+    },
+    "summary": "Quemador alternativo de triple llama tipo con falda, compatible con el formato Sabaf Triple Ring.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.sabaf.it/en/products/triple-ring/triple-ring-25kw-skirt"
+      ],
+      "notes": "Formato Triple Ring con falda existe en Sabaf; la pieza es alternativa, sin confirmación de compatibilidad.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-cubiertas-4-piezas-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubiertas (4 piezas) mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true,
+    "partType": "Juego de Tapas de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "4 piezas"
+    ],
+    "specs": {
+      "piezas": "4"
+    },
+    "summary": "Juego de 4 tapas (cubiertas) de quemador para cocinas Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-mediano-2-piezas-liso-y-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador mediano (2 piezas) liso y c/relieve",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "mediano"
+    ],
+    "specs": {
+      "piezas": "2",
+      "tamaño": "mediano"
+    },
+    "summary": "Juego de 2 piezas de quemador mediano, con tapa lisa o con relieve, de uso en varias marcas de cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-mediano-2-piezas-con-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador mediano (2 piezas) con falda",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "mediano",
+      "falda"
+    ],
+    "specs": {
+      "piezas": "2",
+      "tamaño": "mediano"
+    },
+    "summary": "Juego de 2 piezas de quemador mediano con falda, de uso en varias marcas de cocina.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-termocupla-s-tierra-37-cm-cocina-solco038-solcor340",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla s/tierra 37 cm cocina solco038 / solcor340",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true,
+    "partType": "Termocupla",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [
+      "SOLCO038"
+    ],
+    "modelCodes": [
+      "SOLCO038",
+      "SOLCOR340"
+    ],
+    "specs": {
+      "largo": "37 cm",
+      "tipo": "sin tierra"
+    },
+    "summary": "Termocupla de seguridad de 37 cm, sin conexión a tierra, para cocinas Sole; el nombre cita los códigos SOLCO038 y SOLCOR340.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-solco038-5-quemadoresacero-inox/p"
+      ],
+      "notes": "SOLCO038 confirmado como cocina/encimera Sole de 5 quemadores en Plaza Vea y Falabella; SOLCOR340 no aparece en la web. Compatibilidad de la termocupla no confirmada por fuente.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-generador-de-chispa-6-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 6 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 17.0,
+    "inStock": true,
+    "partType": "Generador de Chispa",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "6 hornillas"
+    ],
+    "specs": {
+      "salidas": "6"
+    },
+    "summary": "Módulo generador de chispa para encendido eléctrico de cocinas de 6 salidas de chispa.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-3llama-sabaf-alternativo-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama sabaf alternativo (3 pieza)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "3 llama"
+    ],
+    "specs": {
+      "piezas": "3",
+      "llamas": "3"
+    },
+    "summary": "Juego alternativo de 3 piezas de quemador de triple llama en formato Sabaf Triple Ring.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.sabaf.it/en/products/triple-ring/triple-ring-25kw-skirt"
+      ],
+      "notes": "Sabaf fabrica el formato Triple Ring; pieza alternativa, sin confirmación de compatibilidad.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-cubierta-4-piezas-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubierta (4 piezas) bosch",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Juego de Tapas de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Bosch"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "4 piezas"
+    ],
+    "specs": {
+      "piezas": "4"
+    },
+    "summary": "Juego de 4 tapas (cubiertas) de quemador para cocinas Bosch.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.45,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-quemador-triple-llama-sabaf-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador triple llama sabaf alternativo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "Triple llama"
+    ],
+    "specs": {
+      "llamas": "3"
+    },
+    "summary": "Quemador alternativo de triple llama en formato Sabaf Triple Ring.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.sabaf.it/en/products/triple-ring/triple-ring-25kw-skirt"
+      ],
+      "notes": "Sabaf fabrica quemadores Triple Ring; pieza alternativa, sin confirmación de compatibilidad.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-mate-sabaf-alternativo-mediano",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mate sabaf alternativo mediano",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Tapa de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "mediano"
+    ],
+    "specs": {
+      "acabado": "mate",
+      "tamaño": "mediano"
+    },
+    "summary": "Tapa (cubierta) mate alternativa de tamaño mediano para quemadores tipo Sabaf.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; búsqueda de Sabaf sin ficha de tapa específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-sabaf-alternativo-pequeno",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador sabaf alternativo pequeño",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "pequeño"
+    ],
+    "specs": {
+      "tamaño": "pequeño"
+    },
+    "summary": "Juego alternativo de quemador pequeño en formato Sabaf.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-exterior-2llama-mate-y-brillante-solcor350",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta exterior 2llama mate y brillante / solcor350",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true,
+    "partType": "Tapa de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "SOLCOR350",
+      "2 llama"
+    ],
+    "specs": {
+      "llamas": "2",
+      "posición": "exterior"
+    },
+    "summary": "Tapa (cubierta) exterior para quemador de 2 llamas, en acabado mate o brillante; el nombre cita el código SOLCOR350.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.3,
+      "sources": [],
+      "notes": "SOLCOR350 no aparece en la web; el prefijo SOL sugiere Sole pero no está confirmado.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-aro-wok-triplellama-solco033",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Aro Wok Triplellama /solco033",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Aro Wok",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [
+      "SOLCO033"
+    ],
+    "modelCodes": [
+      "SOLCO033"
+    ],
+    "specs": {
+      "llamas": "3"
+    },
+    "summary": "Aro (soporte) para wok de quemador de triple llama; el nombre cita el modelo SOLCO033.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.55,
+      "sources": [
+        "https://www.plazavea.com.pe/cocina-a-gas-sole-5-quemadores-solco033-negro/p"
+      ],
+      "notes": "SOLCO033 existe como cocina Sole de 5 quemadores en Plaza Vea; compatibilidad del aro no confirmada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-mediana-brillante-mate",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mediana brillante mate",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Tapa de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "mediana"
+    ],
+    "specs": {
+      "tamaño": "mediano"
+    },
+    "summary": "Tapa (cubierta) mediana de quemador en acabado brillante o mate.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-cubierta-interior-triple-llama-plano-brillante-mate",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta interior triple llama plano brillante mate",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true,
+    "partType": "Tapa de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Triple llama"
+    ],
+    "specs": {
+      "llamas": "3",
+      "posición": "interior"
+    },
+    "summary": "Tapa (cubierta) interior para quemador de triple llama, plana, en acabado brillante o mate.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-quemador-mediano-sabaf-original",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador mediano sabaf original",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "mediano"
+    ],
+    "specs": {
+      "tamaño": "mediano"
+    },
+    "summary": "Quemador mediano Sabaf original.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-quemador-mediano-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador mediano alternativo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true,
+    "partType": "Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "mediano"
+    ],
+    "specs": {
+      "tamaño": "mediano"
+    },
+    "summary": "Quemador mediano alternativo para cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-defendi-2-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador defendi (2 piezas)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Defendi"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Defendi"
+    ],
+    "specs": {
+      "piezas": "2"
+    },
+    "summary": "Juego de 2 piezas de quemador para cocinas Defendi.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; búsqueda sin resultados específicos.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-quemador-pequeno-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador pequeño alternativo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true,
+    "partType": "Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "pequeño"
+    ],
+    "specs": {
+      "tamaño": "pequeño"
+    },
+    "summary": "Quemador pequeño alternativo para cocinas a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; sin fuente web específica.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-juego-quemador-pequeno-sabaf-plano-relieve-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador pequeño sabaf plano/relieve / falda",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true,
+    "partType": "Juego de Quemador",
+    "appliance": "Cocina",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Sabaf",
+      "pequeño"
+    ],
+    "specs": {
+      "tamaño": "pequeño"
+    },
+    "summary": "Juego de quemador pequeño Sabaf con tapa plana o con relieve y falda.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin ficha específica.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

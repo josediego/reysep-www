@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "r-parrilla-laterales-horno-sole",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla laterales Horno Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true,
+    "partType": "Parrilla Lateral",
+    "appliance": "Horno",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Parrilla lateral de repuesto para horno de cocina Sole.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; sin búsqueda específica útil.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-con-termostato-horno-gas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula con termostato horno Gas",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 300.0,
+    "inStock": true,
+    "partType": "Válvula con Termostato",
+    "appliance": "Horno",
+    "fitsBrands": [
+      "Sole"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "combustible": "Gas"
+    },
+    "summary": "Válvula de gas con termostato para regular la temperatura del horno a gas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; marca Sole según inventario.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "p-foco-25-w-300-c",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco 25 w 300°C",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true,
+    "partType": "Foco para Horno",
+    "appliance": "Horno",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "25 W",
+      "300°C"
+    ],
+    "specs": {
+      "potencia": "25 W",
+      "temperatura máxima": "300 °C"
+    },
+    "summary": "Foco de 25 W resistente a 300 °C, usado en hornos.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre; la resistencia a 300 °C indica uso en horno.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-manguera-desague",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera Desague",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Manguera de Desagüe",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Manguera de desagüe para la salida de agua de lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-d-transmision-sms-inverter",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision SMS Inverter",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 250.0,
+    "inStock": true,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Inverter"
+    ],
+    "specs": {
+      "tecnología": "Inverter"
+    },
+    "summary": "Caja de transmisión (reductor) para lavadoras Samsung con tecnología Inverter.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.mercadolibre.com.pe/pagina/sgbrepuestos"
+      ],
+      "notes": "Se hallaron cajas de transmisión para Samsung inverter en tiendas, sin modelos específicos; no se confirma compatibilidad.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-holt-lg-1-pata",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt LG 1 pata",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Sensor Hall",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "conexión": "1 pata"
+    },
+    "summary": "Sensor Hall del motor para lavadoras LG con motor inverter de accionamiento directo; versión de 1 pata.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.ricambi.com.au/lg-direct-drive-washing-machine-motor-hall-sensor",
+        "https://easybear-appliancerepair.com/blog/lg-washer-motor-replacement-guide"
+      ],
+      "notes": "Sensor Hall de motor LG confirmado como tipo de pieza; la diferencia 1 pata/2 pata no aparece en las fuentes.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-holt-lg-2-pata",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt LG 2 pata",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true,
+    "partType": "Sensor Hall",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "conexión": "2 patas"
+    },
+    "summary": "Sensor Hall del motor para lavadoras LG con motor inverter de accionamiento directo; versión de 2 patas.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.ricambi.com.au/lg-direct-drive-washing-machine-motor-hall-sensor",
+        "https://easybear-appliancerepair.com/blog/lg-washer-motor-replacement-guide"
+      ],
+      "notes": "Sensor Hall de motor LG confirmado como tipo de pieza; la diferencia 1 pata/2 pata no aparece en las fuentes.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-holt-daewoo-lavaseca",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt Daewoo Lavaseca",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true,
+    "partType": "Sensor Hall",
+    "appliance": "Secadora / Lavaseca",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Sensor Hall del motor para lavasecas Daewoo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://easybear-appliancerepair.com/blog/lg-washer-motor-replacement-guide"
+      ],
+      "notes": "Función del sensor Hall confirmada en motores de lavadora; modelo Daewoo no verificado.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-sensor-de-motor-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor de Motor Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true,
+    "partType": "Sensor de Motor",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Sensor de motor para lavadoras Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-conector-de-presostato",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector de Presostato",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Conector de Presostato",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Conector eléctrico para el presostato (sensor de nivel de agua) de lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-swich-pita-roja-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich pita roja LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Switch de Tapa",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Pita roja"
+    ],
+    "specs": {
+      "cable": "rojo"
+    },
+    "summary": "Interruptor de seguridad de tapa con cable rojo para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; 'pita roja' es denominación del taller.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-acoples-de-caja-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acoples de Caja LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true,
+    "partType": "Acople de Caja",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Acoples para la caja de transmisión de lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-conector-pita-roja",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector Pita Roja",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Conector de Switch",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Pita roja"
+    ],
+    "specs": {
+      "cable": "rojo"
+    },
+    "summary": "Conector para el switch de tapa con cable rojo de lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; probablemente asociado al switch pita roja LG.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-swich-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich Samsung",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true,
+    "partType": "Switch de Tapa",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Interruptor de seguridad de tapa para lavadoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-conector-swich-moderno",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector Swich Moderno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Conector de Switch",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "Moderno"
+    ],
+    "specs": {},
+    "summary": "Conector para switch de tapa de modelo moderno de lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-presostato-nivel-de-agua",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Presostato / nivel de agua",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true,
+    "partType": "Presostato",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Presostato que detecta el nivel de agua en el tambor de la lavadora.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.7,
+      "sources": [],
+      "notes": "Función estándar del presostato; deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-actuadores-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Actuadores Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true,
+    "partType": "Actuador",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Actuador para lavadoras Mabe (mecanismo de cambio lavado/centrifugado).",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Hay actuadores/solenoides Mabe en tiendas pero ninguno atribuible a esta pieza (ej. 233D2202G001 para LMA78115); no verificado.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-faja-lisa",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja lisa",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 54.0,
+    "inStock": true,
+    "partType": "Faja",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tipo": "lisa"
+    },
+    "summary": "Faja (correa) lisa de transmisión para lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; medida no indicada.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-swich-moderno-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich moderno LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true,
+    "partType": "Switch de Tapa",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Moderno"
+    ],
+    "specs": {},
+    "summary": "Interruptor de seguridad de tapa de modelo moderno para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-bomba-26v-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba 26v LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true,
+    "partType": "Bomba de Desagüe",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "26V"
+    ],
+    "specs": {
+      "voltaje": "26 V"
+    },
+    "summary": "Bomba de desagüe de 26 V para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre; el voltaje bajo corresponde a bombas de motor inverter.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-3b-12v",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3B 12v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true,
+    "partType": "Válvula de Entrada de Agua",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "3B",
+      "12V"
+    ],
+    "specs": {
+      "bobinas": "3",
+      "voltaje": "12 V"
+    },
+    "summary": "Válvula de entrada de agua de 3 bobinas a 12 V para lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.mercadolibre.com.pe/shorts/clips/yTXmLx/valvula-lavadora-lg-3-vias-12v-inverter-calidad-a1"
+      ],
+      "notes": "Existen válvulas de 3 vías a 12 V para lavadoras LG inverter; marca no definida en el inventario.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-3bobinas-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3bobinas LG",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true,
+    "partType": "Válvula de Entrada de Agua",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "3 bobinas"
+    ],
+    "specs": {
+      "bobinas": "3"
+    },
+    "summary": "Válvula de entrada de agua de 3 bobinas para lavadoras LG.",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.65,
+      "sources": [
+        "https://www.mercadolibre.com.pe/shorts/clips/yTXmLx/valvula-lavadora-lg-3-vias-12v-inverter-calidad-a1"
+      ],
+      "notes": "Mercado Libre Perú lista válvula LG de 3 vías 12 V; ítem tiene marca Samsung en inventario, posible inconsistencia.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-3b-celeste-sms",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3B Celeste SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true,
+    "partType": "Válvula de Entrada de Agua",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "3B",
+      "Celeste"
+    ],
+    "specs": {
+      "bobinas": "3",
+      "color": "celeste"
+    },
+    "summary": "Válvula de entrada de agua de 3 bobinas, color celeste, para lavadoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.mercadolibre.com.pe/shorts/clips/MZZLna/lavadora-samsung-valvula-entrada-agua-dc62-00266e"
+      ],
+      "notes": "Existen válvulas de entrada Samsung; la variante celeste no se confirmó.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-2b-celeste-sms",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 2B Celeste sms",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true,
+    "partType": "Válvula de Entrada de Agua",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "2B",
+      "Celeste"
+    ],
+    "specs": {
+      "bobinas": "2",
+      "color": "celeste"
+    },
+    "summary": "Válvula de entrada de agua de 2 bobinas, color celeste, para lavadoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.6,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/vendedor/ServiRespuestosPeru"
+      ],
+      "notes": "Sodimac Perú lista válvula Samsung de 2 bobinas DC62-00311C; no se confirma que sea este ítem.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-valvula-1-bobina",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 1 bobina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 38.0,
+    "inStock": true,
+    "partType": "Válvula de Entrada de Agua",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [
+      "1 bobina"
+    ],
+    "specs": {
+      "bobinas": "1"
+    },
+    "summary": "Válvula de entrada de agua de una bobina para lavadoras.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-swich-lavadora-samsung-22-kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich Lavadora Samsung 22 Kg",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true,
+    "partType": "Switch de Tapa",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "22 kg"
+    ],
+    "specs": {
+      "capacidad": "22 kg"
+    },
+    "summary": "Interruptor de seguridad de tapa para lavadoras Samsung de 22 kg.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-gris-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris Samsung",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 24.0,
+    "inStock": true,
+    "partType": "Filtro de Pelusas",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Gris"
+    ],
+    "specs": {
+      "color": "gris"
+    },
+    "summary": "Filtro gris de pelusas para lavadoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-gris-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true,
+    "partType": "Filtro de Pelusas",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Gris"
+    ],
+    "specs": {
+      "color": "gris"
+    },
+    "summary": "Filtro gris de pelusas para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-gris-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris Daewoo",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 24.0,
+    "inStock": true,
+    "partType": "Filtro de Pelusas",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Gris"
+    ],
+    "specs": {
+      "color": "gris"
+    },
+    "summary": "Filtro gris de pelusas para lavadoras Daewoo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-filtro-redondo-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Redondo LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true,
+    "partType": "Filtro de Pelusas",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Redondo"
+    ],
+    "specs": {
+      "forma": "redonda"
+    },
+    "summary": "Filtro redondo de pelusas para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-rodillos-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Rodillos Grande",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true,
+    "partType": "Rodillo",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Rodillo de tamaño grande para lavadoras.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.2,
+      "sources": [],
+      "notes": "Nombre genérico; sin equipo ni marca definidos.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-rodillos-mediano",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Rodillos Mediano",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Rodillo",
+    "appliance": "Lavadora",
+    "fitsBrands": [],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "mediano"
+    },
+    "summary": "Rodillo de tamaño mediano para lavadoras.",
+    "validation": {
+      "status": "unverified",
+      "confidence": 0.2,
+      "sources": [],
+      "notes": "Nombre genérico; sin equipo ni marca definidos.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-tuerca-chica-plana-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca chica plana LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true,
+    "partType": "Tuerca de Tina",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "chica",
+      "forma": "plana"
+    },
+    "summary": "Tuerca chica plana para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre; ubicación exacta (eje/tina) no confirmada. Marca en inventario 'Sin marca'.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-tuerca-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Tuerca de Tina",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Tuerca grande para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre. Marca en inventario 'Sin marca'.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-tuerca-grande-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca grande Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Tuerca de Tina",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Tuerca grande para lavadoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre. Marca en inventario 'Sin marca'.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-acople-chico-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acople chico LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Acople",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "chico"
+    },
+    "summary": "Acople chico para el conjunto motor-caja de lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-acople-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acople grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true,
+    "partType": "Acople",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Acople grande para el conjunto motor-caja de lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-caja-lg-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja LG Grande",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 160.0,
+    "inStock": false,
+    "partType": "Caja de Transmisión",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "Grande"
+    ],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Caja de transmisión de tamaño grande para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.5,
+      "sources": [
+        "https://www.sodimac.com.pe/sodimac-pe/vendedor/ServiRespuestosPeru"
+      ],
+      "notes": "Se hallaron cajas de transmisión LG en tiendas peruanas; la variante grande no se confirmó.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-manguera-interna-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Manguera Interna",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {
+      "tamaño": "grande"
+    },
+    "summary": "Manguera interna grande para lavadoras LG.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-manguera-interna-chica-lg-10-kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna chica LG 10 kg",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Manguera Interna",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "LG"
+    ],
+    "fitsModels": [],
+    "modelCodes": [
+      "10 kg"
+    ],
+    "specs": {
+      "tamaño": "chica",
+      "capacidad": "10 kg"
+    },
+    "summary": "Manguera interna chica para lavadoras LG de 10 kg.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-manguera-interna-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Manguera Interna",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Samsung"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Manguera interna para lavadoras Samsung.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-manguera-interna-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Manguera Interna",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Daewoo"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Manguera interna para lavadoras Daewoo.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  },
+  {
+    "id": "r-manguera-interna-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true,
+    "partType": "Manguera Interna",
+    "appliance": "Lavadora",
+    "fitsBrands": [
+      "Mabe"
+    ],
+    "fitsModels": [],
+    "modelCodes": [],
+    "specs": {},
+    "summary": "Manguera interna para lavadoras Mabe.",
+    "validation": {
+      "status": "inferred",
+      "confidence": 0.4,
+      "sources": [],
+      "notes": "Deducido del nombre.",
+      "checkedAt": "2026-10-28"
+    }
+  }
+]

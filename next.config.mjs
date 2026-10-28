@@ -3,9 +3,12 @@
 // Static one-page site: no nonces, so Next's inline hydration scripts need
 // 'unsafe-inline'. Fonts are self-hosted by next/font. Vercel Analytics is
 // served from /_vercel/insights (same origin) in production.
+// En desarrollo, Next inyecta scripts que requieren eval (HMR/React Refresh).
+const isDev = process.env.NODE_ENV === "development"
+
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com",
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://va.vercel-scripts.com`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob:",
   "font-src 'self' data:",

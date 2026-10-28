@@ -1,0 +1,432 @@
+[
+  {
+    "id": "r-filtro-carbon-c-helena",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/helena",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 64.9,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-slime-black-17-5-cm",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón slime black 17.5 cm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-slime-black-antiguo",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón slime black antiguo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-indurama",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-t-vela",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco t/vela",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-sole-ture96c0",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón sole ture96c0",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-chriskelly-ilumi-klimatec-brasec-alfano",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón Chriskelly ilumi/ klimatec/ brasec / alfano",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-c-nva-lazio",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/nva lazio",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-ture80v2-81v2-89-90-turer652",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón ture80v2/ 81v2/ 89/ 90 / turer652",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-circular-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón circular bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-campana-negro",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Ventilador campana negro",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 156.0,
+    "inStock": true
+  },
+  {
+    "id": "r-rejilla-de-iluminacion-c-helena",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Rejilla de iluminación c/helena",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-selector-velocidades-camp-convencional",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Selector velocidades camp convencional",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-placa-interfaz-premium-value-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Placa interfaz premium / value bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-varias-marcas",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón varias marcas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-aluminio-37x29-cm-filtro-carbon-tela",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro aluminio 37x29 cm + filtro carbón tela",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 85.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-p-campana-40-w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco p/campana 40 w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-deco-indurama-antigua",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón deco indurama antigua",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-c-decorativa-orange",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/decorativa orange",
+    "brand": "Orange",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-new-isla-crystal-sole",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón new isla crystal sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-rectangular-c-decorat-32x22cm-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón rectangular c/decorat 32x22cm bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-concorde-90cm-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón concorde 90cm bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-curva-deco-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón curva deco bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true
+  },
+  {
+    "id": "r-frontal-vidrio-venus-plus",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Frontal vidrio venus plus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bandeja-d-grasa-c-venus",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Bandeja d/grasa c/venus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-camp-venus",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco camp. venus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "p-complementos-de-perilla",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Complementos de perilla",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.9,
+    "inStock": true
+  },
+  {
+    "id": "r-termocuplas-hornilla-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocuplas hornilla bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-doble-c-pie-horno-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla doble c/pie horno bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-sola-cocina-pie-horno-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla sola cocina pie horno bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 39.0,
+    "inStock": true
+  },
+  {
+    "id": "p-kit-inyectores-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Kit inyectores gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 7.8,
+    "inStock": true
+  },
+  {
+    "id": "p-kit-inyectores-glp",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Kit inyectores glp",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 7.8,
+    "inStock": true
+  },
+  {
+    "id": "r-pin-ignicion-inyectores-gn-de-horno-1-3",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Pin ignición/inyectores GN de horno (1.3)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.0,
+    "inStock": true
+  },
+  {
+    "id": "r-seguro-de-electrodos-coc-empotrable",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Seguro de electrodos coc. empotrable",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 0.4,
+    "inStock": true
+  },
+  {
+    "id": "r-seguro-tuberia-cocina-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Seguro tuberia cocina bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-sole-triplellama-c-orrin",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo sole triplellama c/orrin",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 4.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-cocina-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero cocina indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-cocina-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero cocina mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-reducido-bosch-mabe-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo / chispero reducido Bosch/ Mabe/ Indurama",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "p-limpia-inyectores-cajita-limas",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Limpia inyectores cajita / limas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-kit-cable-inyectores-coc-emp-bosch-marron",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Kit cable inyectores coc emp. bosch marron",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-kit-cable-inyectores-coc-emp-bosch-plomo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Kit cable inyectores coc emp. bosch plomo",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-generador-de-chispa-4-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 4 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true
+  }
+]

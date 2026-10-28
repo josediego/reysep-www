@@ -1,0 +1,3392 @@
+[
+  {
+    "id": "r-filtro-carbon-c-helena",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/helena",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 64.9,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-slime-black-17-5-cm",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón slime black 17.5 cm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-slime-black-antiguo",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón slime black antiguo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-indurama",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-t-vela",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco t/vela",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-sole-ture96c0",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón sole ture96c0",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-chriskelly-ilumi-klimatec-brasec-alfano",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón Chriskelly ilumi/ klimatec/ brasec / alfano",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-c-nva-lazio",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/nva lazio",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-ture80v2-81v2-89-90-turer652",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón ture80v2/ 81v2/ 89/ 90 / turer652",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-circular-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón circular bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-campana-negro",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Ventilador campana negro",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 156.0,
+    "inStock": true
+  },
+  {
+    "id": "r-rejilla-de-iluminacion-c-helena",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Rejilla de iluminación c/helena",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-selector-velocidades-camp-convencional",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Selector velocidades camp convencional",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-placa-interfaz-premium-value-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Placa interfaz premium / value bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-varias-marcas",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón varias marcas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-aluminio-37x29-cm-filtro-carbon-tela",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro aluminio 37x29 cm + filtro carbón tela",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 85.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-p-campana-40-w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco p/campana 40 w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-deco-indurama-antigua",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón deco indurama antigua",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-c-decorativa-orange",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón c/decorativa orange",
+    "brand": "Orange",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-new-isla-crystal-sole",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón new isla crystal sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-rectangular-c-decorat-32x22cm-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón rectangular c/decorat 32x22cm bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-concorde-90cm-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón concorde 90cm bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-carbon-curva-deco-bosch",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Filtro carbón curva deco bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true
+  },
+  {
+    "id": "r-frontal-vidrio-venus-plus",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Frontal vidrio venus plus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bandeja-d-grasa-c-venus",
+    "kind": "repuesto",
+    "category": "Filtros de campana",
+    "name": "Bandeja d/grasa c/venus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-camp-venus",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco camp. venus",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "p-complementos-de-perilla",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Complementos de perilla",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.9,
+    "inStock": true
+  },
+  {
+    "id": "r-termocuplas-hornilla-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocuplas hornilla bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-doble-c-pie-horno-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla doble c/pie horno bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-sola-cocina-pie-horno-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla sola cocina pie horno bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 39.0,
+    "inStock": true
+  },
+  {
+    "id": "p-kit-inyectores-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Kit inyectores gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 7.8,
+    "inStock": true
+  },
+  {
+    "id": "p-kit-inyectores-glp",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Kit inyectores glp",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 7.8,
+    "inStock": true
+  },
+  {
+    "id": "r-pin-ignicion-inyectores-gn-de-horno-1-3",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Pin ignición/inyectores GN de horno (1.3)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.0,
+    "inStock": true
+  },
+  {
+    "id": "r-seguro-de-electrodos-coc-empotrable",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Seguro de electrodos coc. empotrable",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 0.4,
+    "inStock": true
+  },
+  {
+    "id": "r-seguro-tuberia-cocina-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Seguro tuberia cocina bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-sole-triplellama-c-orrin",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo sole triplellama c/orrin",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 4.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-cocina-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero cocina indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-cocina-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero cocina mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-reducido-bosch-mabe-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo / chispero reducido Bosch/ Mabe/ Indurama",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.0,
+    "inStock": true
+  },
+  {
+    "id": "p-limpia-inyectores-cajita-limas",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Limpia inyectores cajita / limas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-kit-cable-inyectores-coc-emp-bosch-marron",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Kit cable inyectores coc emp. bosch marron",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-kit-cable-inyectores-coc-emp-bosch-plomo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Kit cable inyectores coc emp. bosch plomo",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-generador-de-chispa-4-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 4 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true
+  },
+  {
+    "id": "r-abrazaderas-5-8-galvanizados-taurus",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Abrazaderas 5/8 galvanizados taurus",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.0,
+    "inStock": true
+  },
+  {
+    "id": "r-generador-de-chispa-8-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 8 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-t-de-bronce-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "T de bronce 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-adaptador-pipa-bronce-1-2-hexagonal-c-asiento",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa bronce 1/2\" hexagonal c/asiento",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-cromada-cocina",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla cromada cocina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-pesada-cromo-y-negro",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla pesada cromo y negro",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-bosch-empotrable",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla bosch empotrable",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-negro-y-plomo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla negro y plomo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-indurama-arim",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula indurama Arim",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-bosch-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula bosch antigua",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-mabe-con-tornillo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula Mabe con tornillo",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvulas-cocina-bosch-c-termocupla",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvulas cocina bosch c/termocupla",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-jgo-parilla-base-enloz-2-ud-peq-med-grd",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo Parilla/Base Enloz (2 ud) Peq/Med/Grd)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-jgo-parilla-base-enloz-2-ud-triple-llama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo Parilla/Base Enloz (2 ud) Triple Llama)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 62.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-cocina-indurama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-codo-bronce-pesado-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Codo bronce pesado 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-codo-bronce-pesado-1-2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Codo bronce pesado 1/2\"",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-adaptador-pipa-aluminio-3-8",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa aluminio 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true
+  },
+  {
+    "id": "r-adaptador-pipa-bronce-3-8-th-x-3-8-ng-bos",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Adaptador pipa bronce 3/8 th x 3/8 ng bos",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-electrodo-chispero-alto-cocina-triple-llama",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Electrodo chispero alto cocina triple llama",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-boleado-bosch-mabe-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama boleado bosch mabe (3 pieza)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-plano-mate-brillante-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama plano mate/brillante (3 pieza)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-sabaf-orig-t-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama sabaf orig. t/falda",
+    "brand": "Sabaf",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-3llama-sabaf-t-falda-alt",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador 3llama sabaf t/falda alt.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-cubiertas-4-piezas-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubiertas (4 piezas) mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-mediano-2-piezas-liso-y-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador mediano (2 piezas) liso y c/relieve",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-mediano-2-piezas-con-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador mediano (2 piezas) con falda",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-s-tierra-37-cm-cocina-solco038-solcor340",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla s/tierra 37 cm cocina solco038 / solcor340",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-generador-de-chispa-6-hornillas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Generador de chispa 6 hornillas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 17.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-3llama-sabaf-alternativo-3-pieza",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador 3llama sabaf alternativo (3 pieza)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-cubierta-4-piezas-bosch",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubierta (4 piezas) bosch",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-triple-llama-sabaf-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador triple llama sabaf alternativo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-mate-sabaf-alternativo-mediano",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mate sabaf alternativo mediano",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-sabaf-alternativo-pequeno",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador sabaf alternativo pequeño",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-exterior-2llama-mate-y-brillante-solcor350",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta exterior 2llama mate y brillante / solcor350",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true
+  },
+  {
+    "id": "r-aro-wok-triplellama-solco033",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Aro Wok Triplellama /solco033",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-mediana-brillante-mate",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mediana brillante mate",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-interior-triple-llama-plano-brillante-mate",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta interior triple llama plano brillante mate",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-mediano-sabaf-original",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador mediano sabaf original",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-mediano-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador mediano alternativo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-defendi-2-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador defendi (2 piezas)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-pequeno-alternativo",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador pequeño alternativo",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-quemador-pequeno-sabaf-plano-relieve-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego quemador pequeño sabaf plano/relieve / falda",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 25.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-mediana-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta mediana c/relieve",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-interior-triple-llama-boleado",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta interior triple llama boleado",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-pequena-c-relieve",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta pequeña c/relieve",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-quemador-grande-alternativo-liso-c-falda",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Quemador grande alternativo liso / c/falda",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 38.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-2-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 2\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-3-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 3\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-4-solco041",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 4\" solco041",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-cuadrada-5-solco040",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada cuadrada 5\" solco040",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 64.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-4-solco033-v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 4\" solco033 v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-5-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 5\" p/034/033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-marron-coc-pie-foco-y-chispa",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Interruptor marron coc. pie foco y chispa",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-solco033-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" solco033 antigua",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-3-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 3\" p/034/033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-solcor273-p-034-033v",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" solcor273 p/034 / 033v",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-5-solco033-antigua",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 5\" solco033 antigua",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-2-klimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 2\" klimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-3-kimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 3\"kimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-p-parrilla-4-klimatic",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada p/parrilla 4\" klimatic",
+    "brand": "Klimatic",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-mate-quemador-3-ce46v2-58v2-45v2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base mate quemador 3\"ce46v2 / 58v2 / 45v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-4-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada 4\" Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-enlozada-5-mabe",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Base enlozada 5\" mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-cocina-emp-sole",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina emp sole",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-cocina-emp-sol-c-termocupla",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula cocina emp sol c/termocupla",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termocupla-60-cm-p-cocina",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Termocupla 60 cm p/cocina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-switch-de-cocina-p-valvula",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Switch de cocina p/valvula",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-parrilla-rectangular-23x21-cm",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla rectangular 23x21 cm",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 56.0,
+    "inStock": true
+  },
+  {
+    "id": "r-parrilla-circular-22-cm",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla circular 22 cm",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 56.0,
+    "inStock": true
+  },
+  {
+    "id": "r-jgo-parrilla-p-cocina-5-h-3-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Jgo parrilla p/cocina 5 H (3 piezas)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 195.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-bronce-1-2-x-3-8-gas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Conector bronce 1/2 x 3/8 gas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-juego-cubiertas-alternativo-4-piezas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Juego cubiertas alternativo (4 piezas)",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubiertas-p-cocina-alternativa-grande",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubiertas p/cocina alternativa grande",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-p-cocina-alternativa-mediana",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta P/cocina alternativa mediana",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 14.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cubierta-p-cocina-alternativa-chica",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Cubierta p/cocina alternativa chica",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "p-cartucho-purificador-agua-sole",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Cartucho purificador agua Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-cuchilla-picahielo-anillo-goma",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Cuchilla picahielo + anillo goma",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-base-p-jarra-licuadora",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Base p/jarra licuadora",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tapa-p-licuadora",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Tapa p/licuadora",
+    "brand": "Oster",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tomacorriente-doble-p-tierra-s-tierra-triple",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Tomacorriente doble p/tierra s/tierra /triple",
+    "brand": "Tcino",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tomacorriente-simple-t-sapito",
+    "kind": "producto",
+    "category": "Otros",
+    "name": "Tomacorriente simple t/sapito",
+    "brand": "Tcino",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "r-empaquetadura-p-licuadora-grande-y-mediana",
+    "kind": "repuesto",
+    "category": "Electrodomésticos pequeños",
+    "name": "Empaquetadura p/licuadora grande y mediana",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-c-rosca-base-p-horno",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco c/rosca (base) p/ horno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-c-conector-base-p-horno",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco c/conector (base) p/ horno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-perilla-de-horno-sho009v2",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Perilla de horno sho009v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 8.0,
+    "inStock": true
+  },
+  {
+    "id": "r-parrilla-laterales-horno-sole",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Parrilla laterales Horno Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-con-termostato-horno-gas",
+    "kind": "repuesto",
+    "category": "Cocinas",
+    "name": "Valvula con termostato horno Gas",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 300.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-25-w-300-c",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco 25 w 300°C",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-desague",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera Desague",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-sms-inverter",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision SMS Inverter",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 250.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-holt-lg-1-pata",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt LG 1 pata",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-holt-lg-2-pata",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt LG 2 pata",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-holt-daewoo-lavaseca",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor Holt Daewoo Lavaseca",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-de-motor-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sensor de Motor Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-de-presostato",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector de Presostato",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-pita-roja-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich pita roja LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-acoples-de-caja-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acoples de Caja LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-pita-roja",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector Pita Roja",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich Samsung",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "r-conector-swich-moderno",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Conector Swich Moderno",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-presostato-nivel-de-agua",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Presostato / nivel de agua",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true
+  },
+  {
+    "id": "r-actuadores-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Actuadores Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-lisa",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja lisa",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 54.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-moderno-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich moderno LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-26v-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba 26v LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-3b-12v",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3B 12v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-3bobinas-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3bobinas LG",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-3b-celeste-sms",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 3B Celeste SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-2b-celeste-sms",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 2B Celeste sms",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-1-bobina",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Valvula 1 bobina",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 38.0,
+    "inStock": true
+  },
+  {
+    "id": "r-swich-lavadora-samsung-22-kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Swich Lavadora Samsung 22 Kg",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-gris-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris Samsung",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 24.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-gris-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-gris-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Gris Daewoo",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 24.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-redondo-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro Redondo LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-rodillos-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Rodillos Grande",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 16.0,
+    "inStock": true
+  },
+  {
+    "id": "r-rodillos-mediano",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Rodillos Mediano",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tuerca-chica-plana-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca chica plana LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tuerca-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tuerca-grande-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Tuerca grande Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-acople-chico-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acople chico LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-acople-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Acople grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-lg-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja LG Grande",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 160.0,
+    "inStock": false
+  },
+  {
+    "id": "r-manguera-interna-grande-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna grande LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-chica-lg-10-kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna chica LG 10 kg",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-interna-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera interna Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-moderno-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico moderno samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-completa-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-completa-samsung",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa Samsung",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-completa-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba completa daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-askoll",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba Askoll",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico Daewoo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-lg-220",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG 220",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sincronico-lg-13-v",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Sincronico LG 13 v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true
+  },
+  {
+    "id": "r-manguera-ingreso",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Manguera Ingreso",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-20",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 20",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-20-5",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 20,5",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-21",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 21",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-21-5",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 21.5",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-faja-de-lavadora-22",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Faja de lavadora # 22",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 9.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-de-malla-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro de malla LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-malla-daewoo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Filtro malla Daewoo",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 10.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-samsung-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Samsung Grande",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-samsung-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Samsung Mediana",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-daewoo-grande-acrilica",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Daewoo Grande Acrilica",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-daewoo-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta Daewoo Mediana",
+    "brand": "Daewoo",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-lg-mediana",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta LG Mediana",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-paleta-lg-grande",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Paleta LG Grande",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motor-blanco-lg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Motor Blanco LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 210.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-robertshaw-d-desague",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba Robertshaw d/Desague",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 42.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bomba-22-kg-lg-mid-ma",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Bomba 22 Kg LG/Mid/Ma",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 120.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-6h-plancha-grande-cuello-bajo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja 6H Plancha Grande Cuello Bajo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-1-dedo",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/transmision 1 dedo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-bosch",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision Bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-trall-med-ala-electrolux-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision Trall Med Ala Electrolux/Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-8h-c-pequeno",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja 8H c. Pequeño",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 180.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmision-lg-invt-pole-lisa",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmision LG Invt Pole Lisa",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 200.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-64",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #64",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-65-lg-mabe",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #65 LG / Mabe",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-66",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #66",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-70",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #70",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-72",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #72",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-55",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-58",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #58",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-61",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #61",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-62",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #62",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-amortiguador-63",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Amortiguador #63",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-caja-d-transmicion-kraken-16a-22kg",
+    "kind": "repuesto",
+    "category": "Lavado",
+    "name": "Caja d/Transmicion Kraken 16a 22Kg",
+    "brand": "Kraken",
+    "unit": "unidad",
+    "price": 200.0,
+    "inStock": true
+  },
+  {
+    "id": "p-balon-r134a-13-60-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R134A 13.60 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "p-balon-r410-11-30-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R410 11.30 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "p-balon-r600a-6-50-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Balon R600A 6.50 kg",
+    "brand": "Multimarca",
+    "unit": "kg",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "p-gas-refrigerante-r410a-850-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R410a 850 gr",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "p-gas-refrigerante-r134a-1-kg",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R134a 1 kg",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "p-gas-refrigerante-r600a-420-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Gas Refrigerante R600a 420 gr",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer Coldex",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-indurama-mabe-inresa-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer - Indurama/Mabe/inresa / electrolux",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-samsung-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer Samsung / electrolux",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-nrml",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Nrml",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 45.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-d-exhibidor-10w-c-hel-sop",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Exhibidor 10w c/hel-sop",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 85.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-coldex-ngr",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Coldex Ngr",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvulas-d-servicio",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Valvulas d/Servicio",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.6,
+    "inStock": true
+  },
+  {
+    "id": "p-soldadura-d-plata",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Soldadura d/Plata",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 2.6,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-coldex-chp",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Coldex Chp",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-mabe",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal Mabe",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-sms",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 12.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetal-champu-mod-varios",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetal (champu) Mod Varios",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.0,
+    "inStock": true
+  },
+  {
+    "id": "r-fusible-sms",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Fusible SMS",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 13.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-indurama",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Indurama",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 13.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 29.0,
+    "inStock": true
+  },
+  {
+    "id": "r-sensor-bosch-chico",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Sensor Bosch Chico",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 23.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-indurama-ngr-redondo",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Indurama Ngr Redondo",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tubo-capilar-0-36-x-100-mtr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tubo Capilar 0.36 x 100 mtr.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 286.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tubo-capilar-0-31-x-100-mtr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tubo Capilar 0.31 x 100 mtr.",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 286.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-led-12v",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco Led 12v",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-1-4-x-15mt",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 1/4 x 15mt",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 123.5,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-5-16",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 5/16",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 149.5,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-3-16",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 3/16",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 117.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rollo-tuberia-d-cu-3-8",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Rollo Tuberia d/Cu 3/8",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 208.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-4-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/4 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-4-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/4 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-5-134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/5 134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 315.0,
+    "inStock": false
+  },
+  {
+    "id": "r-motocompresor-embraco-1-5-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/5 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 315.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-6-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/6 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-6-r600",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/6 R600",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 280.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-embraco-1-3-r134a",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor Embraco 1/3 R134a",
+    "brand": "Embraco",
+    "unit": "unidad",
+    "price": 370.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-1-4-r134a-masterlux-electrolux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/4 R134a Masterlux/Electrolux",
+    "brand": "Electrolux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-1-4-r600-masterlux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/4 R600 Masterlux",
+    "brand": "Masterlux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-1-5-r600-masterlux",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/5 R600 Masterlux",
+    "brand": "Masterlux",
+    "unit": "unidad",
+    "price": 260.0,
+    "inStock": true
+  },
+  {
+    "id": "r-motocompresor-1-6-r600-jia-xipera",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/6 R600 Jia Xipera",
+    "brand": "Jia Xipera",
+    "unit": "unidad",
+    "price": 221.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-27",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 27",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-28",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 28",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-30",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 30",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-33",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 33",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-34",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 34",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-37",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 37",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-38",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 38",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-40",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 40",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-41",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 41",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-50",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 50",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-53",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 53",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-55",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-gris",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Gris",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tarjeta-mabe-005-impar",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Tarjeta Mabe 005 Impar",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 57.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tarjeta-mabe-008-par",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Tarjeta Mabe 008 Par",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 57.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-molecular-20-gr",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Molecular 20 gr",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.6,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-externo",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Externo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-poro-n60",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Poro N60",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 84.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-negro-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Negro Lg",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-blanco-3c",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Blanco 3C",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 71.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-negro-samsung-inverter",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Negro Samsung inverter",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 71.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-d-evaporador-gris-his-mid-ron",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Evaporador Gris His/Mid/Ron",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-conctor-azul",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Conctor Azul",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-descongelamiento-lg-original",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia Descongelamiento LG Original",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 71.5,
+    "inStock": true
+  },
+  {
+    "id": "r-evaporador-39x15-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador 39x15 coldex",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-evaporador-4-vueltas",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador 4 vueltas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-condensador-97x56",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 97X56",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "p-propileno-r1270-rtmap-pro-p-soldar-400-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Propileno R1270 /rtmap/pro p/soldar 400 gr",
+    "brand": "Yongan Gas Co.",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-d-descongelamiento-bosch-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer d/descongelamiento bosch / coldex",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-traba-central-pta-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Interruptor traba central pta. bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-traba-central-tripolar-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Interruptor traba central tripolar bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 36.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-d-descongelamiento-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer d/descongelamiento LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetalico-fermost7-coldex-mabe-indurama",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetalico fermost7 / coldex / mabe / indurama",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-d-exhibidor-7w-c-hel-sop",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Exhibidor 7w c/hel-sop",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "r-evap-conserv-indurama-nofrost-ri-929fdh",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evap. conserv Indurama nofrost RI-929FDH",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-evaporador-samsung-original",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador Samsung original",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-condensador-106x76",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 106X76",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-condensador-130x55",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 130X55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-51",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 51",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-48",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 48",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-p-refrigeradora-25w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco p/refrigeradora 25w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-refrigerador-led-bulbo-especial-5w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco refrigerador LED bulbo especial 5w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true
+  },
+  {
+    "id": "r-desviadora-t-espanola-acerado",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Desviadora t/española acerado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "p-cabezal-de-ducha-t-espanola-8-c-b",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Cabezal de ducha t/española 8\" c/b",
+    "brand": "Griarsa",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-de-abasto-60-cm-trensado",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo de abasto 60 cm trensado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-de-abasto-50-cm-trensado",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo de abasto 50 cm trensado",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-rap-4-pin-p-start",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rap 4 pin p/start",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-rapiducha-4-pin",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rapiducha 4 pin",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-rapiducha-2-pin-p-premium",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia rapiducha 2 pin p/premium",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "p-juego-ducha-espanola-3-piezas-desviador-tubos-abasto-y-brazo",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Juego ducha española (3 piezas: desviador, tubos abasto y brazo)",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 130.0,
+    "inStock": true
+  },
+  {
+    "id": "p-rapiducha-t-espanola-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Rapiducha t/española Sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 55.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-encapulada-sole-4000-4500-5500w",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia encapulada sole 4000, 4500 / 5500w",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-abasto-trensado-plastico-1-50-m",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo abasto trensado/ plastico 1.50 m",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 32.0,
+    "inStock": true
+  },
+  {
+    "id": "p-tubo-abasto-trensado-0-40-m",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Tubo abasto trensado 0.40 m",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 18.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-bipolar-c-cables-terminal-armado",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Interruptor bipolar c/cables terminal armado",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 60.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termostato-varilla-270-mm-corta",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termostato varilla 270 mm corta",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 65.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1200w-estanada-360-mm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1200w estañada 360 mm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 72.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-estanada-doblada-360-mm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w estañada doblada 360 mm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 132.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-dorada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w dorada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 78.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-2000w-dorada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 2000w dorada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 95.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-d-incoloy-t30-50-lt-evo-solteero88",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w d.incoloy t30-50 lt evo / solteero88",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 115.0,
+    "inStock": true
+  },
+  {
+    "id": "r-corte-termico-d-seguridad-terma-evol-elite",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Corte termico d/seguridad terma evol - elite",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termistor-d-temperatura-p-terma-elite-evol",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termistor d/temperatura p/terma elite - evol",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 62.0,
+    "inStock": true
+  },
+  {
+    "id": "r-control-de-temp-p-evol-elite",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Control de temp p/evol / elite",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-de-seguridad-integral-esferica",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula de seguridad integral / esferica",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 70.0,
+    "inStock": true
+  },
+  {
+    "id": "r-anodo-d-sacrificio-magnesio-20-cm",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo d/sacrificio magnesio 20 cm",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "r-anodo-de-magnesio-75-cm-termotanque",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo de magnesio 75 cm termotanque",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 240.0,
+    "inStock": true
+  },
+  {
+    "id": "p-kit-terma-solucion-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Kit terma solución sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 145.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-mezcladora-sole",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula mezcladora sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 50.0,
+    "inStock": true
+  },
+  {
+    "id": "r-anodo-de-magnesio-1m-termotanque",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Anodo de magnesio /1m /termotanque",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-2000w-nacional-p-rotoplast",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 2000w nacional p/rotoplast",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-1500w-nacional-p-rotoplast",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Resistencia 1500w nacional p/rotoplast",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 68.0,
+    "inStock": true
+  },
+  {
+    "id": "p-ducha-fija-sole",
+    "kind": "producto",
+    "category": "Termas y duchas",
+    "name": "Ducha fija sole",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 15.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-digital-p-nueva-terma-millenium",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Timer digital p/nueva terma millenium",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 135.0,
+    "inStock": true
+  },
+  {
+    "id": "r-termostato-varilla-doble-seguridad-350mm-larga-inso24v2",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Termostato varilla doble seguridad 350mm larga /inso24v2",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 110.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-rojo-para-terma",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco rojo para terma",
+    "brand": "Sole",
+    "unit": "unidad",
+    "price": 20.0,
+    "inStock": true
+  },
+  {
+    "id": "p-elastomero-1m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 1m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 40.0,
+    "inStock": true
+  },
+  {
+    "id": "p-elastomero-0-6-m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 0.6 m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "p-elastomero-0-5-m-manguera-gas-natural",
+    "kind": "producto",
+    "category": "Cocinas",
+    "name": "Elastomero 0.5 m / manguera gas natural",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 30.0,
+    "inStock": true
+  },
+  {
+    "id": "r-valvula-de-seguridad-3-4-bronce-importada",
+    "kind": "repuesto",
+    "category": "Termas y duchas",
+    "name": "Valvula de seguridad 3/4 bronce importada",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 95.0,
+    "inStock": true
+  }
+]

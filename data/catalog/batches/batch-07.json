@@ -1,0 +1,432 @@
+[
+  {
+    "id": "r-motocompresor-1-6-r600-jia-xipera",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Motocompresor 1/6 R600 Jia Xipera",
+    "brand": "Jia Xipera",
+    "unit": "unidad",
+    "price": 221.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-27",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 27",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-28",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 28",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-30",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 30",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-33",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 33",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-34",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 34",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 19.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-37",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 37",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-38",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 38",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-40",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 40",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-41",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 41",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-50",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 50",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-53",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 53",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-55",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-gris",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Gris",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 75.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tarjeta-mabe-005-impar",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Tarjeta Mabe 005 Impar",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 57.0,
+    "inStock": true
+  },
+  {
+    "id": "r-tarjeta-mabe-008-par",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Tarjeta Mabe 008 Par",
+    "brand": "Mabe",
+    "unit": "unidad",
+    "price": 57.0,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-molecular-20-gr",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Molecular 20 gr",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 3.6,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-externo",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Externo",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-filtro-poro-n60",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Filtro Poro N60",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 84.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-negro-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Negro Lg",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-blanco-3c",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Blanco 3C",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 71.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-negro-samsung-inverter",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Negro Samsung inverter",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 71.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-d-evaporador-gris-his-mid-ron",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Evaporador Gris His/Mid/Ron",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-conctor-azul",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador Conctor Azul",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-descongelamiento-lg-original",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia Descongelamiento LG Original",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 71.5,
+    "inStock": true
+  },
+  {
+    "id": "r-evaporador-39x15-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador 39x15 coldex",
+    "brand": "Coldex",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-evaporador-4-vueltas",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador 4 vueltas",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.5,
+    "inStock": true
+  },
+  {
+    "id": "r-condensador-97x56",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 97X56",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "p-propileno-r1270-rtmap-pro-p-soldar-400-gr",
+    "kind": "producto",
+    "category": "Refrigeración",
+    "name": "Propileno R1270 /rtmap/pro p/soldar 400 gr",
+    "brand": "Yongan Gas Co.",
+    "unit": "unidad",
+    "price": 22.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-d-descongelamiento-bosch-coldex",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer d/descongelamiento bosch / coldex",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-traba-central-pta-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Interruptor traba central pta. bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 28.0,
+    "inStock": true
+  },
+  {
+    "id": "r-interruptor-traba-central-tripolar-bosch",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Interruptor traba central tripolar bosch",
+    "brand": "Bosch",
+    "unit": "unidad",
+    "price": 36.0,
+    "inStock": true
+  },
+  {
+    "id": "r-timer-d-descongelamiento-lg",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Timer d/descongelamiento LG",
+    "brand": "LG",
+    "unit": "unidad",
+    "price": 48.0,
+    "inStock": true
+  },
+  {
+    "id": "r-bimetalico-fermost7-coldex-mabe-indurama",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Bimetalico fermost7 / coldex / mabe / indurama",
+    "brand": "Multimarca",
+    "unit": "unidad",
+    "price": 35.0,
+    "inStock": true
+  },
+  {
+    "id": "r-ventilador-d-exhibidor-7w-c-hel-sop",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Ventilador d/Exhibidor 7w c/hel-sop",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 58.0,
+    "inStock": true
+  },
+  {
+    "id": "r-evap-conserv-indurama-nofrost-ri-929fdh",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evap. conserv Indurama nofrost RI-929FDH",
+    "brand": "Indurama",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-evaporador-samsung-original",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Evaporador Samsung original",
+    "brand": "Samsung",
+    "unit": "unidad",
+    "price": 80.0,
+    "inStock": true
+  },
+  {
+    "id": "r-condensador-106x76",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 106X76",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-condensador-130x55",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Condensador 130X55",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 52.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-51",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 51",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "r-resistencia-48",
+    "kind": "repuesto",
+    "category": "Refrigeración",
+    "name": "Resistencia 48",
+    "brand": "Sin marca",
+    "unit": "unidad",
+    "price": 26.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-p-refrigeradora-25w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco p/refrigeradora 25w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 6.0,
+    "inStock": true
+  },
+  {
+    "id": "p-foco-refrigerador-led-bulbo-especial-5w",
+    "kind": "producto",
+    "category": "Iluminación",
+    "name": "Foco refrigerador LED bulbo especial 5w",
+    "brand": "Litech",
+    "unit": "unidad",
+    "price": 5.0,
+    "inStock": true
+  }
+]
