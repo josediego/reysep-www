@@ -24,6 +24,27 @@ pnpm build
 
 Node 22 (ver `engines`), pnpm 10 (ver `packageManager`).
 
+### Pruebas E2E y accesibilidad
+
+Playwright (Chromium, proyectos `desktop` 1440×900 y `mobile` 390×844) con
+`@axe-core/playwright`. Specs en `e2e/`: smoke de home, catálogo (búsqueda,
+filtro por equipo, ficha), ficha de ítem (precio, WhatsApp con `Ref. <id>`,
+`tel:`, JSON-LD `Product`), 404, axe en `/`, `/catalogo` y una ficha (falla con
+violaciones `serious`/`critical`) y navegación con teclado (foco visible).
+
+```sh
+pnpm e2e:install           # una vez: descarga Chromium
+pnpm build && pnpm e2e     # contra `pnpm start` (puerto 3000)
+PW_DEV=1 pnpm e2e          # contra `pnpm dev -p 3011`, sin build
+PORT=4000 pnpm e2e         # otro puerto local
+BASE_URL=https://... pnpm e2e   # contra un servidor ya levantado (preview)
+AXE_VERBOSE=1 pnpm e2e     # lista también violaciones moderadas/menores
+pnpm e2e --project=mobile --ui
+```
+
+En CI corre el job `e2e` (`.github/workflows/ci.yml`): build de producción,
+navegadores en caché y reporte HTML + trazas como artefacto si falla.
+
 ## Estructura
 
 ```
