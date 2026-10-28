@@ -56,7 +56,56 @@ Pipeline de datos (`data/catalog/`):
 3. `enriched/`: lotes enriquecidos según `SCHEMA.md` (tipo de pieza, equipo,
    compatibilidad, specs, resumen, validación con fuentes).
 4. `pnpm catalog:build` fusiona todo en `lib/catalog-data.ts` (valida enum de
-   equipos, normaliza tipos, rechaza campos prohibidos).
+   equipos, normaliza tipos, rechaza campos prohibidos) y valida el resultado
+   contra `catalog.schema.json` antes de escribir. Si un ítem de `items.json`
+   ya trae los campos de enriquecimiento (snapshot del CMS), tiene prioridad
+   sobre `enriched/`.
+
+### Contrato versionado
+
+`data/catalog/catalog.schema.json` (JSON Schema 2020-12) describe el snapshot
+publicado: `{ "version": 1, "generatedAt": "<ISO>", "items": CatalogItem[] }`,
+equivalente al tipo `CatalogItem` de `lib/catalog.ts` (incluye `images` opcional
+para el futuro). Usa `additionalProperties: false`, así que cualquier campo
+extra (precio de compra, cantidades de stock) se rechaza.
+
+- `pnpm catalog:validate [archivo]`: valida un snapshot o arreglo suelto; sin
+  argumento valida el catálogo fusionado. Sale con código 1 y lista los errores.
+- `pnpm catalog:check`: falla si `lib/catalog-data.ts` no coincide con lo que
+  generaría `data/catalog/`. Ambos corren en CI.
+
+### Sincronización desde el CMS
+
+El CMS (`josediego/reysep-cms`) publica el snapshot en `https://cdn.reysep.com/...`
+y avisa a este repo; el workflow `.github/workflows/catalog-sync.yml`:
+
+1. descarga la URL (solo host `cdn.reysep.com`, sin seguir redirecciones),
+2. verifica el SHA-256,
+3. valida contra el esquema,
+4. escribe `data/catalog/items.json` y guarda el snapshot en
+   `data/catalog/snapshots/<sha256-8>.json`,
+5. ejecuta `pnpm catalog:build` y, si hay cambios, hace commit
+   `chore(catalog): sync <sha256-8> from CMS` a `main` como `github-actions[bot]`.
+
+Los syncs no se solapan (`concurrency`). Disparo desde el CMS:
+
+```bash
+curl -X POST https://api.github.com/repos/josediego/reysep-www/dispatches \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer $GITHUB_DISPATCH_TOKEN" \
+  -d '{"event_type":"catalog-updated","client_payload":{"url":"https://cdn.reysep.com/catalog/<archivo>.json","sha256":"<hex64>"}}'
+```
+
+Token mínimo: fine-grained PAT limitado al repo `josediego/reysep-www` con
+permiso de repositorio **Contents: Read and write** (según la tabla "Permissions
+required for fine-grained personal access tokens" de GitHub, `POST
+/repos/{owner}/{repo}/dispatches` exige `Contents: write`). Con token classic
+haría falta el scope `repo`. También se puede lanzar a mano desde Actions >
+"Catalog sync" (`workflow_dispatch`, inputs `url` y `sha256`).
+
+Notas: un push hecho con `GITHUB_TOKEN` no dispara otros workflows (CI) y
+fallará si `main` exige PR; en ese caso hay que permitir al bot o cambiar el
+último paso a una PR. `repository_dispatch` solo corre desde la rama por defecto.
 
 `lib/catalog-data.ts` se genera desde el Excel de inventario de la tienda
 ("Importación Masiva de Inventario": nombre, stock, precio final, categoría,

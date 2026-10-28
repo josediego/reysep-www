@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.reysep.com/schemas/catalog.schema.json",
+  "title": "Reysep catalog snapshot",
+  "description": "Contrato versionado del catálogo publicado por el CMS. Debe coincidir con CatalogItem en lib/catalog.ts. No admite precio de compra ni cantidades de stock (additionalProperties: false).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "generatedAt", "items"],
+  "properties": {
+    "version": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "items": { "type": "array", "items": { "$ref": "#/$defs/item" } }
+  },
+  "$defs": {
+    "appliance": {
+      "enum": [
+        "Refrigeradora", "Congeladora", "Lavadora", "Secadora / Lavaseca", "Cocina", "Horno",
+        "Campana extractora", "Terma", "Ducha eléctrica", "Aire acondicionado", "Licuadora",
+        "Iluminación", "Instalación general", "Otro"
+      ]
+    },
+    "stringArray": { "type": "array", "items": { "type": "string" } },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "confidence", "sources", "notes", "checkedAt"],
+      "properties": {
+        "status": { "enum": ["verified", "inferred", "unverified"] },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "sources": { "type": "array", "items": { "type": "string", "format": "uri" } },
+        "notes": { "type": "string" },
+        "checkedAt": { "type": ["string", "null"] }
+      }
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["variant", "url", "width", "height", "alt"],
+      "properties": {
+        "variant": { "enum": ["thumb", "card", "detail"] },
+        "url": { "type": "string", "format": "uri" },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "alt": { "type": "string" }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "kind", "category", "name", "brand", "price", "inStock", "partType", "appliance",
+        "fitsBrands", "fitsModels", "modelCodes", "specs", "summary", "validation"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[pr]-[a-z0-9-]+$" },
+        "kind": { "enum": ["producto", "repuesto"] },
+        "category": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "brand": { "type": "string" },
+        "unit": { "type": "string" },
+        "measures": { "type": "string" },
+        "price": { "type": ["number", "null"], "minimum": 0 },
+        "inStock": { "type": "boolean" },
+        "partType": { "type": ["string", "null"] },
+        "appliance": { "oneOf": [{ "$ref": "#/$defs/appliance" }, { "type": "null" }] },
+        "fitsBrands": { "$ref": "#/$defs/stringArray" },
+        "fitsModels": { "$ref": "#/$defs/stringArray" },
+        "modelCodes": { "$ref": "#/$defs/stringArray" },
+        "specs": { "type": "object", "additionalProperties": { "type": "string" } },
+        "summary": { "type": ["string", "null"] },
+        "validation": { "oneOf": [{ "$ref": "#/$defs/validation" }, { "type": "null" }] },
+        "images": { "type": "array", "items": { "$ref": "#/$defs/image" } }
+      }
+    }
+  }
+}
