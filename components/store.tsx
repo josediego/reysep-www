@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { useDeferredValue, useEffect, useId, useMemo, useState, type ReactNode } from "react"
 import { SearchIcon, ArrowIcon, WhatsAppIcon } from "@/components/icons"
 import PartGlyph from "@/components/part-glyph"
+import ProductImage, { imageOf } from "@/components/product-image"
 import { counts, formatPrice, kindPlural, normalize, displayName, type Appliance, type CatalogItem } from "@/lib/catalog"
 import { STORE_PAGE as PAGE, appliancePath, applianceRoutes, filterCatalog, parseKind, type KindFilter } from "@/lib/slugs"
 import { whatsappWith, inquiryMessage } from "@/lib/site"
@@ -280,14 +281,18 @@ function Row({ item }: { item: CatalogItem }) {
   const fits = item.fitsBrands.filter((b) => b !== item.brand).slice(0, 3)
   const wa = whatsappWith(inquiryMessage(item))
   return (
-    <li className="grid grid-cols-[1fr_auto] items-center gap-x-2">
+    <li data-surface="store_row" className="grid grid-cols-[1fr_auto] items-center gap-x-2">
       <Link
         href={`/catalogo/${item.id}`}
         className="group grid grid-cols-[1fr_auto] items-center gap-x-3 py-3.5 transition-colors duration-200 hover:bg-white/[0.03] md:grid-cols-[3rem_1fr_10rem_5rem] md:gap-x-5"
       >
-        <span className="hidden h-12 w-12 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-blue-200/80 transition-colors duration-200 group-hover:border-blue-300/50 group-hover:text-white md:flex">
-          <PartGlyph item={item} size={28} />
-        </span>
+        {imageOf(item, "thumb") ? (
+          <ProductImage item={item} variant="thumb" decorative className="hidden h-12 w-12 rounded-lg object-cover md:block" />
+        ) : (
+          <span className="hidden h-12 w-12 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-blue-200/80 transition-colors duration-200 group-hover:border-blue-300/50 group-hover:text-white md:flex">
+            <PartGlyph item={item} size={28} />
+          </span>
+        )}
         <span className="min-w-0">
           <span className="line-clamp-2 text-base leading-snug text-white md:truncate md:text-lg md:font-light">{displayName(item)}</span>
           <span className="mt-0.5 block truncate text-xs text-blue-100/70">
@@ -327,7 +332,7 @@ function EmptyState({ query, onReset }: { query: string; onReset: () => void }) 
   const href = whatsappWith(`Hola Reysep, busco: ${query || "un repuesto"}. ¿Lo tienen?`) ?? "/#contacto"
   const external = href.startsWith("http")
   return (
-    <div className="mt-2 border-t border-white/10 py-16 text-center">
+    <div data-surface="store_empty" className="mt-2 border-t border-white/10 py-16 text-center">
       <p className="text-2xl font-light tracking-tight text-white">
         No encontramos <span className="instrument italic">{query ? `“${query}”` : "resultados"}</span>
       </p>

@@ -80,7 +80,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
       />
       <Header />
 
-      <main id="contenido" tabIndex={-1} className="px-6 pb-32 outline-none md:px-8 md:pb-24">
+      <main id="contenido" tabIndex={-1} data-surface="item" className="px-6 pb-32 outline-none md:px-8 md:pb-24">
         <div className="mx-auto w-full max-w-6xl">
         <nav aria-label="Ruta" className="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-blue-100/75">
           <Link href="/catalogo" className="transition-colors hover:text-white">
@@ -246,7 +246,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
       </main>
 
       {/* CTA persistente en móvil */}
-      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-white/10 bg-black/90 px-6 py-3 backdrop-blur-md md:hidden">
+      <aside aria-label="Acciones rápidas" data-surface="item_sticky" className="fixed inset-x-0 bottom-0 z-30 border-t border-white/10 bg-black/90 px-6 py-3 backdrop-blur-md md:hidden">
         <div className="flex items-center justify-between gap-4">
           <p className="text-lg font-medium text-white tabular-nums">{formatPrice(item.price)}</p>
           <a
@@ -258,7 +258,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
             Pedir
           </a>
         </div>
-      </div>
+      </aside>
       <Footer />
     </div>
   )

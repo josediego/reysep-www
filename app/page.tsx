@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <>
       <StickyHeader watch="#inicio" />
+      <main id="contenido" tabIndex={-1} className="outline-none">
       <ShaderBackground>
         <Header />
         <HeroContent />
@@ -25,8 +26,9 @@ export default function Home() {
 
         <About />
         <Contact />
-        <Footer />
       </div>
+      </main>
+      <Footer />
     </>
   )
 }

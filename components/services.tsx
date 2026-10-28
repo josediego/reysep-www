@@ -48,13 +48,13 @@ export default function Services() {
       </Reveal>
 
       <Reveal delay={200} className="mt-10 flex flex-wrap items-center gap-4">
-        <a
+        <span data-surface="servicios" className="contents"><a
           href={cta}
           {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
           className="rounded-full bg-white px-8 py-3.5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
         >
           Pedir servicio
-        </a>
+        </a></span>
         <p className="text-sm text-blue-100/75">Atención a domicilio y en taller. Presupuesto previo sin compromiso.</p>
       </Reveal>
     </Section>
