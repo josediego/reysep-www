@@ -70,14 +70,14 @@ export default function Contact() {
                 className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
               >
                 <WhatsAppIcon size={16} />
-                Escribir por WhatsApp
+                Escríbanos por WhatsApp
               </a>
             )}
             <Link
               href="/catalogo"
               className="rounded-full border border-white/50 px-8 py-3.5 text-sm font-medium text-white transition-all duration-200 hover:border-white/70 hover:bg-white/10"
             >
-              Ir al catálogo
+              Ver catálogo
             </Link>
           </div>
         </div>

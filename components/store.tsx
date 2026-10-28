@@ -98,8 +98,8 @@ export default function Store() {
 
   return (
     <div className="mx-auto w-full max-w-6xl">
-      {/* Barra de búsqueda y filtros: fija en móvil */}
-      <div className="sticky top-0 z-20 -mx-6 border-b border-white/10 bg-black/85 px-6 pt-3 pb-3 backdrop-blur-md md:static md:mx-0 md:border-0 md:bg-transparent md:px-0 md:pt-0 md:backdrop-blur-none">
+      {/* Búsqueda: fija en móvil. Filtros en una sola fila desplazable. */}
+      <div className="sticky top-0 z-20 -mx-6 bg-black/85 px-6 pt-3 pb-2 backdrop-blur-md md:static md:mx-0 md:bg-transparent md:px-0 md:pt-0 md:pb-0 md:backdrop-blur-none">
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <label htmlFor={searchId} className="relative block w-full md:max-w-xl">
             <span className="sr-only">Buscar en el catálogo</span>
@@ -112,7 +112,7 @@ export default function Store() {
                 setQuery(e.target.value)
                 setLimit(PAGE)
               }}
-              placeholder="Marca, modelo, pieza… ej. faja LG, termocupla sole"
+              placeholder="Buscar pieza, marca o modelo"
               autoComplete="off"
               enterKeyHint="search"
               aria-controls={resultsId}
@@ -120,7 +120,7 @@ export default function Store() {
             />
           </label>
 
-          <div role="group" aria-label="Tipo" className="inline-flex self-start rounded-full border border-white/15 p-1">
+          <div role="group" aria-label="Tipo" className="hidden self-start rounded-full border border-white/15 p-1 md:inline-flex">
             {kindFilters.map((f) => {
               const active = kind === f.value
               const n = f.value === "todos" ? counts.total : counts[f.value]
@@ -130,32 +130,46 @@ export default function Store() {
                   type="button"
                   aria-pressed={active}
                   onClick={() => setParam("tipo", f.value === "todos" ? null : f.value)}
-                  className={`rounded-full px-3.5 py-2 text-sm transition-colors duration-200 sm:px-4 ${
+                  className={`rounded-full px-4 py-2 text-sm transition-colors duration-200 ${
                     active ? "bg-white font-medium text-blue-700" : "font-light text-white hover:bg-white/10"
                   }`}
                 >
-                  {f.label} <span className={`hidden tabular-nums sm:inline ${active ? "text-blue-800" : "text-blue-100/75"}`}>{n}</span>
+                  {f.label} <span className={`tabular-nums ${active ? "text-blue-800" : "text-blue-100/75"}`}>{n}</span>
                 </button>
               )
             })}
           </div>
         </div>
+      </div>
 
-        <div className="-mx-6 mt-3 overflow-x-auto px-6 md:mx-0 md:px-0" style={{ scrollbarWidth: "none" }}>
-          <div role="group" aria-label="Equipo" className="flex w-max gap-2 md:flex-wrap">
-            <Chip active={!appliance} onClick={() => setParam("equipo", null)}>
-              Todos los equipos
-            </Chip>
-            {appliances.map((a) => (
-              <Chip key={a.name} active={appliance === a.name} onClick={() => setParam("equipo", appliance === a.name ? null : a.name)}>
-                {a.name} <span className="tabular-nums opacity-70">{a.count}</span>
+      <div className="-mx-6 mt-2 overflow-x-auto px-6 md:mx-0 md:mt-4 md:px-0" style={{ scrollbarWidth: "none" }}>
+        <div role="group" aria-label="Filtros" className="flex w-max gap-2 md:flex-wrap">
+          {/* En móvil el tipo va como chips; en escritorio está en el segmentado de arriba */}
+          {kindFilters
+            .filter((f) => f.value !== "todos")
+            .map((f) => (
+              <Chip
+                key={f.value}
+                active={kind === f.value}
+                onClick={() => setParam("tipo", kind === f.value ? null : f.value)}
+                className="md:hidden"
+              >
+                {f.label}
               </Chip>
             ))}
-          </div>
+          <span aria-hidden="true" className="mx-1 w-px self-stretch bg-white/15 md:hidden" />
+          <Chip active={!appliance} onClick={() => setParam("equipo", null)}>
+            Todos los equipos
+          </Chip>
+          {appliances.map((a) => (
+            <Chip key={a.name} active={appliance === a.name} onClick={() => setParam("equipo", appliance === a.name ? null : a.name)}>
+              {a.name} <span className="hidden tabular-nums opacity-70 md:inline">{a.count}</span>
+            </Chip>
+          ))}
         </div>
       </div>
 
-      <p className="mt-4 text-sm text-blue-100/75 tabular-nums" aria-live="polite">
+      <p className="mt-3 text-sm text-blue-100/75 tabular-nums" aria-live="polite">
         {results.length === 0
           ? ""
           : `${results.length} ${results.length === 1 ? "ítem" : "ítems"}${
@@ -212,13 +226,23 @@ function slug(text: string) {
   return normalize(text).replace(/[^a-z0-9]+/g, "-")
 }
 
-function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: ReactNode }) {
+function Chip({
+  active,
+  onClick,
+  children,
+  className = "",
+}: {
+  active: boolean
+  onClick: () => void
+  children: ReactNode
+  className?: string
+}) {
   return (
     <button
       type="button"
       aria-pressed={active}
       onClick={onClick}
-      className={`rounded-full border px-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ${
+      className={`rounded-full border px-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ${className} ${
         active
           ? "border-white bg-white font-medium text-blue-700"
           : "border-white/15 font-light text-white hover:border-white/40 hover:bg-white/10"
@@ -237,13 +261,13 @@ function Row({ item }: { item: CatalogItem }) {
     <li className="grid grid-cols-[1fr_auto] items-center gap-x-2">
       <Link
         href={`/catalogo/${item.id}`}
-        className="group grid grid-cols-[2.75rem_1fr_auto] items-center gap-x-3 py-3 transition-colors duration-200 hover:bg-white/[0.03] md:grid-cols-[3rem_1fr_10rem_6rem] md:gap-x-5"
+        className="group grid grid-cols-[1fr_auto] items-center gap-x-3 py-3.5 transition-colors duration-200 hover:bg-white/[0.03] md:grid-cols-[3rem_1fr_10rem_5rem] md:gap-x-5"
       >
-        <span className="flex h-11 w-11 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-blue-200/80 transition-colors duration-200 group-hover:border-blue-300/50 group-hover:text-white md:h-12 md:w-12">
+        <span className="hidden h-12 w-12 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-blue-200/80 transition-colors duration-200 group-hover:border-blue-300/50 group-hover:text-white md:flex">
           <PartGlyph item={item} size={28} />
         </span>
         <span className="min-w-0">
-          <span className="block truncate text-base text-white md:text-lg md:font-light">{item.name}</span>
+          <span className="line-clamp-2 text-base leading-snug text-white md:truncate md:text-lg md:font-light">{item.name}</span>
           <span className="mt-0.5 block truncate text-xs text-blue-100/70">
             {brandLine}
             {fits.length > 0 && <span className="text-blue-100/55"> · compatible {fits.join(", ")}</span>}
@@ -258,7 +282,7 @@ function Row({ item }: { item: CatalogItem }) {
           </span>
         </span>
         <span className="hidden items-center justify-end gap-1 text-sm text-blue-100/75 md:inline-flex">
-          Ver ficha <ArrowIcon size={14} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+          Ver <ArrowIcon size={14} className="transition-transform duration-200 group-hover:translate-x-0.5" />
         </span>
       </Link>
       {wa && (
@@ -266,8 +290,8 @@ function Row({ item }: { item: CatalogItem }) {
           href={wa}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Consultar por WhatsApp: ${item.name}`}
-          title="Consultar por WhatsApp"
+          aria-label={`Pedir por WhatsApp: ${item.name}`}
+          title="Pedir por WhatsApp"
           className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white transition-colors duration-200 hover:border-white hover:bg-white hover:text-blue-700"
         >
           <WhatsAppIcon size={18} />
@@ -295,7 +319,7 @@ function EmptyState({ query, onReset }: { query: string; onReset: () => void }) 
           {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
           className="rounded-full bg-white px-6 py-3 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
         >
-          Preguntar por este repuesto
+          Pedir este repuesto
         </a>
         <button
           type="button"

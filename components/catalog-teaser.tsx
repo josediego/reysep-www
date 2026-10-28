@@ -56,7 +56,7 @@ export default function CatalogTeaser() {
           href="/catalogo"
           className="inline-flex items-center gap-2 self-start rounded-full bg-white px-7 py-3.5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
         >
-          Ver todo el catálogo <ArrowIcon size={14} />
+          Ver catálogo <ArrowIcon size={14} />
         </Link>
       </div>
     </Section>
