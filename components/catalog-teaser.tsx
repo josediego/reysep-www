@@ -45,10 +45,10 @@ export default function CatalogTeaser() {
       </Reveal>
 
       <Reveal delay={250} className="mt-8 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
-        <p className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-sm text-blue-100/75">
+        <p className="flex flex-wrap items-center gap-x-2.5 text-sm text-blue-100/75">
           <span className="mr-1">Más buscados:</span>
           {topParts.map((p, i) => (
-            <Link key={p.name} href={`/catalogo?q=${encodeURIComponent(p.name)}`} className="text-white/90 underline decoration-white/25 underline-offset-4 hover:decoration-white">
+            <Link key={p.name} href={`/catalogo?q=${encodeURIComponent(p.name)}`} className="inline-flex min-h-11 items-center text-white/90 underline decoration-white/25 underline-offset-4 hover:decoration-white">
               {p.name}
               {i < topParts.length - 1 && <span className="text-blue-100/40 no-underline">,</span>}
             </Link>

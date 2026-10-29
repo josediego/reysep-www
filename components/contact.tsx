@@ -30,7 +30,7 @@ export default function Contact() {
           {rows.length > 0 ? (
             <dl className="divide-y divide-white/10 border-y border-white/10">
               {rows.map(({ icon: Icon, label, value, href, external }) => (
-                <div key={label} className="grid grid-cols-[2.5rem_6rem_1fr] items-center gap-3 py-4">
+                <div key={label} className="grid grid-cols-[2.5rem_6rem_1fr] items-center gap-3 py-2.5 md:py-4">
                   <dt className="flex items-center gap-3 text-blue-200/80">
                     <Icon size={18} />
                     <span className="sr-only">{label}</span>
@@ -41,7 +41,7 @@ export default function Contact() {
                       <a
                         href={href}
                         {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                        className="underline decoration-white/30 underline-offset-4 transition-colors duration-200 hover:decoration-white"
+                        className="inline-flex min-h-11 items-center underline decoration-white/30 underline-offset-4 transition-colors duration-200 hover:decoration-white"
                       >
                         {value}
                       </a>
