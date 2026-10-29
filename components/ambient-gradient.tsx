@@ -1,13 +1,14 @@
 "use client"
 
-import { useEffect, useState } from "react"
 import { MeshGradient } from "@paper-design/shaders-react"
+import { useShaderBudget } from "@/lib/use-shader-budget"
 
 /**
  * Luz ambiental con el mismo shader del hero: es el motivo de la marca, no un
  * resplandor radial genérico. Se usa como banda detrás de una cabecera
  * (`edge="top"`) o como pico en medio del scroll (`edge="both"`), siempre
- * fundida a negro por máscara. Respeta prefers-reduced-motion.
+ * fundida a negro por máscara. Respeta prefers-reduced-motion y el presupuesto
+ * de GPU de equipos modestos (ver lib/use-shader-budget).
  */
 type Props = {
   edge?: "top" | "both"
@@ -19,20 +20,8 @@ type Props = {
 
 const palette = ["#0b1a4a", "#1e3a8a", "#2563eb", "#60a5fa", "#dbeafe", "#000000"]
 
-function useReducedMotion() {
-  const [reduce, setReduce] = useState(false)
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)")
-    setReduce(mq.matches)
-    const onChange = (e: MediaQueryListEvent) => setReduce(e.matches)
-    mq.addEventListener("change", onChange)
-    return () => mq.removeEventListener("change", onChange)
-  }, [])
-  return reduce
-}
-
 export default function AmbientGradient({ edge = "top", className = "", intensity = 0.7 }: Props) {
-  const reduce = useReducedMotion()
+  const { still, maxPixelCount } = useShaderBudget()
   const mask =
     edge === "top"
       ? "linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 35%, rgba(0,0,0,0) 100%)"
@@ -50,7 +39,8 @@ export default function AmbientGradient({ edge = "top", className = "", intensit
         distortion={0.85}
         swirl={0.35}
         grainMixer={0.12}
-        speed={reduce ? 0 : 0.22}
+        speed={still ? 0 : 0.22}
+        maxPixelCount={maxPixelCount}
         style={{ backgroundColor: "#000000" }}
       />
       {/* Velo para mantener el contraste del texto sobre las zonas claras */}

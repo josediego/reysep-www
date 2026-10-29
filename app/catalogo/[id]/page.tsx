@@ -72,7 +72,8 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
   }
 
   return (
-    <div className="relative isolate min-h-svh bg-black">
+    // pb en móvil: espacio para la barra fija de abajo (no tapa el pie de página).
+    <div className="relative isolate min-h-svh bg-black pb-[calc(4.5rem+env(safe-area-inset-bottom))] md:pb-0">
       <AmbientGradient edge="top" className="h-[26rem] md:h-[32rem]" intensity={0.55} />
       <script
         type="application/ld+json"
@@ -80,16 +81,16 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
       />
       <Header />
 
-      <main id="contenido" tabIndex={-1} data-surface="item" className="px-6 pb-32 outline-none md:px-8 md:pb-24">
+      <main id="contenido" tabIndex={-1} data-surface="item" className="px-6 pb-16 outline-none md:px-8 md:pb-24">
         <div className="mx-auto w-full max-w-6xl">
-        <nav aria-label="Ruta" className="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-blue-100/75">
-          <Link href="/catalogo" className="transition-colors hover:text-white">
+        <nav aria-label="Ruta" className="mb-3 flex flex-wrap items-center gap-x-2 text-sm text-blue-100/75 md:mb-6">
+          <Link href="/catalogo" className="inline-flex min-h-11 items-center transition-colors hover:text-white">
             Catálogo
           </Link>
           {item.appliance && (
             <>
               <span aria-hidden="true">/</span>
-              <Link href={`/catalogo?equipo=${encodeURIComponent(item.appliance)}`} className="transition-colors hover:text-white">
+              <Link href={`/catalogo?equipo=${encodeURIComponent(item.appliance)}`} className="inline-flex min-h-11 items-center transition-colors hover:text-white">
                 {item.appliance}
               </Link>
             </>
@@ -97,7 +98,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
           {item.partType && (
             <>
               <span aria-hidden="true">/</span>
-              <Link href={`/catalogo?q=${encodeURIComponent(item.partType)}`} className="transition-colors hover:text-white">
+              <Link href={`/catalogo?q=${encodeURIComponent(item.partType)}`} className="inline-flex min-h-11 items-center transition-colors hover:text-white">
                 {item.partType}
               </Link>
             </>
@@ -220,9 +221,9 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
             <h2 id="relacionados" className="text-xl font-light tracking-tight text-white md:text-2xl">
               También en {item.partType ? item.partType.toLowerCase() : item.appliance?.toLowerCase() ?? "catálogo"}
             </h2>
-            <ul className="mt-4 grid gap-x-6 sm:grid-cols-2 lg:grid-cols-3">
+            <ul className="mt-4 grid grid-cols-1 gap-x-6 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((r) => (
-                <li key={r.id} className="border-t border-white/[0.08]">
+                <li key={r.id} className="min-w-0 border-t border-white/[0.08]">
                   <Link href={`/catalogo/${r.id}`} className="group flex items-center gap-3 py-3">
                     <ProductImage
                       item={r}
@@ -246,7 +247,7 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
       </main>
 
       {/* CTA persistente en móvil */}
-      <aside aria-label="Acciones rápidas" data-surface="item_sticky" className="fixed inset-x-0 bottom-0 z-30 border-t border-white/10 bg-black/90 px-6 py-3 backdrop-blur-md md:hidden">
+      <aside aria-label="Acciones rápidas" data-surface="item_sticky" className="fixed inset-x-0 bottom-0 z-30 border-t border-white/10 bg-black/90 pt-3 pr-[max(1.5rem,env(safe-area-inset-right))] pb-[max(0.75rem,env(safe-area-inset-bottom))] pl-[max(1.5rem,env(safe-area-inset-left))] backdrop-blur-md md:hidden">
         <div className="flex items-center justify-between gap-4">
           <p className="text-lg font-medium text-white tabular-nums">{formatPrice(item.price)}</p>
           <a

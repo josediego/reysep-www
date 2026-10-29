@@ -30,10 +30,10 @@ export default function StickyHeader({ watch = "#inicio" }: { watch?: string }) 
       aria-hidden={!shown}
       data-shown={shown ? "" : undefined}
       data-surface="sticky_header"
-      className="sticky-header fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-black/70 backdrop-blur-md"
+      className="sticky-header fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-black/70 pr-[env(safe-area-inset-right)] pl-[env(safe-area-inset-left)] backdrop-blur-md"
     >
       <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between px-6 md:px-8">
-        <Link href="/" aria-label="Reysep, ir al inicio" tabIndex={shown ? 0 : -1}>
+        <Link href="/" aria-label="Reysep, ir al inicio" tabIndex={shown ? 0 : -1} className="flex h-11 items-center">
           <Image src="/reysep-logo-white.svg" alt="" width={116} height={38} className="h-8 w-auto" />
         </Link>
         <nav aria-label="Principal (compacta)" className="hidden items-center gap-1 sm:flex">
@@ -42,7 +42,7 @@ export default function StickyHeader({ watch = "#inicio" }: { watch?: string }) 
               key={item.href}
               href={item.href}
               tabIndex={shown ? 0 : -1}
-              className="rounded-full px-3.5 py-2 text-sm font-light text-white transition-colors duration-200 hover:bg-white/10"
+              className="flex h-11 items-center rounded-full px-3.5 text-sm font-light text-white transition-colors duration-200 hover:bg-white/10"
             >
               {item.label}
             </Link>
@@ -56,7 +56,7 @@ export default function StickyHeader({ watch = "#inicio" }: { watch?: string }) 
               rel="noopener noreferrer"
               aria-label="Escribir por WhatsApp"
               tabIndex={shown ? 0 : -1}
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white transition-colors duration-200 hover:bg-white/10"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 text-white transition-colors duration-200 hover:bg-white/10"
             >
               <WhatsAppIcon size={16} />
             </a>
@@ -65,7 +65,7 @@ export default function StickyHeader({ watch = "#inicio" }: { watch?: string }) 
             <a
               href={links.call}
               tabIndex={shown ? 0 : -1}
-              className="flex h-9 items-center rounded-full bg-white px-5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
+              className="flex h-11 items-center rounded-full bg-white px-5 text-sm font-medium text-blue-700 transition-all duration-200 hover:bg-white/90"
             >
               Llamar
             </a>

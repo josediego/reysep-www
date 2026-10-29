@@ -46,6 +46,9 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  // cover: habilita env(safe-area-inset-*) (barra fija de la ficha). Los márgenes
+  // laterales del notch en horizontal se reponen en body (globals.css).
+  viewportFit: "cover",
   themeColor: site.themeColor,
 }
 

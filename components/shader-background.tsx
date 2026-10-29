@@ -1,27 +1,15 @@
 "use client"
 
 import type React from "react"
-import { useEffect, useState } from "react"
 import { MeshGradient } from "@paper-design/shaders-react"
+import { useShaderBudget } from "@/lib/use-shader-budget"
 
 interface ShaderBackgroundProps {
   children: React.ReactNode
 }
 
-function useReducedMotion() {
-  const [reduce, setReduce] = useState(false)
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)")
-    setReduce(mq.matches)
-    const onChange = (e: MediaQueryListEvent) => setReduce(e.matches)
-    mq.addEventListener("change", onChange)
-    return () => mq.removeEventListener("change", onChange)
-  }, [])
-  return reduce
-}
-
 export default function ShaderBackground({ children }: ShaderBackgroundProps) {
-  const reduce = useReducedMotion()
+  const { still, maxPixelCount } = useShaderBudget()
 
   return (
     <div id="inicio" className="relative flex min-h-svh flex-col overflow-hidden bg-black">
@@ -48,20 +36,25 @@ export default function ShaderBackground({ children }: ShaderBackgroundProps) {
       <MeshGradient
         className="absolute inset-0 h-full w-full"
         colors={["#1e3a8a", "#3b82f6", "#ffffff", "#1e40af", "#2563eb"]}
-        speed={reduce ? 0 : 0.3}
+        speed={still ? 0 : 0.3}
+        maxPixelCount={maxPixelCount}
         style={{ backgroundColor: "#000000" }}
         aria-hidden="true"
       />
       <MeshGradient
         className="absolute inset-0 hidden h-full w-full opacity-60 md:block"
         colors={["#1e3a8a", "#ffffff", "#3b82f6", "#000000"]}
-        speed={reduce ? 0 : 0.2}
+        speed={still ? 0 : 0.2}
         style={{ backgroundColor: "transparent" }}
         aria-hidden="true"
       />
       </div>
       {/* Scrim for text contrast over the light blobs */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/30" />
+      {/* Móvil: el texto ocupa casi todo el ancho y la banda clara del shader puede
+          cruzar el titular. Un velo azul noche en la mitad inferior mantiene el
+          contraste sin apagar la luz de arriba. */}
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-3/4 bg-gradient-to-t from-[#0b1a4a]/85 via-[#0b1a4a]/55 to-transparent md:hidden" />
 
       {children}
     </div>
