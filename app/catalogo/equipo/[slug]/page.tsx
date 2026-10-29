@@ -91,8 +91,8 @@ export default async function AppliancePage({ params }: { params: Params }) {
       <Header />
       <main id="contenido" tabIndex={-1} className="px-6 pb-24 outline-none md:px-8">
         <div className="mx-auto w-full max-w-6xl pt-2 pb-4 md:pt-8 md:pb-8">
-          <nav aria-label="Ruta" className="mb-4 flex flex-wrap items-center gap-1.5 text-sm text-blue-100/75">
-            <Link href="/catalogo" className="transition-colors hover:text-white">
+          <nav aria-label="Ruta" className="mb-2 flex flex-wrap items-center gap-x-2 text-sm text-blue-100/75">
+            <Link href="/catalogo" className="inline-flex min-h-11 items-center transition-colors hover:text-white">
               Catálogo
             </Link>
             <span aria-hidden="true">/</span>

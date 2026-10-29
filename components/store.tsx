@@ -2,8 +2,8 @@
 
 import Link from "next/link"
 import { useRouter } from "next/navigation"
-import { useDeferredValue, useEffect, useId, useMemo, useState, type ReactNode } from "react"
-import { SearchIcon, ArrowIcon, WhatsAppIcon } from "@/components/icons"
+import { useDeferredValue, useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react"
+import { SearchIcon, ArrowIcon, WhatsAppIcon, CloseIcon } from "@/components/icons"
 import PartGlyph from "@/components/part-glyph"
 import ProductImage, { imageOf } from "@/components/product-image"
 import { counts, formatPrice, kindPlural, normalize, displayName, type Appliance, type CatalogItem } from "@/lib/catalog"
@@ -57,6 +57,35 @@ export default function Store({
   const deferredQuery = useDeferredValue(query)
   const searchId = useId()
   const resultsId = useId()
+  const searchRef = useRef<HTMLInputElement>(null)
+  const chipsRef = useRef<HTMLDivElement>(null)
+
+  // Fila de chips desplazable en móvil: al llegar con un equipo elegido
+  // (?equipo= o página de equipo), el chip activo queda a la vista.
+  useEffect(() => {
+    const row = chipsRef.current
+    const chip = row?.querySelector<HTMLElement>('[data-appliance-chip][aria-pressed="true"]')
+    if (!row || !chip || row.scrollWidth <= row.clientWidth) return
+    const r = row.getBoundingClientRect()
+    const c = chip.getBoundingClientRect()
+    if (c.left >= r.left && c.right <= r.right) return
+    row.scrollLeft += c.left - r.left - (r.width - c.width) / 2
+    // Solo al montar: los cambios posteriores los hace el propio usuario sobre la fila.
+  }, [])
+
+  // Al llegar al final de la fila se quita el desvanecido (el último chip se ve entero).
+  useEffect(() => {
+    const row = chipsRef.current
+    if (!row) return
+    const update = () => row.toggleAttribute("data-end", row.scrollLeft + row.clientWidth >= row.scrollWidth - 4)
+    update()
+    row.addEventListener("scroll", update, { passive: true })
+    window.addEventListener("resize", update)
+    return () => {
+      row.removeEventListener("scroll", update)
+      window.removeEventListener("resize", update)
+    }
+  }, [])
 
   // La página de equipo es estática: si llega con ?q= o ?tipo=, se aplican al montar.
   useEffect(() => {
@@ -129,12 +158,34 @@ export default function Store({
                 setQuery(e.target.value)
                 setLimit(PAGE)
               }}
+              ref={searchRef}
               placeholder="Buscar pieza, marca o modelo"
               autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="none"
+              spellCheck={false}
               enterKeyHint="search"
               aria-controls={resultsId}
-              className="h-12 w-full rounded-full border border-white/15 bg-white/5 pr-4 pl-11 text-base text-white placeholder:text-blue-100/50 transition-colors duration-200 hover:border-white/30 focus:border-white/60 focus:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white md:text-sm"
+              onKeyDown={(e) => {
+                // "Buscar" en el teclado móvil: cierra el teclado para ver los resultados.
+                if (e.key === "Enter") e.currentTarget.blur()
+              }}
+              className="search-input h-12 w-full rounded-full border border-white/15 bg-white/5 pr-12 pl-11 text-base text-white placeholder:text-blue-100/50 transition-colors duration-200 hover:border-white/30 focus:border-white/60 focus:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white md:text-sm"
             />
+            {query && (
+              <button
+                type="button"
+                aria-label="Borrar búsqueda"
+                onClick={() => {
+                  setQuery("")
+                  setLimit(PAGE)
+                  searchRef.current?.focus()
+                }}
+                className="absolute top-1/2 right-0.5 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full text-blue-200/80 transition-colors duration-200 hover:text-white"
+              >
+                <CloseIcon size={16} />
+              </button>
+            )}
           </label>
 
           <div role="group" aria-label="Tipo" className="hidden self-start rounded-full border border-white/15 p-1 md:inline-flex">
@@ -163,7 +214,12 @@ export default function Store({
         </div>
       </div>
 
-      <div className="-mx-6 mt-2 overflow-x-auto px-6 md:mx-0 md:mt-4 md:px-0" style={{ scrollbarWidth: "none" }}>
+      {/* En móvil la fila se desplaza en horizontal: el borde derecho se desvanece para insinuarlo. */}
+      <div
+        ref={chipsRef}
+        className="chip-row -mx-6 mt-2 overflow-x-auto overscroll-x-contain px-6 md:mx-0 md:mt-4 md:px-0"
+        style={{ scrollbarWidth: "none" }}
+      >
         <div role="group" aria-label="Filtros" className="flex w-max gap-2 md:flex-wrap">
           {/* En móvil el tipo va como chips; en escritorio está en el segmentado de arriba */}
           {kindFilters
@@ -179,11 +235,16 @@ export default function Store({
               </Chip>
             ))}
           <span aria-hidden="true" className="mx-1 w-px self-stretch bg-white/15 md:hidden" />
-          <Chip active={!appliance} onClick={() => changeAppliance(null)}>
+          <Chip active={!appliance} onClick={() => changeAppliance(null)} data-appliance-chip>
             Todos los equipos
           </Chip>
           {applianceRoutes.map((a) => (
-            <Chip key={a.slug} active={appliance === a.name} onClick={() => changeAppliance(appliance === a.name ? null : a.name)}>
+            <Chip
+              key={a.slug}
+              active={appliance === a.name}
+              onClick={() => changeAppliance(appliance === a.name ? null : a.name)}
+              data-appliance-chip
+            >
               {a.name} <span className="hidden tabular-nums opacity-70 md:inline">{a.count}</span>
             </Chip>
           ))}
@@ -258,18 +319,21 @@ function Chip({
   onClick,
   children,
   className = "",
+  ...rest
 }: {
   active: boolean
   onClick: () => void
   children: ReactNode
   className?: string
+  "data-appliance-chip"?: boolean
 }) {
   return (
     <button
       type="button"
       aria-pressed={active}
       onClick={onClick}
-      className={`rounded-full border px-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ${className} ${chipTone(active)}`}
+      {...rest}
+      className={`min-h-11 rounded-full border px-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ${className} ${chipTone(active)}`}
     >
       {children}
     </button>
@@ -295,7 +359,7 @@ function Row({ item }: { item: CatalogItem }) {
         )}
         <span className="min-w-0">
           <span className="line-clamp-2 text-base leading-snug text-white md:truncate md:text-lg md:font-light">{displayName(item)}</span>
-          <span className="mt-0.5 block truncate text-xs text-blue-100/70">
+          <span className="mt-0.5 block truncate text-sm text-blue-100/70 md:text-xs">
             {brandLine}
             {fits.length > 0 && <span className="text-blue-100/55"> · compatible {fits.join(", ")}</span>}
           </span>

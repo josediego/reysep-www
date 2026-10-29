@@ -10,7 +10,7 @@ const navLinkClass =
 
 export default function Header() {
   return (
-    <header data-surface="header" className="hero-rise relative z-20 flex items-center justify-between p-6" style={{ "--d": "1300ms" } as React.CSSProperties}>
+    <header data-surface="header" className="hero-rise relative z-30 flex items-center justify-between p-6" style={{ "--d": "1300ms" } as React.CSSProperties}>
       <Link href="/" className="flex items-center" aria-label="Reysep, ir al inicio">
         <Image src="/reysep-logo-white.svg" alt="" width={116} height={38} priority className="h-12 w-auto" />
       </Link>
@@ -30,7 +30,7 @@ export default function Header() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Escribir por WhatsApp"
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white transition-colors duration-200 hover:bg-white/10 sm:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 text-white transition-colors duration-200 hover:bg-white/10 sm:hidden"
           >
             <WhatsAppIcon size={18} />
           </a>
@@ -38,7 +38,7 @@ export default function Header() {
         {links.call && (
           <a
             href={links.call}
-            className="hidden h-10 items-center rounded-full bg-white px-6 text-sm font-medium text-blue-700 transition-all duration-300 hover:bg-white/90 sm:flex"
+            className="hidden h-11 items-center rounded-full bg-white px-6 text-sm font-medium text-blue-700 transition-all duration-300 hover:bg-white/90 sm:flex"
           >
             Llamar
           </a>
